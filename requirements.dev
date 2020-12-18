@@ -14,3 +14,5 @@ power==1.1.0
 
 genex==0.5.4
 genref==1.0.0
+
+writers==1.1.4
