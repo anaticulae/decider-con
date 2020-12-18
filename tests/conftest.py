@@ -11,6 +11,7 @@ import genex
 import power
 import pytest
 import utila
+import writers
 
 import decider_con
 
@@ -51,3 +52,8 @@ def extract(resources):
         worker=WORKER,
         pages=':',
     )
+
+
+def install():
+    # generate docs after project is installed properly
+    writers.generate()
