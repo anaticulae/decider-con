@@ -7,9 +7,11 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
+import protocol
 import utila
 
 import decider_chapter
+import decider_chapter.path
 
 DESCRIPTION = ''
 
@@ -19,7 +21,7 @@ WORKPLAN = [
         inputs=[
             utila.ResultFile('chapter', 'intro_intro'),
         ],
-        output=('parsed',),
+        output=protocol.ResultDefault,
     ),
 ]
 
