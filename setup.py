@@ -46,6 +46,13 @@ if __name__ == "__main__":
             'Programming Language :: Python :: 3.8',
         ],
         packages=[
+            'decider_chapter',
+            'decider_chapter.features',
             'decider_con',
         ],
+        entry_points={
+            'console_scripts': [
+                'decider_chapter = decider_chapter.cli:main',
+            ],
+        },
     )
