@@ -12,6 +12,7 @@ import functools
 import chapter.serialize
 import iamraw
 import protocol
+import utila
 
 
 def work(intro: str) -> protocol.ResultType:
@@ -38,6 +39,10 @@ MIN_TOKEN_OCCURRENCE = 3  # TODO: HOLY VALUE
 
 def check_6500_intro_complete(linter: callable, driver):
     intro = driver.intro
+    if driver.intro.pagestart is None:
+        # TODO: CHANGE TO COMMON ERROR MESSAGE
+        utila.error('no intro loaded - could not check 6500')
+        return
     # 'start', 'goal', 'method', 'limit', 'structure'
     start = len(intro.start) >= MIN_TOKEN_OCCURRENCE
     goal = len(intro.goal) >= MIN_TOKEN_OCCURRENCE
