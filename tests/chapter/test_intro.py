@@ -8,16 +8,36 @@
 # =============================================================================
 
 import power
+import pytest
 import serializeraw
 
 import decider_chapter
 import tests.chapter
 
 
-def test_intro_master72(testdir, monkeypatch):
-    source = power.link(power.MASTER072_PDF)
+def run_intro(source, testdir, monkeypatch):
+    source = power.link(source)
+    # run intro
     tests.chapter.run(f'--intro -i={source}', monkeypatch=monkeypatch)
-
+    # load findings
     path = decider_chapter.path.decider_chapter_intro(testdir.tmpdir)
     findings = serializeraw.load_findings(path)
+    return findings
+
+
+@pytest.mark.parametrize('source', [
+    pytest.param(power.MASTER072_PDF, id='master72'),
+])
+def test_intro_x(source, testdir, monkeypatch):
+    findings = run_intro(source, testdir, monkeypatch)
     assert not findings
+
+
+@pytest.mark.parametrize('source', [
+    pytest.param(power.MASTER075_PDF, id='master75'),
+    pytest.param(power.MASTER078_PDF, id='master78'),
+])
+def test_intro_x_error(source, testdir, monkeypatch):
+    findings = run_intro(source, testdir, monkeypatch)
+    # TODO: ADD SEPARATE VALIDATE METHODS
+    assert findings
