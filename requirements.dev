@@ -10,9 +10,9 @@
 utilatest>=0.2.2<1.0.0
 
 # test data generator
-power==1.1.0
+power==1.1.2
 
-genex==0.5.4
+genex==0.6.2
 genref==1.0.0
 
 writers==1.2.0
