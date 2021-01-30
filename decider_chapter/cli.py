@@ -27,15 +27,20 @@ WORKPLAN = [
 
 
 def main():
+    hook = protocol.integrate(
+        root=decider_chapter.ROOT,
+        features='decider_chapter.features',
+    )
     utila.featurepack(
         workplan=WORKPLAN,
         root=decider_chapter.ROOT,
         featurepackage='decider_chapter.features',
         config=utila.FeaturePackConfig(
+            cli_hook=hook,
             description=DESCRIPTION,
             multiprocessed=True,
-            pages=True,
             name=decider_chapter.PROCESS,
+            pages=True,
             version=decider_chapter.__version__,
         ),
     )
