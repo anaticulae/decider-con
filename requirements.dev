@@ -7,12 +7,12 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-utilatest>=0.3.2<1.0.0
+utilatest>=0.5.3<1.0.0
 
 # test data generator
-power==1.1.2
+power==1.4.6
 
-genex==0.6.2
-genref==1.0.1
+genex==0.9.0
+genref==1.0.5
 
-writers==1.2.0
+writers==1.3.0
