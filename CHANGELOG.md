@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.2.1
+
+### Fix
+
+* fix newline (4d00697f759e)
+
 ## v0.2.0
 
 ### Feature
