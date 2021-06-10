@@ -51,8 +51,6 @@ if __name__ == "__main__":
             'decider_con',
         ],
         entry_points={
-            'console_scripts': [
-                'decider_chapter = decider_chapter.cli:main',
-            ],
+            'console_scripts': ['decider_chapter = decider_chapter.cli:main',],
         },
     )
