@@ -23,10 +23,10 @@ def work(intro: str) -> protocol.ResultType:
 
 
 SOLUTION_6500 = """\
-Einleitung unvollständing
+Einleitung unvollständig
 
 Überprüfen Sie die Einleitung und achten darauf dass der Bereich: \
- **{{topic}}** ausreichend dargestellt ist.
+**{{topic}}** ausreichend dargestellt ist.
 
 Siehe optimaler Aufbau:
 {aufbau_gliederung/kapitel1}
