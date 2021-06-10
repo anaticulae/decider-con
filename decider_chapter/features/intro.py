@@ -14,11 +14,18 @@ import iamraw
 import protocol
 import utila
 
+import decider_chapter.document
+
 
 def work(intro: str) -> protocol.ResultType:
     intro = chapter.serialize.load_chapter_introinfo(intro)
     driver = protocol.driver(intro=intro)
-    user, developer = protocol.run(__name__, driver=driver)
+    document = decider_chapter.document.document()
+    user, developer = protocol.run(
+        __name__,
+        driver=driver,
+        document=document,
+    )
     return user, developer
 
 
@@ -37,6 +44,7 @@ TODO: ADD AI-USED HINT
 MIN_TOKEN_OCCURRENCE = 3  # TODO: HOLY VALUE
 
 
+@protocol.nosmall
 def check_6500_intro_complete(linter: callable, driver):
     intro = driver.intro
     if driver.intro.pagestart is None:
