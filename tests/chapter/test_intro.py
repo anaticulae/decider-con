@@ -41,3 +41,10 @@ def test_intro_x_error(source, testdir, monkeypatch):
     findings = run_intro(source, testdir, monkeypatch)
     # TODO: ADD SEPARATE VALIDATE METHODS
     assert findings
+
+
+def test_intro_disable_small_document(testdir, monkeypatch):
+    """Do not use this AI-Linter on small documents."""
+    source = power.DOCU14_PDF
+    findings = run_intro(source, testdir, monkeypatch)
+    assert not findings
