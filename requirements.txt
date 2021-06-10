@@ -7,11 +7,11 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-utila>=2.34.2<3.0.0
+utila>=2.36.0<3.0.0
 
 iamraw>=4.17.7<5.0.0
 
 # load detected chapter
 chapter==0.1.5
 # load findings
-protocol>=3.7.4<4.0.0
+protocol>=3.8.1<4.0.0
