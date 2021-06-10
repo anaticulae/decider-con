@@ -7,10 +7,39 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
+import itertools
 import os
+import sys
 
 import protocol
 import utila
+
+
+def document() -> protocol.Document:
+    documents = selected()
+    result = load_document(documents)
+    return result
+
+
+def selected() -> list:
+    argv = sys.argv
+    inputs = []
+    for cmd, parameter in itertools.zip_longest(argv, argv[1:]):
+        # TODO: REPLACE WITH PYTHON
+        if cmd.startswith('-i='):
+            splitted = cmd.split('-i=')
+            inputs.append(splitted[1])
+            continue
+        if cmd.startswith('--input='):
+            splitted = cmd.split('--input=')
+            inputs.append(splitted[1])
+            continue
+        if cmd not in ('-i', '--input'):
+            continue
+        inputs.append(parameter)
+    if not inputs:
+        inputs = [os.getcwd()]
+    return inputs
 
 
 def load_document(inpaths) -> protocol.Document:
