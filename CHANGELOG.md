@@ -2,6 +2,14 @@
 
 Every noteable change is logged here.
 
+## v0.3.0
+
+### Feature
+
+* disable intro check for small documents (f5d83d21cec8)
+* add method to load document information (12ae898a1dcf)
+* add document type loader (3913440a7d85)
+
 ## v0.2.1
 
 ### Fix
