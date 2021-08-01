@@ -11,11 +11,11 @@ import itertools
 import os
 import sys
 
-import protocol
+import iamraw
 import utila
 
 
-def document() -> protocol.Document:
+def document() -> iamraw.DocInfo:
     documents = selected()
     result = load_document(documents)
     return result
@@ -42,13 +42,13 @@ def selected() -> list:
     return inputs
 
 
-def load_document(inpaths) -> protocol.Document:
+def load_document(inpaths) -> iamraw.DocInfo:
     inpaths = [inpaths] if isinstance(inpaths, str) else inpaths
     for path in inpaths:
         path = os.path.join(path, 'pdfinfo.yaml')
         if not os.path.exists(path):
             continue
         loaded = utila.yaml_from_raw_or_path(path)
-        result = protocol.Document(pages=int(loaded['pages']),)
+        result = iamraw.DocInfo(pages=int(loaded['pages']),)
         return result
     return None

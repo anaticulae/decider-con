@@ -45,6 +45,6 @@ def test_intro_x_error(source, testdir, monkeypatch):
 
 def test_intro_disable_small_document(testdir, monkeypatch):
     """Do not use this AI-Linter on small documents."""
-    source = power.DOCU14_PDF
+    source = power.DOCU014_PDF
     findings = run_intro(source, testdir, monkeypatch)
     assert not findings
