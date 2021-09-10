@@ -44,6 +44,8 @@ TODO: ADD AI-USED HINT
 MIN_TOKEN_OCCURRENCE = 3  # TODO: HOLY VALUE
 
 
+@protocol.nodiss
+@protocol.nobook
 @protocol.nosmall
 def check_6500_intro_complete(linter: callable, driver):
     intro = driver.intro
