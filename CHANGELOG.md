@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.3.1
+
+### Feature
+
+* do not run intro check on diss and books (5b23d2bb6004)
+
 ## v0.3.0
 
 ### Feature
