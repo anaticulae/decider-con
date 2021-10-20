@@ -32,7 +32,7 @@ WORKER = 6
 
 @pytest.mark.usefixtures('session')
 def pytest_sessionstart():
-    power.run([power.generated()])
+    power.run()
 
 
 def extract(resources):
@@ -42,8 +42,6 @@ def extract(resources):
     # single file the parental determination is not possible. Therefore we
     # have to add the data root of all test files.
     utila.log(f'root: {power.REPOSITORY}')
-    resources.append(power.REPOSITORY)
-
     genex.extract(
         files=resources,
         destination=power.generated(),
