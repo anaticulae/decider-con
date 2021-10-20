@@ -42,7 +42,7 @@ Siehe optimaler Aufbau:
 TODO: ADD AI-USED HINT
 """
 
-MIN_TOKEN_OCCURRENCE = configo.HV_INT_PLUS(default=3)
+TOKEN_OCCURRENCE_MIN = configo.HV_INT_PLUS(default=3)
 
 
 @protocol.nodiss
@@ -55,11 +55,11 @@ def check_6500_intro_complete(linter: callable, driver):
         utila.error('no intro loaded - could not check 6500')
         return
     # 'start', 'goal', 'method', 'limit', 'structure'
-    start = len(intro.start) >= MIN_TOKEN_OCCURRENCE
-    goal = len(intro.goal) >= MIN_TOKEN_OCCURRENCE
-    method = len(intro.method) >= MIN_TOKEN_OCCURRENCE
-    limit = len(intro.limit) >= MIN_TOKEN_OCCURRENCE
-    structure = len(intro.structure) >= MIN_TOKEN_OCCURRENCE
+    start = len(intro.start) >= TOKEN_OCCURRENCE_MIN
+    goal = len(intro.goal) >= TOKEN_OCCURRENCE_MIN
+    method = len(intro.method) >= TOKEN_OCCURRENCE_MIN
+    limit = len(intro.limit) >= TOKEN_OCCURRENCE_MIN
+    structure = len(intro.structure) >= TOKEN_OCCURRENCE_MIN
 
     location = iamraw.Location.from_page(page=driver.intro.pagestart)
     linter = functools.partial(linter, location=location)
