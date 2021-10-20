@@ -10,6 +10,7 @@
 import functools
 
 import chapter.serialize
+import configo
 import iamraw
 import protocol
 import utila
@@ -41,7 +42,7 @@ Siehe optimaler Aufbau:
 TODO: ADD AI-USED HINT
 """
 
-MIN_TOKEN_OCCURRENCE = 3  # TODO: HOLY VALUE
+MIN_TOKEN_OCCURRENCE = configo.HV_INT_PLUS(default=3)
 
 
 @protocol.nodiss
