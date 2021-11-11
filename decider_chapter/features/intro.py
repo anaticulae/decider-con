@@ -18,8 +18,8 @@ import utila
 import decider_chapter.document
 
 
-def work(intro: str) -> protocol.ResultType:
-    intro = chapter.serialize.load_chapter_introinfo(intro)
+def work(introx: str) -> protocol.ResultType:
+    intro = chapter.serialize.load_chapter_introinfo(introx)
     driver = protocol.driver(intro=intro)
     document = decider_chapter.document.document()
     user, developer = protocol.run(
