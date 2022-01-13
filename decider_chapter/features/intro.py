@@ -15,17 +15,14 @@ import iamraw
 import protocol
 import utila
 
-import decider_chapter.document
 
-
-def work(introx: str) -> protocol.ResultType:
+def work(introx: str, docinfo: iamraw.DocInfo) -> protocol.ResultType:
     intro = chapter.serialize.load_chapter_introinfo(introx)
     driver = protocol.driver(intro=intro)
-    document = decider_chapter.document.document()
     user, developer = protocol.run(
         __name__,
         driver=driver,
-        document=document,
+        document=docinfo,
     )
     return user, developer
 

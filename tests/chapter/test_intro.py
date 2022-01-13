@@ -15,10 +15,13 @@ import decider_chapter
 import tests.chapter
 
 
-def run_intro(source, testdir, monkeypatch):
+def run_intro(source, testdir, monkeypatch, optional: str = ''):
     source = power.link(source)
     # run intro
-    tests.chapter.run(f'--intro -i={source}', monkeypatch=monkeypatch)
+    tests.chapter.run(
+        f'--intro -i={source} {optional}',
+        monkeypatch=monkeypatch,
+    )
     # load findings
     path = decider_chapter.path.decider_chapter_intro(testdir.tmpdir)
     findings = serializeraw.load_findings(path)
@@ -46,5 +49,5 @@ def test_intro_x_error(source, testdir, monkeypatch):
 def test_intro_disable_small_document(testdir, monkeypatch):
     """Do not use this AI-Linter on small documents."""
     source = power.DOCU014_PDF
-    findings = run_intro(source, testdir, monkeypatch)
+    findings = run_intro(source, testdir, monkeypatch, optional='--docinfo=14')
     assert not findings
