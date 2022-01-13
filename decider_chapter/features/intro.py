@@ -45,6 +45,7 @@ TODO: ADD AI-USED HINT
 TOKEN_OCCURRENCE_MIN = configo.HV_INT_PLUS(default=3)
 
 
+@protocol.german  # TODO REMOVE LATER
 @protocol.nodiss
 @protocol.nobook
 @protocol.nosmall
