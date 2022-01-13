@@ -31,12 +31,16 @@ def main():
         root=decider_chapter.ROOT,
         features='decider_chapter.features',
     )
+    docinfo = protocol.integrate_docinfo()
     utila.featurepack(
         workplan=WORKPLAN,
         root=decider_chapter.ROOT,
         featurepackage='decider_chapter.features',
         config=utila.FeaturePackConfig(
-            cli_hook=hook,
+            cli_hook=[
+                docinfo,
+                hook,
+            ],
             description=DESCRIPTION,
             multiprocessed=True,
             name=decider_chapter.PROCESS,
