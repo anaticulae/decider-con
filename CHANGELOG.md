@@ -2,6 +2,17 @@
 
 Every noteable change is logged here.
 
+## v0.4.0
+
+### Feature
+
+* add option to pass document info (b86d52c23423)
+* check intro for german documents only (0f6a896c3653)
+
+### Documentation
+
+* Happy New Year! (2a4671360dd6)
+
 ## v0.3.3
 
 ## v0.3.2
