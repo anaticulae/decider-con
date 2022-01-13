@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.4.1
+
+### Feature
+
+* use document info from cli input (da9b7f5bfed0)
+
 ## v0.4.0
 
 ### Feature
