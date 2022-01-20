@@ -9,11 +9,11 @@
 
 utila>=2.63.0<3.0.0
 
-iamraw>=4.49.0<5.0.0
+iamraw>=4.50.0<5.0.0
 
 # load detected chapter
-chapter==0.1.5
+chapter==0.1.6
 # load findings
 protocol>=3.17.1<4.0.0
 
-configo>=0.17.0<1.0.0
+configo>=0.18.0<1.0.0
