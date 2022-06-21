@@ -49,8 +49,7 @@ TOKEN_OCCURRENCE_MIN = configo.HV_INT_PLUS(default=3)
 def check_6500_intro_complete(linter: callable, driver):
     intro = driver.intro
     if driver.intro.pagestart is None:
-        # TODO: CHANGE TO COMMON ERROR MESSAGE
-        utila.error('no intro loaded - could not check 6500')
+        protocol.skip_method('no intro loaded')
         return
     # 'start', 'goal', 'method', 'limit', 'structure'
     start = len(intro.start) >= TOKEN_OCCURRENCE_MIN
