@@ -45,10 +45,7 @@ def extract(resources):
     genex.extract(
         files=resources,
         destination=power.generated(),
-        groupme=True,
-        sections=True,
-        words=True,
-        magic=True,
+        full=True,
         morefeatures=['chapter'],
         worker=WORKER,
         pages=':',
