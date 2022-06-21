@@ -32,7 +32,8 @@ def test_cli_help(monkeypatch):
 ])
 @utilatest.nightly
 def test_cli_textflow_example(source, testdir, monkeypatch):
-    """Run textflow"""
+    """Run textflow."""
+    utilatest.fixture_requires(source)
     source = power.link(source)
     # TODO: MOVE TO TEST DATA GENERATOR
     utila.run(f'textflow -i {source}')
