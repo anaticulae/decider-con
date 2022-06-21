@@ -17,6 +17,7 @@ import tests.textflow_
 
 def decide_textflow(source, pages, testdir, monkeypatch, msgids=None):
     utilatest.fixture_requires(source)
+    source = power.link(source)
     tests.textflow_.run(
         f'--docref -i {source} --pages={pages}',
         monkeypatch=monkeypatch,
@@ -31,7 +32,7 @@ def test_bachelor76_docref_negative(testdir, monkeypatch):
 
     Therefore we do not detect any missing references.
     """
-    source = power.link(power.BACHELOR076_PDF)
+    source = power.BACHELOR076_PDF
     pages = '0:30'
     findings = decide_textflow(
         source,
@@ -48,7 +49,7 @@ def test_bachelor76_figure_missing_intext_ref(testdir, monkeypatch):
 
     Pattern: 'Die folgende Abbildung soll durch' not supported yet.
     """
-    source = power.link(power.BACHELOR076_PDF)
+    source = power.BACHELOR076_PDF
     pages = '0:30'
     findings = decide_textflow(
         source,
@@ -62,7 +63,7 @@ def test_bachelor76_figure_missing_intext_ref(testdir, monkeypatch):
 
 def test_master75_docref(testdir, monkeypatch):
     # TODO: DESCRIBE PURPOSE OF TEST
-    source = power.link(power.MASTER075_PDF)
+    source = power.MASTER075_PDF
     findings = decide_textflow(
         source,
         ':',
@@ -75,7 +76,7 @@ def test_master75_docref(testdir, monkeypatch):
 
 def test_bachelor56page15_tableref(testdir, monkeypatch):
     """Verify that `s. Tab. 1` matches with `Tabelle 1`"""
-    source = power.link(power.BACHELOR056_PDF)
+    source = power.BACHELOR056_PDF
     pages = '15'
     findings = decide_textflow(
         source,
