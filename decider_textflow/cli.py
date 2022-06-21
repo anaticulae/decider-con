@@ -24,6 +24,14 @@ CONTENT_INPUT = [
 
 WORKPLAN = [
     utila.create_step(
+        'abbrev',
+        [
+            utila.ResultFile('reftable', 'abbrev_abbrev'),
+            utila.ResultFile('words', 'abbreviation_detected'),
+        ],
+        protocol.ResultDefault,
+    ),
+    utila.create_step(
         'character',
         inputs=[
             utila.ResultFile('words', 'sentences_sentences'),
