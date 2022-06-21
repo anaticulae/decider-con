@@ -18,6 +18,7 @@ import tests.textflow_
 
 @pytest.mark.xfail(reason='???')
 @utilatest.longrun
+@utilatest.requires(power.MASTER116_PDF)
 def test_paragraph_too_short_in_table_master116_page79(testdir, monkeypatch):
     source = power.link(power.MASTER116_PDF)
     cmd = f'-i {source}  --paragraph --pages=79'

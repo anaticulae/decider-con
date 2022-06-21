@@ -15,6 +15,7 @@ import decider_textflow
 import tests.textflow_
 
 
+@utilatest.requires(power.BACHELOR051_PDF)
 def test_empty_start_bachelor51page2128(testdir, monkeypatch, capsys):
     """The table on page 21 is on the bottom of the page. Page 28 starts
     with a list, which was also false detected cause of invalid magic
