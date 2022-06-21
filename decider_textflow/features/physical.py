@@ -99,6 +99,9 @@ def message(lines: list, msgid=None, page=0):
         texmex.TextBoundsInfo(text=content, bounds=None),
     ) for line, content in enumerate(lines)]
     driver = protocol.driver(text_chunks=lines, nomagic_text_chunks=lines)
-    user, _ = decider_textflow.features.linting(__name__, driver)
+    user, _ = protocol.run(
+        __name__,
+        driver=driver,
+    )
     result = serializeraw.load_findings(user, msgid)
     return len(result)

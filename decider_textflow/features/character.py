@@ -15,8 +15,6 @@ import serializeraw
 import texmex
 import utila
 
-import decider_textflow.features
-
 MORETHAN = 10
 
 
@@ -394,6 +392,9 @@ def message(lines: list, msgid=None, page=0):
         )
     ]
     driver = protocol.driver(sentences=sentences)
-    user, _ = decider_textflow.features.linting(__name__, driver)
+    user, _ = protocol.run(
+        __name__,
+        driver=driver,
+    )
     result = serializeraw.load_findings(user, msgid)
     return len(result)

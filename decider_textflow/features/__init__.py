@@ -8,7 +8,6 @@
 # =============================================================================
 
 import collections
-import functools
 
 import iamraw
 import protocol
@@ -16,24 +15,6 @@ import serializeraw
 import utila
 
 import decider_textflow.utils
-
-
-def linting(name, driver=None):
-    # IMPORTANT TODO: WITHOUT DRIVER, NOTHING HAPPEN HERE?
-    linter = protocol.from_module(name)
-    if driver:
-        # run linting if data is provided
-        checkers = protocol.parse_checkers(name)
-        for checker in checkers:
-            call = functools.partial(
-                linter.add_finding,
-                msgid=checker.msgid,
-            )
-            checker(call, driver)
-    # write result
-    result = linter.result(unique=True)
-    user, developer = protocol.dump_result(result)
-    return user, developer
 
 
 def create_driver(  # pylint:disable=R0913,R0914

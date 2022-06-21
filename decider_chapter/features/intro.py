@@ -13,7 +13,6 @@ import chapter.serialize
 import configo
 import iamraw
 import protocol
-import utila
 
 
 def work(introx: str, docinfo: iamraw.DocInfo) -> protocol.ResultType:
