@@ -9,7 +9,6 @@
 
 import power
 import pytest
-import utila
 import utilatest
 
 import tests.textflow_
@@ -35,7 +34,7 @@ def test_cli_textflow_example(source, testdir, monkeypatch):
     """Run textflow."""
     utilatest.fixture_requires(source)
     source = power.link(source)
-    # TODO: MOVE TO TEST DATA GENERATOR
-    utila.run(f'textflow -i {source}')
-    cmd = f'-i {source}'
-    tests.textflow_.run(cmd, monkeypatch=monkeypatch)
+    tests.textflow_.run(
+        f'-i {source}',
+        monkeypatch=monkeypatch,
+    )
