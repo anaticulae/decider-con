@@ -51,7 +51,7 @@ RESOURCES = [
     power.MASTER075_PDF,
 ]
 
-WORKER = 6
+WORKER = 4
 
 
 @pytest.mark.usefixtures('session')
