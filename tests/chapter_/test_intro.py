@@ -12,13 +12,13 @@ import pytest
 import serializeraw
 
 import decider_chapter
-import tests.chapter
+import tests.chapter_
 
 
 def run_intro(source, testdir, monkeypatch, optional: str = ''):
     source = power.link(source)
     # run intro
-    tests.chapter.run(
+    tests.chapter_.run(
         f'--intro -i={source} {optional}',
         monkeypatch=monkeypatch,
     )
