@@ -82,6 +82,30 @@ class ReferenceMatcher:
         data = IntextRef(ref, raw, sentence, char)
         self.references[page].append(data)
 
+    def find_dynamic_ref(self, page: int) -> str:
+        """Look forward to detect a reference which is mean by the user.
+
+        # TODO: IMPROVE SEARCHER
+        PROBLEM:
+
+        ```
+            Siehe naechste Abbildung
+            <Image>
+            Siehe Abbildung danach
+            <Image>
+
+            Second reference on a single page will detect the first one.
+        ```
+        """
+        # look 3 pages a head
+        for _ in range(3):
+            if not page in self.iois:
+                page += 1
+                continue
+            first = self.iois[page][0]
+            return first.number
+        return None
+
     def validate(self) -> ReferenceMatched:
         matched, not_matched, not_referenced = self.match()
         backward = []
@@ -132,7 +156,14 @@ def create_matcher(references, iois) -> ReferenceMatcher:
         result.add_ioi(page=ioi.pdfpage, number=ioi.number, raw=ioi.raw)
     for reference in references:
         for start, raw in zip(reference.marked, reference.raw):
-            ref = parse_reference(raw)
+            test = raw.lower()
+            if 'folgend' in test or 'unten' in test:
+                ref = result.find_dynamic_ref(reference.page)
+                if ref is None:
+                    utila.error(f'could not find forward ref: {reference}')
+                    continue
+            else:
+                ref = parse_reference(raw)
             # TODO: CHAR IS NOT WORD
             result.add_reference(
                 page=reference.page,
