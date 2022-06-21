@@ -62,7 +62,6 @@ class Evaluate(utilatest.BaseLiner):
             loader=self.frompath,
             convert_source=False,
         )
-        self.headlines = power.link(source)
 
     def frompath(self, path):  # pylint:disable=R0201
         return protocol.findings_from_path(path)
