@@ -14,8 +14,6 @@ import decider_smarty
 
 DESCRIPTION = ''
 
-LINT_OUT = ('user', 'developer')
-
 WORKPLAN = [
     utila.create_step(
         'badwords',
@@ -26,7 +24,7 @@ WORKPLAN = [
             utila.ResultFile('smarty', 'pleonasma_pleonasma'),
             utila.ResultFile('smarty', 'reduce_reduce'),
         ],
-        output=LINT_OUT,
+        output=protocol.ResultDefault,
     ),
 ]
 
