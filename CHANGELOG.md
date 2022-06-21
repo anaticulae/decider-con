@@ -2,6 +2,16 @@
 
 Every noteable change is logged here.
 
+## v0.5.0
+
+### Feature
+
+* move code from decider (f4b6618719ab)
+
+### Documentation
+
+* adjust modules path (d769ffd9eb31)
+
 ## v0.4.2
 
 ## v0.4.1
