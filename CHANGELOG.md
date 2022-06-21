@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.6.0
+
+### Feature
+
+* move abbrev linter from decider (a7c7668f7558)
+
 ## v0.5.0
 
 ### Feature
