@@ -6,15 +6,3 @@
 # use or distribution is an offensive act against international law and may
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
-
-[project]
-short = decider_con
-name = judge content
-
-source = decider_con
-    decider_chapter
-    decider_smarty
-    decider_textflow
-
-[release]
-fail_on_finding = True

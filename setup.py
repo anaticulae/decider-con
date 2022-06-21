@@ -49,8 +49,19 @@ if __name__ == "__main__":
             'decider_chapter',
             'decider_chapter.features',
             'decider_con',
+            'decider_smarty',
+            'decider_smarty.features',
+            'decider_textflow',
+            'decider_textflow.docref',
+            'decider_textflow.features',
+            'decider_textflow.startend',
+            'decider_textflow.writing',
         ],
         entry_points={
-            'console_scripts': ['decider_chapter = decider_chapter.cli:main',],
+            'console_scripts': [
+                'decider_chapter = decider_chapter.cli:main',
+                'decider_smarty = decider_smarty.cli:main',
+                'decider_textflow = decider_textflow.cli:main',
+            ],
         },
     )

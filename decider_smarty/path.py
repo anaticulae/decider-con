@@ -7,14 +7,15 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-[project]
-short = decider_con
-name = judge content
+import utila
 
-source = decider_con
-    decider_chapter
-    decider_smarty
-    decider_textflow
+import decider_smarty
 
-[release]
-fail_on_finding = True
+
+def badwords(path: str, prefix: str = '') -> str:
+    return utila.pathconnector(
+        path,
+        decider_smarty.PROCESS,
+        'badwords_user',
+        prefix,
+    )

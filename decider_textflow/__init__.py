@@ -7,14 +7,16 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-[project]
-short = decider_con
-name = judge content
+import configo
 
-source = decider_con
-    decider_chapter
-    decider_smarty
-    decider_textflow
+import decider_con
+import decider_textflow.__patch__
 
-[release]
-fail_on_finding = True
+ROOT = decider_con.ROOT
+
+__version__ = decider_con.__version__
+
+PACKAGE = 'decider_textflow'
+PROCESS = 'decider_textflow'
+
+configo.cloud_lookup(PROCESS)

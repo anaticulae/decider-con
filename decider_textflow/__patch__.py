@@ -7,14 +7,15 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-[project]
-short = decider_con
-name = judge content
+import iamraw
 
-source = decider_con
-    decider_chapter
-    decider_smarty
-    decider_textflow
+TEXTUAL = {
+    # iamraw.PageContentType.CAPTION,
+    # iamraw.PageContentType.TABLE,
+    iamraw.PageContentType.BLOCKQUOTE,
+    iamraw.PageContentType.FORMULA,
+    iamraw.PageContentType.LIST,
+    iamraw.PageContentType.TEXT,
+}
 
-[release]
-fail_on_finding = True
+iamraw.TEXTUAL = TEXTUAL
