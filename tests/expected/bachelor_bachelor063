@@ -1,0 +1,142 @@
+06500 000p8 Einleitung unvollständig
+06500 000p8 Einleitung unvollständig
+07000 b(518.44;626.68;558.78;686.08)p35 Zu viele aufeinander folgende Trennungen
+07000 b(518.53;247.6;558.8;323.08)p41 Zu viele aufeinander folgende Trennungen
+07000 b(518.65;126.16;558.88;201.76)p31 Zu viele aufeinander folgende Trennungen
+07000 b(518.67;610.0;558.8;669.4)p40 Zu viele aufeinander folgende Trennungen
+07000 b(518.69;142.36;558.7;201.76)p13 Zu viele aufeinander folgende Trennungen
+07000 b(518.69;155.68;558.83;214.96)p10 Zu viele aufeinander folgende Trennungen
+07000 b(518.69;682.96;558.7;742.36)p14 Zu viele aufeinander folgende Trennungen
+07005 s11p20 Satzende vor Aufzählung fehlt
+07005 s13p35 Satzende vor Aufzählung fehlt
+07005 s15p31 Satzende vor Aufzählung fehlt
+07005 s19p31 Satzende vor Aufzählung fehlt
+07005 s1p27 Satzende vor Aufzählung fehlt
+07005 s1p35 Satzende vor Aufzählung fehlt
+07005 s23p31 Satzende vor Aufzählung fehlt
+07005 s27p31 Satzende vor Aufzählung fehlt
+07006 s8p33 Satzende vor Aufzählung anpassen
+07010 s2p26 Satzende vor Gleichung fehlt
+07010 s3p27 Satzende vor Gleichung fehlt
+07010 s7p14 Satzende vor Gleichung fehlt
+07011 s9p24 Satzende vor Gleichung anpassen
+07201 00p15 Abbildung nicht referenziert
+07201 00p22 Abbildung nicht referenziert
+07201 00p23 Abbildung nicht referenziert
+07201 00p30 Abbildung nicht referenziert
+07201 00p33 Abbildung nicht referenziert
+07201 00p33 Abbildung nicht referenziert
+07201 00p34 Abbildung nicht referenziert
+07201 00p34 Abbildung nicht referenziert
+07203 00p25 Tabelle nicht referenziert
+07203 00p25 Tabelle nicht referenziert
+07230 00p18 Rückwärtsreferenz Abbildung
+07230 00p20 Rückwärtsreferenz Abbildung
+07230 00p21 Rückwärtsreferenz Abbildung
+07230 00p37 Rückwärtsreferenz Abbildung
+07611 p12~l10 Satzanfang wiederholt sich
+07611 p12~l3 Satzanfang wiederholt sich
+07611 p14~l2 Satzanfang wiederholt sich
+07611 p17~l10 Satzanfang wiederholt sich
+07611 p17~l12 Satzanfang wiederholt sich
+07611 p18~l2 Satzanfang wiederholt sich
+07611 p20~l1 Satzanfang wiederholt sich
+07611 p24~l15 Satzanfang wiederholt sich
+07611 p25~l2 Satzanfang wiederholt sich
+07611 p26~l1 Satzanfang wiederholt sich
+07611 p29~l1 Satzanfang wiederholt sich
+07611 p29~l6 Satzanfang wiederholt sich
+07611 p30~l0 Satzanfang wiederholt sich
+07611 p33~l1 Satzanfang wiederholt sich
+07611 p35~l1 Satzanfang wiederholt sich
+07611 p37~l3 Satzanfang wiederholt sich
+07611 p41~l1 Satzanfang wiederholt sich
+07611 p41~l7 Satzanfang wiederholt sich
+07611 p42~l1 Satzanfang wiederholt sich
+07611 p9~l8 Satzanfang wiederholt sich
+07616 00p-1 Writing statistics
+07620 p2~l0 Einsame Zeile am Seitenanfang
+07620 p3~l0 Einsame Zeile am Seitenanfang
+07620 p4~l0 Einsame Zeile am Seitenanfang
+07620 p5~l0 Einsame Zeile am Seitenanfang
+07620 p6~l0 Einsame Zeile am Seitenanfang
+07625 p11~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p14~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p15~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p1~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p22~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p23~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p25~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p34~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p46~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p47~l0 Seitenanfang: Seite beginnt nicht mit Text
+07630 p13_13~l11_13 Paragraph zu kurz
+07630 p14_14~l14_15 Paragraph zu kurz
+07630 p15_15~l16_18 Paragraph zu kurz
+07630 p19_19~l1_2 Paragraph zu kurz
+07630 p20_20~l11_12 Paragraph zu kurz
+07630 p25_25~l13_14 Paragraph zu kurz
+07630 p29_29~l4_6 Paragraph zu kurz
+07630 p35_35~l1_3 Paragraph zu kurz
+07630 p37_37~l8_9 Paragraph zu kurz
+07630 p3_3~l1_2 Paragraph zu kurz
+07630 p3_3~l4_6 Paragraph zu kurz
+07630 p58_58~l2_3 Paragraph zu kurz
+07630 p59_59~l12_13 Paragraph zu kurz
+07630 p61_61~l11_12 Paragraph zu kurz
+07630 p61_61~l14_15 Paragraph zu kurz
+07630 p61_61~l18_19 Paragraph zu kurz
+07630 p61_61~l1_2 Paragraph zu kurz
+07630 p61_61~l26_27 Paragraph zu kurz
+07630 p61_61~l5_6 Paragraph zu kurz
+07630 p61_61~l8_9 Paragraph zu kurz
+07630 p6_6~l10_12 Paragraph zu kurz
+07630 p6_6~l24_25 Paragraph zu kurz
+07630 p7_7~l0_1 Paragraph zu kurz
+07630 p7_7~l16_17 Paragraph zu kurz
+07630 p7_7~l19_21 Paragraph zu kurz
+07650 p10~l0~c137_139 Unzuläßiges Leerzeichen vor Komma
+07650 p10~l0~c69_71 Unzuläßiges Leerzeichen vor Komma
+07650 p12~l0~c56_58 Unzuläßiges Leerzeichen vor Komma
+07650 p14~l0~c52_54 Unzuläßiges Leerzeichen vor Komma
+07650 p14~l0~c67_69 Unzuläßiges Leerzeichen vor Komma
+07650 p15~l0~c67_69 Unzuläßiges Leerzeichen vor Komma
+07670 p10~l18 Fehlendes Leerzeichen
+07670 p10~l19 Fehlendes Leerzeichen
+07670 p12~l3 Fehlendes Leerzeichen
+07670 p20~l11 Fehlendes Leerzeichen
+07670 p20~l2 Fehlendes Leerzeichen
+07670 p20~l2 Fehlendes Leerzeichen
+07670 p22~l2 Fehlendes Leerzeichen
+07670 p22~l2 Fehlendes Leerzeichen
+07670 p23~l13 Fehlendes Leerzeichen
+07670 p23~l18 Fehlendes Leerzeichen
+07670 p23~l9 Fehlendes Leerzeichen
+07670 p23~l9 Fehlendes Leerzeichen
+07670 p24~l2 Fehlendes Leerzeichen
+07670 p24~l2 Fehlendes Leerzeichen
+07670 p24~l8 Fehlendes Leerzeichen
+07670 p25~l17 Fehlendes Leerzeichen
+07670 p25~l18 Fehlendes Leerzeichen
+07670 p25~l23 Fehlendes Leerzeichen
+07670 p26~l12 Fehlendes Leerzeichen
+07670 p26~l12 Fehlendes Leerzeichen
+07670 p26~l9 Fehlendes Leerzeichen
+07670 p26~l9 Fehlendes Leerzeichen
+07670 p32~l1 Fehlendes Leerzeichen
+07670 p35~l20 Fehlendes Leerzeichen
+07670 p35~l6 Fehlendes Leerzeichen
+07670 p35~l9 Fehlendes Leerzeichen
+07670 p35~l9 Fehlendes Leerzeichen
+07670 p35~l9 Fehlendes Leerzeichen
+07670 p35~l9 Fehlendes Leerzeichen
+07670 p37~l8 Fehlendes Leerzeichen
+07670 p58~l2 Fehlendes Leerzeichen
+07670 p60~l18 Fehlendes Leerzeichen
+07670 p9~l8 Fehlendes Leerzeichen
+07670 p9~l9 Fehlendes Leerzeichen
+08105 s10p13 Pleonasma erkannt
+08110 s15p35 Unnötige Vorsilbe
+08110 s5p37 Unnötige Vorsilbe
+08115 s9p40 Ungenaue Formulierung erkannt
+08120 s25p31 Adjektiv verbessern

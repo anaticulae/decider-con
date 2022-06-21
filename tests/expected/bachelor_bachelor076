@@ -1,0 +1,117 @@
+06500 000p4 Einleitung unvollständig
+07000 b(503.93;497.66;544.36;613.25)p58 Zu viele aufeinander folgende Trennungen
+07000 b(504.02;316.08;544.46;390.24)p58 Zu viele aufeinander folgende Trennungen
+07000 b(504.05;519.5;544.54;614.33)p50 Zu viele aufeinander folgende Trennungen
+07000 b(504.05;72.45;544.32;167.25)p63 Zu viele aufeinander folgende Trennungen
+07000 b(504.14;595.37;544.32;669.53)p49 Zu viele aufeinander folgende Trennungen
+07000 b(504.18;121.77;544.38;216.57)p62 Zu viele aufeinander folgende Trennungen
+07000 b(504.18;183.93;544.47;299.4)p31 Zu viele aufeinander folgende Trennungen
+07000 b(504.19;483.86;544.45;558.02)p52 Zu viele aufeinander folgende Trennungen
+07000 b(504.21;419.66;544.44;493.7)p51 Zu viele aufeinander folgende Trennungen
+07000 b(504.22;316.2;544.4;390.24)p63 Zu viele aufeinander folgende Trennungen
+07000 b(504.34;295.44;544.49;369.48)p48 Zu viele aufeinander folgende Trennungen
+07005 s1p21 Satzende vor Aufzählung fehlt
+07005 s5p13 Satzende vor Aufzählung fehlt
+07110 s6p37 Zitat zu lang
+07110 s7p24 Zitat zu lang
+07201 000p9 Abbildung nicht referenziert
+07201 00p13 Abbildung nicht referenziert
+07201 00p15 Abbildung nicht referenziert
+07201 00p17 Abbildung nicht referenziert
+07201 00p20 Abbildung nicht referenziert
+07201 00p28 Abbildung nicht referenziert
+07201 00p33 Abbildung nicht referenziert
+07201 00p34 Abbildung nicht referenziert
+07201 00p38 Abbildung nicht referenziert
+07201 00p41 Abbildung nicht referenziert
+07201 00p43 Abbildung nicht referenziert
+07201 00p45 Abbildung nicht referenziert
+07201 00p54 Abbildung nicht referenziert
+07201 00p56 Abbildung nicht referenziert
+07201 00p57 Abbildung nicht referenziert
+07201 00p63 Abbildung nicht referenziert
+07201 00p74 Abbildung nicht referenziert
+07203 00p21 Tabelle nicht referenziert
+07203 00p30 Tabelle nicht referenziert
+07203 00p74 Tabelle nicht referenziert
+07203 00p75 Tabelle nicht referenziert
+07600 p19~l2 Fehler in der Perspektive
+07600 p26~l13 Fehler in der Perspektive
+07600 p36~l0 Fehler in der Perspektive
+07600 p8~l3 Fehler in der Perspektive
+07600 p9~l5 Fehler in der Perspektive
+07610 Nonep22 Satzmuster wiederholt sich
+07611 p10~l10 Satzanfang wiederholt sich
+07611 p14~l1 Satzanfang wiederholt sich
+07611 p14~l6 Satzanfang wiederholt sich
+07611 p16~l6 Satzanfang wiederholt sich
+07611 p28~l2 Satzanfang wiederholt sich
+07611 p29~l7 Satzanfang wiederholt sich
+07611 p32~l8 Satzanfang wiederholt sich
+07611 p34~l6 Satzanfang wiederholt sich
+07611 p35~l12 Satzanfang wiederholt sich
+07611 p35~l8 Satzanfang wiederholt sich
+07611 p37~l1 Satzanfang wiederholt sich
+07611 p39~l11 Satzanfang wiederholt sich
+07611 p40~l4 Satzanfang wiederholt sich
+07611 p40~l9 Satzanfang wiederholt sich
+07611 p41~l0 Satzanfang wiederholt sich
+07611 p43~l6 Satzanfang wiederholt sich
+07611 p47~l9 Satzanfang wiederholt sich
+07611 p49~l12 Satzanfang wiederholt sich
+07611 p51~l6 Satzanfang wiederholt sich
+07611 p51~l9 Satzanfang wiederholt sich
+07611 p52~l11 Satzanfang wiederholt sich
+07611 p53~l3 Satzanfang wiederholt sich
+07611 p56~l2 Satzanfang wiederholt sich
+07611 p58~l0 Satzanfang wiederholt sich
+07611 p59~l1 Satzanfang wiederholt sich
+07611 p59~l8 Satzanfang wiederholt sich
+07611 p61~l11 Satzanfang wiederholt sich
+07611 p61~l4 Satzanfang wiederholt sich
+07611 p62~l3 Satzanfang wiederholt sich
+07611 p62~l6 Satzanfang wiederholt sich
+07611 p63~l7 Satzanfang wiederholt sich
+07611 p65~l14 Satzanfang wiederholt sich
+07611 p65~l9 Satzanfang wiederholt sich
+07611 p6~l1 Satzanfang wiederholt sich
+07611 p7~l11 Satzanfang wiederholt sich
+07616 00p-1 Writing statistics
+07620 p1~l0 Einsame Zeile am Seitenanfang
+07620 p34~l0 Einsame Zeile am Seitenanfang
+07620 p3~l0 Einsame Zeile am Seitenanfang
+07620 p42~l0 Einsame Zeile am Seitenanfang
+07620 p49~l0 Einsame Zeile am Seitenanfang
+07620 p52~l0 Einsame Zeile am Seitenanfang
+07620 p6~l0 Einsame Zeile am Seitenanfang
+07625 p0~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p15~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p17~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p28~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p38~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p9~l0 Seitenanfang: Seite beginnt nicht mit Text
+07661 p25~l0~c32_35 Schrägstrich: Überflüssiges Leerzeichen
+07666 p50~l0~c147_161 Überflüßiges Leerzeichen
+08100 0s7p4 Umgangssprache erkannt
+08100 0sp23 Umgangssprache erkannt
+08100 0sp27 Umgangssprache erkannt
+08100 0sp59 Umgangssprache erkannt
+08100 0sp61 Umgangssprache erkannt
+08100 s12p19 Umgangssprache erkannt
+08100 s12p58 Umgangssprache erkannt
+08100 s13p55 Umgangssprache erkannt
+08100 s16p64 Umgangssprache erkannt
+08100 s2p56 Umgangssprache erkannt
+08100 s5p59 Umgangssprache erkannt
+08100 s6p40 Umgangssprache erkannt
+08100 s6p56 Umgangssprache erkannt
+08105 0sp52 Pleonasma erkannt
+08110 s14p31 Unnötige Vorsilbe
+08110 s4p62 Unnötige Vorsilbe
+08115 0s2p5 Ungenaue Formulierung erkannt
+08115 0s4p6 Ungenaue Formulierung erkannt
+08115 s11p22 Ungenaue Formulierung erkannt
+08115 s3p64 Ungenaue Formulierung erkannt
+08115 s4p61 Ungenaue Formulierung erkannt
+08115 s6p29 Ungenaue Formulierung erkannt
+08120 s12p47 Adjektiv verbessern
