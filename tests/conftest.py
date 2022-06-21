@@ -21,6 +21,7 @@ power.setup(decider_con.ROOT)
 
 RESOURCES = [
     (power.BACHELOR037_PDF, '0:20'),
+    (power.BACHELOR051_PDF, '0:30'),
     (power.BACHELOR056_PDF, '0:20'),
     (power.BACHELOR067_PDF, '8:11,50:59'),
     (power.BACHELOR128_PDF, '0:20,50:70'),
