@@ -59,7 +59,7 @@ SOLUTION_W8105 = """\
 Pleonasma erkannt
 
 Vermeiden Sie **{{phrase}}** und reduzieren Sie diesen auf das \
-Wesentliche {{better}}.
+Wesentliche **{{better}}**.
 
 {text/stilkunde/woerter/pleonasmen}
 """
