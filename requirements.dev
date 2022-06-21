@@ -16,3 +16,4 @@ genex==0.29.0
 genref==1.3.4
 
 writers>=1.4.0<2.0.0
+reftable>=0.2.1<1.0.0
