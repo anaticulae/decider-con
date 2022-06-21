@@ -7,7 +7,6 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import collections
 import dataclasses
 
 import configo
@@ -253,30 +252,3 @@ def check_7616_writing_statistics(linter: callable, driver):
         **dataclasses.asdict(statistic),
         location=protocol.OVERVIEW,
     )
-
-
-def groupby_page(text):
-    grouped = collections.defaultdict(list)
-    for page, _, item in text:
-        if isinstance(item, iamraw.Headline):
-            continue
-        if not item:
-            # list, quotation or something
-            continue
-        text = item.text.strip()
-        grouped[page].append(text)
-    joined = {page: ' '.join(content) for page, content in grouped.items()}
-    return joined
-
-
-def remove_quotes(text, quotes):
-    if not quotes:
-        return text
-    for remove in quotes:
-        removed = german.sentence_select(text, remove)
-        if not removed:
-            utila.error(f'could not find text: {remove}')
-            continue
-        text = text.replace(removed, '', 1)
-    text = utila.normalize_text(text)
-    return text
