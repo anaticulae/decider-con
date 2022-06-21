@@ -23,6 +23,7 @@ import tests.textflow_
 
 @contextlib.contextmanager
 def startend(source, pages, findingid, monkeypatch):
+    utilatest.fixture_requires(source)
     source = power.link(source)
     cmd = f'-i={source} --startend --pages={pages}'
     tests.textflow_.run(cmd, monkeypatch=monkeypatch)

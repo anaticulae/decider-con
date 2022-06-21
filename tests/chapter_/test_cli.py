@@ -10,6 +10,7 @@
 import power
 import protocol
 import utila
+import utilatest
 
 import decider_chapter
 import tests.chapter_
@@ -23,6 +24,7 @@ def test_decider_content_nomonkey_cli_help():
     utila.run(f'{decider_chapter.PROCESS} --help')
 
 
+@utilatest.requires(power.MASTER075_PDF)
 def test_language_decorator(testdir, monkeypatch):
     """Disable 6500 for other language than german."""
     source = power.link(power.MASTER075_PDF)

@@ -9,6 +9,7 @@
 
 import power
 import serializeraw
+import utilatest
 
 import decider_textflow.features
 import decider_textflow.writing.statistics
@@ -18,6 +19,7 @@ def create_sentences(
     pdf,
     pages: tuple = None,
 ) -> decider_textflow.features.Sentences:
+    utilatest.fixture_requires(pdf)
     source = power.link(pdf)
     headlines = serializeraw.load_headlines(source, pages=pages)
     words = serializeraw.load_text(

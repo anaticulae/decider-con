@@ -17,6 +17,7 @@ import tests.textflow_
 
 
 @utilatest.nightly
+@utilatest.requires(power.MASTER083_PDF)
 def test_lineendings_master83page6_lineending(testdir, monkeypatch):
     source = power.link(power.MASTER083_PDF)
     tests.textflow_.run_textflow(
@@ -34,6 +35,7 @@ def test_lineendings_master83page6_lineending(testdir, monkeypatch):
     assert len(result) == 2, str(result)
 
 
+@utilatest.requires(power.BACHELOR067_PDF)
 def test_list_not_included_bachelor67page10(testdir, monkeypatch):
     source = power.link(power.BACHELOR067_PDF)
     # lint result
@@ -43,6 +45,7 @@ def test_list_not_included_bachelor67page10(testdir, monkeypatch):
     assert len(result) == 1, str(result)
 
 
+@utilatest.requires(power.MASTER072_PDF)
 def test_list_not_included_master072page7(testdir, monkeypatch):
     """Regression test that start was detected not correctly.
 
@@ -57,6 +60,7 @@ def test_list_not_included_master072page7(testdir, monkeypatch):
     assert not result
 
 
+@utilatest.requires(power.BACHELOR067_PDF)
 def test_list_better_included_bachelor67page10(testdir, monkeypatch):
     """No list is included via sentence end sign.
 
@@ -72,6 +76,7 @@ def test_list_better_included_bachelor67page10(testdir, monkeypatch):
 
 
 @pytest.mark.xfail(reason='formula produces no result')
+@utilatest.requires(power.HOME050_PDF)
 def test_formula_better_included_home050page31(testdir, monkeypatch):
     source = power.link(power.HOME050_PDF)
     cmd = f'-i={source} -o {testdir.tmpdir} --pages=31 --lineending'
@@ -80,6 +85,7 @@ def test_formula_better_included_home050page31(testdir, monkeypatch):
     assert len(result) == 1, str(result)
 
 
+@utilatest.requires(power.DISS157_PDF)
 def test_formula_list_diss157page144_included(testdir, monkeypatch):
     """On page144 the list is included very well.
 

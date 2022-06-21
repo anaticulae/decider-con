@@ -10,12 +10,14 @@
 import power
 import pytest
 import serializeraw
+import utilatest
 
 import decider_chapter
 import tests.chapter_
 
 
 def run_intro(source, testdir, monkeypatch, optional: str = ''):
+    utilatest.fixture_requires(source)
     source = power.link(source)
     # run intro
     tests.chapter_.run(

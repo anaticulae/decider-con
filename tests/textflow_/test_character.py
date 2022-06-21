@@ -23,6 +23,7 @@ def decider_textflow_character(
     monkeypatch,
     msgids=None,
 ):
+    utilatest.fixture_requires(source)
     tests.textflow_.run(
         f'--writing -i {source} --pages={pages} --character',
         monkeypatch=monkeypatch,

@@ -10,12 +10,14 @@
 import power
 import pytest
 import serializeraw
+import utilatest
 
 import decider_smarty
 import tests.smarty_
 
 
 def decide_smarty_badwords(source, pages, testdir, monkeypatch, msgid=None):
+    utilatest.fixture_requires(source)
     tests.smarty_.run(
         f'--badwords -i {source} --pages={pages}',
         monkeypatch=monkeypatch,

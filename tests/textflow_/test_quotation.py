@@ -10,12 +10,14 @@
 import power
 import serializeraw
 import utila
+import utilatest
 
 import decider_textflow.path
 import tests.textflow_
 
 
 def run_quotation_linter(source, pages, testdir, monkeypatch):
+    utilatest.fixture_requires(source)
     pages = utila.from_tuple(pages, separator=',')
     cmd = f'-i={source} --quotation --pages={pages}'
     tests.textflow_.run(cmd, monkeypatch=monkeypatch)

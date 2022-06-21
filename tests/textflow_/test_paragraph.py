@@ -19,6 +19,7 @@ import tests.textflow_
 
 
 def run_paragraph_length_linter(source, pages, testdir, monkeypatch):
+    utilatest.fixture_requires(source)
     pages = utila.from_tuple(pages, separator=',')
     cmd = f'-i={source} --paragraph --pages={pages}'
 
