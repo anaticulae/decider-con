@@ -287,6 +287,7 @@ def check_7662_space_after_paragraph(linter: callable, driver):
     >>> message('um eine Straftat nach § 316, welches', 7662)
     0
     """
+    # TODO: LINT MORE PARAGRAPH §301.223.232 for example
     check_character(linter, driver, SPACE_AFTER_PARAGRAPH)
 
 
