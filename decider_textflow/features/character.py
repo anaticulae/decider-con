@@ -228,7 +228,7 @@ wird die Zahl wenn sie eine ungefähre Zahl beinhaltet.
 {darstellung/satzzeichen#divis}
 """
 
-MISSING_MINUS_BETWEEN_VALUE_AND_SIGN = utila.compiles(r'\d+(mal)')
+MISSING_MINUS_BETWEEN_VALUE_AND_SIGN = utila.compiles(r'\d{1,4}(mal)')
 
 
 @protocol.disable_perpage(morethan=MORETHAN)
@@ -304,7 +304,7 @@ Siehe Duden:
 {darstellung/satzzeichen#divis}
 """
 
-MISSING_MINUS_BETWEEN = utila.compiles(r'\d+(jährig)(en){0,1}')
+MISSING_MINUS_BETWEEN = utila.compiles(r'\d{1,5}(jährig)(en){0,1}')
 
 
 @protocol.disable_perpage(morethan=MORETHAN)
