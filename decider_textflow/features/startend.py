@@ -126,9 +126,9 @@ def check_7625_empty_start(linter: callable, driver):
                 navigator=navigator,
         ):
             continue
-        location = iamraw.RangedLocation(
+        location = iamraw.Location.from_sentence(
+            sentence=0,
             page=page,
-            line=0,
         )
         linter(location=location)
 

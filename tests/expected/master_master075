@@ -110,31 +110,31 @@
 07230 00p42 Rückwärtsreferenz Abbildung
 07230 00p42 Rückwärtsreferenz Abbildung
 07230 00p58 Rückwärtsreferenz Abbildung
-07600 p10~l6 Fehler in der Perspektive
-07600 p20~l1 Fehler in der Perspektive
-07600 p23~l1 Fehler in der Perspektive
-07600 p23~l4 Fehler in der Perspektive
-07600 p32~l8 Fehler in der Perspektive
-07600 p36~l8 Fehler in der Perspektive
-07600 p37~l9 Fehler in der Perspektive
-07600 p38~l5 Fehler in der Perspektive
-07600 p39~l3 Fehler in der Perspektive
-07600 p43~l1 Fehler in der Perspektive
-07600 p46~l0 Fehler in der Perspektive
-07600 p46~l7 Fehler in der Perspektive
-07600 p48~l2 Fehler in der Perspektive
-07600 p52~l1 Fehler in der Perspektive
-07600 p53~l5 Fehler in der Perspektive
-07600 p56~l0 Fehler in der Perspektive
-07600 p60~l3 Fehler in der Perspektive
-07600 p68~l9 Fehler in der Perspektive
-07600 p69~l5 Fehler in der Perspektive
-07600 p69~l8 Fehler in der Perspektive
-07605 p12~l12 Satz zu lang
-07605 p15~l5 Satz zu lang
-07605 p32~l8 Satz zu lang
-07605 p48~l19 Satz zu lang
-07605 p6~l14 Satz zu lang
+07600 0sp46 Fehler in der Perspektive
+07600 0sp56 Fehler in der Perspektive
+07600 s1p20 Fehler in der Perspektive
+07600 s1p23 Fehler in der Perspektive
+07600 s1p43 Fehler in der Perspektive
+07600 s1p52 Fehler in der Perspektive
+07600 s2p48 Fehler in der Perspektive
+07600 s3p39 Fehler in der Perspektive
+07600 s3p60 Fehler in der Perspektive
+07600 s4p23 Fehler in der Perspektive
+07600 s5p38 Fehler in der Perspektive
+07600 s5p53 Fehler in der Perspektive
+07600 s5p69 Fehler in der Perspektive
+07600 s6p10 Fehler in der Perspektive
+07600 s7p46 Fehler in der Perspektive
+07600 s8p32 Fehler in der Perspektive
+07600 s8p36 Fehler in der Perspektive
+07600 s8p69 Fehler in der Perspektive
+07600 s9p37 Fehler in der Perspektive
+07600 s9p68 Fehler in der Perspektive
+07605 s12p12 Satz zu lang
+07605 s14p6 Satz zu lang
+07605 s19p48 Satz zu lang
+07605 s5p15 Satz zu lang
+07605 s8p32 Satz zu lang
 07610 Nonep10 Satzmuster wiederholt sich
 07610 Nonep10 Satzmuster wiederholt sich
 07610 Nonep10 Satzmuster wiederholt sich
@@ -192,19 +192,19 @@
 07620 p4~l0 Einsame Zeile am Seitenanfang
 07620 p52~l0 Einsame Zeile am Seitenanfang
 07620 p9~l0 Einsame Zeile am Seitenanfang
-07625 p21~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p27~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p28~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p30~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p35~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p39~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p43~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p45~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p53~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p58~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p60~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p61~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p64~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp21 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp27 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp28 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp30 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp35 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp39 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp43 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp45 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp53 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp58 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp60 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp61 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp64 Seitenanfang: Seite beginnt nicht mit Text
 07630 p0_0~l0_2 Paragraph zu kurz
 07630 p0_0~l6_7 Paragraph zu kurz
 07630 p10_10~l11_12 Paragraph zu kurz

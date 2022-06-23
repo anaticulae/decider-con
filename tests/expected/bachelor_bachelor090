@@ -77,7 +77,7 @@
 07203 00p79 Tabelle nicht referenziert
 07203 00p79 Tabelle nicht referenziert
 07203 00p80 Tabelle nicht referenziert
-07605 p44~l3 Satz zu lang
+07605 s3p44 Satz zu lang
 07611 p12~l13 Satzanfang wiederholt sich
 07611 p13~l0 Satzanfang wiederholt sich
 07611 p17~l0 Satzanfang wiederholt sich
@@ -131,13 +131,13 @@
 07620 p68~l0 Einsame Zeile am Seitenanfang
 07620 p71~l0 Einsame Zeile am Seitenanfang
 07620 p80~l0 Einsame Zeile am Seitenanfang
-07625 p34~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p41~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p47~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p50~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p60~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p69~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p70~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp34 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp41 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp47 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp50 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp60 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp69 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp70 Seitenanfang: Seite beginnt nicht mit Text
 07630 p12_12~l16_18 Paragraph zu kurz
 07630 p12_12~l21_23 Paragraph zu kurz
 07630 p12_12~l6_9 Paragraph zu kurz
@@ -280,7 +280,7 @@
 07661 p55~l0~c133_135 Schrägstrich: Überflüssiges Leerzeichen
 07661 p55~l0~c139_141 Schrägstrich: Überflüssiges Leerzeichen
 07666 p50~l0~c113_125 Überflüßiges Leerzeichen
-07670 p19~l4 Fehlendes Leerzeichen
+07670 s4p19 Fehlendes Leerzeichen
 08110 s15p51 Unnötige Vorsilbe
 08110 s19p48 Unnötige Vorsilbe
 08110 s8p39 Unnötige Vorsilbe

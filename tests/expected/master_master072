@@ -1,19 +1,19 @@
 07006 s4p46 Satzende vor Aufzählung anpassen
-07600 p13~l2 Fehler in der Perspektive
-07600 p13~l3 Fehler in der Perspektive
-07600 p14~l5 Fehler in der Perspektive
-07600 p14~l9 Fehler in der Perspektive
-07600 p15~l8 Fehler in der Perspektive
-07600 p16~l0 Fehler in der Perspektive
-07600 p21~l6 Fehler in der Perspektive
-07600 p23~l18 Fehler in der Perspektive
-07600 p23~l19 Fehler in der Perspektive
-07600 p24~l0 Fehler in der Perspektive
-07600 p26~l1 Fehler in der Perspektive
-07600 p26~l17 Fehler in der Perspektive
-07600 p31~l8 Fehler in der Perspektive
-07600 p55~l15 Fehler in der Perspektive
-07600 p58~l14 Fehler in der Perspektive
+07600 0sp16 Fehler in der Perspektive
+07600 0sp24 Fehler in der Perspektive
+07600 s14p58 Fehler in der Perspektive
+07600 s15p55 Fehler in der Perspektive
+07600 s17p26 Fehler in der Perspektive
+07600 s18p23 Fehler in der Perspektive
+07600 s19p23 Fehler in der Perspektive
+07600 s1p26 Fehler in der Perspektive
+07600 s2p13 Fehler in der Perspektive
+07600 s3p13 Fehler in der Perspektive
+07600 s5p14 Fehler in der Perspektive
+07600 s6p21 Fehler in der Perspektive
+07600 s8p15 Fehler in der Perspektive
+07600 s8p31 Fehler in der Perspektive
+07600 s9p14 Fehler in der Perspektive
 07611 p11~l10 Satzanfang wiederholt sich
 07611 p17~l3 Satzanfang wiederholt sich
 07611 p22~l8 Satzanfang wiederholt sich
@@ -97,16 +97,16 @@
 07630 p71_71~l1_3 Paragraph zu kurz
 07630 p7_7~l0_1 Paragraph zu kurz
 07630 p9_9~l9_11 Paragraph zu kurz
-07670 p3~l5 Fehlendes Leerzeichen
-07670 p3~l5 Fehlendes Leerzeichen
-07670 p49~l3 Fehlendes Leerzeichen
-07670 p49~l3 Fehlendes Leerzeichen
-07670 p56~l32 Fehlendes Leerzeichen
-07670 p57~l10 Fehlendes Leerzeichen
-07670 p57~l12 Fehlendes Leerzeichen
-07670 p57~l14 Fehlendes Leerzeichen
-07670 p58~l16 Fehlendes Leerzeichen
-07670 p58~l18 Fehlendes Leerzeichen
+07670 0s5p3 Fehlendes Leerzeichen
+07670 0s5p3 Fehlendes Leerzeichen
+07670 s10p57 Fehlendes Leerzeichen
+07670 s12p57 Fehlendes Leerzeichen
+07670 s14p57 Fehlendes Leerzeichen
+07670 s16p58 Fehlendes Leerzeichen
+07670 s18p58 Fehlendes Leerzeichen
+07670 s32p56 Fehlendes Leerzeichen
+07670 s3p49 Fehlendes Leerzeichen
+07670 s3p49 Fehlendes Leerzeichen
 08100 0sp13 Umgangssprache erkannt
 08100 0sp30 Umgangssprache erkannt
 08100 s11p61 Umgangssprache erkannt

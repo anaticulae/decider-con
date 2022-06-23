@@ -83,7 +83,10 @@ def check_7600_text_perspective(linter: callable, driver):
         invalid = decider_textflow.writing.perspective.invalid(tokens)
         if not invalid:
             continue
-        location = iamraw.RangedLocation(page=page, line=number)
+        location = iamraw.Location.from_sentence(
+            sentence=number,
+            page=page,
+        )
         linter(
             location=location,
             invalid=', '.join(invalid),
@@ -122,8 +125,10 @@ def check_7605_text_too_long(linter: callable, driver):
         # them in sentence processing before.
         if len(line) < SENTENCE_LENGTH_MAX:
             continue
-        # TODO: CONVERT NUMBER TO LINE
-        location = iamraw.RangedLocation(page=page, line=number)
+        location = iamraw.Location.from_sentence(
+            sentence=number,
+            page=page,
+        )
         linter(
             line=line,
             numbers=len(line),
@@ -147,8 +152,10 @@ def check_7606_text_too_complex(linter: callable, driver):
             continue
         if not decider_textflow.writing.complexity.too_complex(line):
             continue
-        # TODO: CONVERT NUMBER TO LINE
-        location = iamraw.RangedLocation(page=page, line=number)
+        location = iamraw.Location.from_sentence(
+            sentence=number,
+            page=page,
+        )
         linter(
             line=line,
             location=location,

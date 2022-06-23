@@ -60,16 +60,16 @@
 07620 p4~l0 Einsame Zeile am Seitenanfang
 07620 p5~l0 Einsame Zeile am Seitenanfang
 07620 p6~l0 Einsame Zeile am Seitenanfang
-07625 p11~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p14~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p15~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p1~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p22~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p23~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p25~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p34~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p46~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p47~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 00sp1 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp11 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp14 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp15 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp22 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp23 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp25 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp34 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp46 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp47 Seitenanfang: Seite beginnt nicht mit Text
 07630 p13_13~l11_13 Paragraph zu kurz
 07630 p14_14~l14_15 Paragraph zu kurz
 07630 p15_15~l16_18 Paragraph zu kurz
@@ -101,40 +101,40 @@
 07650 p14~l0~c52_54 Unzuläßiges Leerzeichen vor Komma
 07650 p14~l0~c67_69 Unzuläßiges Leerzeichen vor Komma
 07650 p15~l0~c67_69 Unzuläßiges Leerzeichen vor Komma
-07670 p10~l18 Fehlendes Leerzeichen
-07670 p10~l19 Fehlendes Leerzeichen
-07670 p12~l3 Fehlendes Leerzeichen
-07670 p20~l11 Fehlendes Leerzeichen
-07670 p20~l2 Fehlendes Leerzeichen
-07670 p20~l2 Fehlendes Leerzeichen
-07670 p22~l2 Fehlendes Leerzeichen
-07670 p22~l2 Fehlendes Leerzeichen
-07670 p23~l13 Fehlendes Leerzeichen
-07670 p23~l18 Fehlendes Leerzeichen
-07670 p23~l9 Fehlendes Leerzeichen
-07670 p23~l9 Fehlendes Leerzeichen
-07670 p24~l2 Fehlendes Leerzeichen
-07670 p24~l2 Fehlendes Leerzeichen
-07670 p24~l8 Fehlendes Leerzeichen
-07670 p25~l17 Fehlendes Leerzeichen
-07670 p25~l18 Fehlendes Leerzeichen
-07670 p25~l23 Fehlendes Leerzeichen
-07670 p26~l12 Fehlendes Leerzeichen
-07670 p26~l12 Fehlendes Leerzeichen
-07670 p26~l9 Fehlendes Leerzeichen
-07670 p26~l9 Fehlendes Leerzeichen
-07670 p32~l1 Fehlendes Leerzeichen
-07670 p35~l20 Fehlendes Leerzeichen
-07670 p35~l6 Fehlendes Leerzeichen
-07670 p35~l9 Fehlendes Leerzeichen
-07670 p35~l9 Fehlendes Leerzeichen
-07670 p35~l9 Fehlendes Leerzeichen
-07670 p35~l9 Fehlendes Leerzeichen
-07670 p37~l8 Fehlendes Leerzeichen
-07670 p58~l2 Fehlendes Leerzeichen
-07670 p60~l18 Fehlendes Leerzeichen
-07670 p9~l8 Fehlendes Leerzeichen
-07670 p9~l9 Fehlendes Leerzeichen
+07670 0s8p9 Fehlendes Leerzeichen
+07670 0s9p9 Fehlendes Leerzeichen
+07670 s11p20 Fehlendes Leerzeichen
+07670 s12p26 Fehlendes Leerzeichen
+07670 s12p26 Fehlendes Leerzeichen
+07670 s13p23 Fehlendes Leerzeichen
+07670 s17p25 Fehlendes Leerzeichen
+07670 s18p10 Fehlendes Leerzeichen
+07670 s18p23 Fehlendes Leerzeichen
+07670 s18p25 Fehlendes Leerzeichen
+07670 s18p60 Fehlendes Leerzeichen
+07670 s19p10 Fehlendes Leerzeichen
+07670 s1p32 Fehlendes Leerzeichen
+07670 s20p35 Fehlendes Leerzeichen
+07670 s23p25 Fehlendes Leerzeichen
+07670 s2p20 Fehlendes Leerzeichen
+07670 s2p20 Fehlendes Leerzeichen
+07670 s2p22 Fehlendes Leerzeichen
+07670 s2p22 Fehlendes Leerzeichen
+07670 s2p24 Fehlendes Leerzeichen
+07670 s2p24 Fehlendes Leerzeichen
+07670 s2p58 Fehlendes Leerzeichen
+07670 s3p12 Fehlendes Leerzeichen
+07670 s6p35 Fehlendes Leerzeichen
+07670 s8p24 Fehlendes Leerzeichen
+07670 s8p37 Fehlendes Leerzeichen
+07670 s9p23 Fehlendes Leerzeichen
+07670 s9p23 Fehlendes Leerzeichen
+07670 s9p26 Fehlendes Leerzeichen
+07670 s9p26 Fehlendes Leerzeichen
+07670 s9p35 Fehlendes Leerzeichen
+07670 s9p35 Fehlendes Leerzeichen
+07670 s9p35 Fehlendes Leerzeichen
+07670 s9p35 Fehlendes Leerzeichen
 08105 s10p13 Pleonasma erkannt
 08110 s15p35 Unnötige Vorsilbe
 08110 s5p37 Unnötige Vorsilbe

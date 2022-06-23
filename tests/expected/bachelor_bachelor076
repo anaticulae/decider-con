@@ -43,11 +43,11 @@
 07203 00p30 Tabelle nicht referenziert
 07203 00p74 Tabelle nicht referenziert
 07203 00p75 Tabelle nicht referenziert
-07600 p19~l2 Fehler in der Perspektive
-07600 p26~l13 Fehler in der Perspektive
-07600 p36~l0 Fehler in der Perspektive
-07600 p8~l3 Fehler in der Perspektive
-07600 p9~l5 Fehler in der Perspektive
+07600 0s3p8 Fehler in der Perspektive
+07600 0s5p9 Fehler in der Perspektive
+07600 0sp36 Fehler in der Perspektive
+07600 s13p26 Fehler in der Perspektive
+07600 s2p19 Fehler in der Perspektive
 07610 Nonep22 Satzmuster wiederholt sich
 07611 p10~l10 Satzanfang wiederholt sich
 07611 p14~l1 Satzanfang wiederholt sich
@@ -92,12 +92,12 @@
 07620 p49~l0 Einsame Zeile am Seitenanfang
 07620 p52~l0 Einsame Zeile am Seitenanfang
 07620 p6~l0 Einsame Zeile am Seitenanfang
-07625 p0~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p15~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p17~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p28~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p38~l0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p9~l0 Seitenanfang: Seite beginnt nicht mit Text
+07625 00sp0 Seitenanfang: Seite beginnt nicht mit Text
+07625 00sp9 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp15 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp17 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp28 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp38 Seitenanfang: Seite beginnt nicht mit Text
 07661 p25~l0~c32_35 Schrägstrich: Überflüssiges Leerzeichen
 07666 p50~l0~c147_161 Überflüßiges Leerzeichen
 08100 0s7p4 Umgangssprache erkannt

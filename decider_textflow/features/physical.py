@@ -85,7 +85,10 @@ def check_7670_missing_space_after_value(linter: callable, driver):
             continue
         for finding in matched:
             unit, value = finding['unit'], finding['value']
-            location = iamraw.RangedLocation(page=page, line=line)
+            location = iamraw.Location.from_sentence(
+                sentence=line,
+                page=page,
+            )
             linter(location=location, unit=unit, value=value)
 
 
