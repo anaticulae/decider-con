@@ -73,7 +73,7 @@ def test_master75_docref(testdir, monkeypatch):
         monkeypatch,
         msgids={7200, 7202},
     )
-    assert not findings  # may changes later
+    assert findings  # may changes later
 
 
 def test_bachelor56page15_tableref(testdir, monkeypatch):

@@ -61,55 +61,28 @@
 07011 s9p34 Satzende vor Gleichung anpassen
 07011 s9p44 Satzende vor Gleichung anpassen
 07110 s14p11 Zitat zu lang
+07200 s1p37 Referenz nicht gefunden
+07200 s2p37 Referenz nicht gefunden
 07201 00p18 Abbildung nicht referenziert
 07201 00p21 Abbildung nicht referenziert
 07201 00p21 Abbildung nicht referenziert
 07201 00p21 Abbildung nicht referenziert
-07201 00p22 Abbildung nicht referenziert
 07201 00p23 Abbildung nicht referenziert
 07201 00p23 Abbildung nicht referenziert
 07201 00p23 Abbildung nicht referenziert
-07201 00p24 Abbildung nicht referenziert
-07201 00p25 Abbildung nicht referenziert
-07201 00p25 Abbildung nicht referenziert
-07201 00p25 Abbildung nicht referenziert
-07201 00p26 Abbildung nicht referenziert
-07201 00p27 Abbildung nicht referenziert
 07201 00p28 Abbildung nicht referenziert
-07201 00p28 Abbildung nicht referenziert
-07201 00p29 Abbildung nicht referenziert
-07201 00p30 Abbildung nicht referenziert
-07201 00p30 Abbildung nicht referenziert
-07201 00p31 Abbildung nicht referenziert
-07201 00p32 Abbildung nicht referenziert
-07201 00p33 Abbildung nicht referenziert
 07201 00p34 Abbildung nicht referenziert
-07201 00p35 Abbildung nicht referenziert
 07201 00p37 Abbildung nicht referenziert
-07201 00p38 Abbildung nicht referenziert
-07201 00p39 Abbildung nicht referenziert
-07201 00p41 Abbildung nicht referenziert
 07201 00p43 Abbildung nicht referenziert
 07201 00p43 Abbildung nicht referenziert
 07201 00p45 Abbildung nicht referenziert
-07201 00p46 Abbildung nicht referenziert
-07201 00p49 Abbildung nicht referenziert
-07201 00p52 Abbildung nicht referenziert
-07201 00p53 Abbildung nicht referenziert
 07201 00p55 Abbildung nicht referenziert
-07201 00p56 Abbildung nicht referenziert
-07201 00p57 Abbildung nicht referenziert
 07201 00p58 Abbildung nicht referenziert
-07201 00p61 Abbildung nicht referenziert
-07201 00p61 Abbildung nicht referenziert
-07201 00p62 Abbildung nicht referenziert
-07201 00p64 Abbildung nicht referenziert
-07201 00p64 Abbildung nicht referenziert
-07201 00p65 Abbildung nicht referenziert
-07201 00p66 Abbildung nicht referenziert
+07230 00p39 Rückwärtsreferenz Abbildung
 07230 00p42 Rückwärtsreferenz Abbildung
 07230 00p42 Rückwärtsreferenz Abbildung
 07230 00p58 Rückwärtsreferenz Abbildung
+07230 00p59 Rückwärtsreferenz Abbildung
 07600 0sp46 Fehler in der Perspektive
 07600 0sp56 Fehler in der Perspektive
 07600 s1p20 Fehler in der Perspektive
