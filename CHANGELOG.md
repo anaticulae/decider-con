@@ -2,6 +2,15 @@
 
 Every noteable change is logged here.
 
+## v0.7.0
+
+### Feature
+
+* add sentence location (50594854ac2e)
+* shrink regex (c2bf45286761)
+* mark improvement (be102d225f7f)
+* add dynamic matcher (baf779c609db)
+
 ## v0.6.0
 
 ### Feature
