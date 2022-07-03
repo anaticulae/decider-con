@@ -19,3 +19,12 @@ def badwords(path: str, prefix: str = '') -> str:
         'badwords_user',
         prefix,
     )
+
+
+def spelling(path: str, prefix: str = '') -> str:
+    return utila.pathconnector(
+        path,
+        decider_smarty.PROCESS,
+        'spelling_user',
+        prefix,
+    )

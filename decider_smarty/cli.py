@@ -26,6 +26,13 @@ WORKPLAN = [
         ],
         output=protocol.ResultDefault,
     ),
+    utila.create_step(
+        'spelling',
+        inputs=[
+            utila.ResultFile('smarty', 'spelling_hyphen'),
+        ],
+        output=protocol.ResultDefault,
+    ),
 ]
 
 
