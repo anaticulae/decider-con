@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.8.1
+
+### Fix
+
+* convert Marks to str (93345a287a25)
+
 ## v0.8.0
 
 ### Feature
