@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.8.0
+
+### Feature
+
+* add spelling step (0fd9781955b1)
+
 ## v0.7.0
 
 ### Feature
