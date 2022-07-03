@@ -7,6 +7,7 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
+import german
 import protocol
 
 import decider_smarty.driver
@@ -43,7 +44,8 @@ oder korrigieren Sie die anderen Schreibweisen.
 
 def check_8200_hyphen_missing(linter: callable, driver):
     for error in driver.hyphen:
-        rawword = '; '.join(' '.join(item) for item in error.docref.raw)
+        converted = [german.token_plain(item) for item in error.docref.raw]
+        rawword = '; '.join(converted)
         location = decider_smarty.features.badwords.create_location(error)
         linter(
             rawword=rawword,
