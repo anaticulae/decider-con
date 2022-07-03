@@ -18,6 +18,7 @@ import tests.smarty_
 
 def decide_smarty_badwords(source, pages, testdir, monkeypatch, msgid=None):
     utilatest.fixture_requires(source)
+    source = power.link(source)
     tests.smarty_.run(
         f'--badwords -i {source} --pages={pages}',
         monkeypatch=monkeypatch,
@@ -28,11 +29,9 @@ def decide_smarty_badwords(source, pages, testdir, monkeypatch, msgid=None):
 
 
 def test_smarty_badwords_bachelor128_non_formal_speach(testdir, monkeypatch):
-    source = power.link(power.BACHELOR128_PDF)
-    pages = ':'
     findings = decide_smarty_badwords(
-        source,
-        pages,
+        power.BACHELOR128_PDF,
+        ':',
         testdir,
         monkeypatch,
         msgid=8100,
@@ -42,11 +41,9 @@ def test_smarty_badwords_bachelor128_non_formal_speach(testdir, monkeypatch):
 
 @pytest.mark.xfail(reason='broken test, overlapped by figures?')
 def test_smarty_badwords_bachelor128_pleonasms(testdir, monkeypatch):
-    source = power.link(power.BACHELOR128_PDF)
-    pages = ':'
     findings = decide_smarty_badwords(
-        source,
-        pages,
+        power.BACHELOR128_PDF,
+        ':',
         testdir,
         monkeypatch,
         msgid=8105,
@@ -55,11 +52,9 @@ def test_smarty_badwords_bachelor128_pleonasms(testdir, monkeypatch):
 
 
 def test_smarty_badwords_bachelor128_not_required_prefix(testdir, monkeypatch):
-    source = power.link(power.BACHELOR128_PDF)
-    pages = ':'
     findings = decide_smarty_badwords(
-        source,
-        pages,
+        power.BACHELOR128_PDF,
+        ':',
         testdir,
         monkeypatch,
         msgid=8110,

@@ -20,11 +20,11 @@ import tests.textflow_
 
 def run_paragraph_length_linter(source, pages, testdir, monkeypatch):
     utilatest.fixture_requires(source)
+    source = power.link(source)
     pages = utila.from_tuple(pages, separator=',')
     cmd = f'-i={source} --paragraph --pages={pages}'
-
+    # run textflow
     tests.textflow_.run(cmd, monkeypatch=monkeypatch)
-
     result = serializeraw.load_findings(
         decider_textflow.path.paragraph_linted(testdir.tmpdir),
         7630,
@@ -38,14 +38,13 @@ def run_paragraph_length_linter(source, pages, testdir, monkeypatch):
     pytest.param(power.MASTER116_PDF, (18,), 0, id='master116'),
 ])
 def test_paragraph_too_short(source, pages, expected, testdir, monkeypatch):
-    source = power.link(source)
     result = run_paragraph_length_linter(source, pages, testdir, monkeypatch)
     assert len(result) == expected, str(result)  # TODO: VALIDATE LATER
 
 
 @utilatest.longrun
 def test_list_no_paragraph_too_short(testdir, monkeypatch):
-    source = power.link(power.MASTER072_PDF)
+    source = power.MASTER072_PDF
     pages = (7,)
     result = run_paragraph_length_linter(source, pages, testdir, monkeypatch)
     result = [item for item in result if item.location.page == 7]
