@@ -224,6 +224,8 @@ def check_7611_sentence_start(linter: callable, driver):
                 continue
             first = group[0]
             sentence_start = ' '.join(first[0])
+            # Sentence is nearly always upper case
+            sentence_start = sentence_start[0].upper() + sentence_start[1:]
             location = iamraw.RangedLocation(page=first[1], line=first[2])
             linter(
                 sentence_start=sentence_start,
