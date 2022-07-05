@@ -120,6 +120,10 @@ def check_7625_empty_start(linter: callable, driver):
     start, _ = startend
     for page, content in text:
         navigator = utila.select_page(driver.navigators, page=page)
+        if navigator is None:
+            # may a headline error
+            utila.error(f'missing navigator: {page}')
+            continue
         if valid_pagestart(
                 content,
                 start=start,
