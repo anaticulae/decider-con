@@ -1,0 +1,36 @@
+06500 000p1 Einleitung unvollständig
+06500 000p1 Einleitung unvollständig
+07005 0s8p1 Satzende vor Aufzählung fehlt
+07005 0s9p8 Satzende vor Aufzählung fehlt
+07005 s11p5 Satzende vor Aufzählung fehlt
+07005 s14p4 Satzende vor Aufzählung fehlt
+07005 s14p5 Satzende vor Aufzählung fehlt
+07005 s22p6 Satzende vor Aufzählung fehlt
+07005 s23p10 Satzende vor Aufzählung fehlt
+07005 s31p12 Satzende vor Aufzählung fehlt
+07610 Nonep2 Satzmuster wiederholt sich
+07610 Nonep4 Satzmuster wiederholt sich
+07610 Nonep4 Satzmuster wiederholt sich
+07610 Nonep7 Satzmuster wiederholt sich
+07611 p12~l23 Satzanfang wiederholt sich
+07611 p1~l2 Satzanfang wiederholt sich
+07611 p3~l0 Satzanfang wiederholt sich
+07611 p3~l29 Satzanfang wiederholt sich
+07611 p9~l13 Satzanfang wiederholt sich
+07616 00p-1 Writing statistics
+07620 p6~l0 Einsame Zeile am Seitenanfang
+07630 p0_0~l18_19 Paragraph zu kurz
+07630 p0_0~l20_22 Paragraph zu kurz
+07630 p10_10~l0_1 Paragraph zu kurz
+07630 p10_10~l31_32 Paragraph zu kurz
+07630 p11_11~l34_35 Paragraph zu kurz
+07630 p12_12~l23_24 Paragraph zu kurz
+07630 p12_12~l4_6 Paragraph zu kurz
+07630 p1_1~l1_2 Paragraph zu kurz
+07630 p3_3~l31_32 Paragraph zu kurz
+07630 p3_3~l4_6 Paragraph zu kurz
+07630 p4_4~l31_32 Paragraph zu kurz
+07630 p4_4~l3_4 Paragraph zu kurz
+07630 p5_5~l22_23 Paragraph zu kurz
+07630 p6_6~l27_28 Paragraph zu kurz
+07630 p9_9~l13_15 Paragraph zu kurz

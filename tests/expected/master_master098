@@ -1,0 +1,74 @@
+06500 000p2 Einleitung unvollständig
+06500 000p2 Einleitung unvollständig
+07000 b(504.32;258.72;544.56;332.76)p49 Zu viele aufeinander folgende Trennungen
+07000 b(504.36;196.21;544.48;240.73)p3 Zu viele aufeinander folgende Trennungen
+07000 b(504.44;196.53;544.56;270.72)p8 Zu viele aufeinander folgende Trennungen
+07000 b(504.44;444.98;544.56;519.14)p9 Zu viele aufeinander folgende Trennungen
+07000 b(504.44;486.38;544.56;581.18)p60 Zu viele aufeinander folgende Trennungen
+07000 b(504.56;610.58;544.68;684.65)p9 Zu viele aufeinander folgende Trennungen
+07010 s1p50 Satzende vor Gleichung fehlt
+07011 s3p58 Satzende vor Gleichung anpassen
+07011 s4p62 Satzende vor Gleichung anpassen
+07011 s7p54 Satzende vor Gleichung anpassen
+07203 00p59 Tabelle nicht referenziert
+07203 00p63 Tabelle nicht referenziert
+07600 00sp2 Fehler in der Perspektive
+07600 0s2p5 Fehler in der Perspektive
+07600 0s2p7 Fehler in der Perspektive
+07600 0s3p9 Fehler in der Perspektive
+07600 0s6p8 Fehler in der Perspektive
+07600 0s7p7 Fehler in der Perspektive
+07600 0s8p3 Fehler in der Perspektive
+07600 0s9p3 Fehler in der Perspektive
+07600 0sp46 Fehler in der Perspektive
+07600 s11p50 Fehler in der Perspektive
+07600 s15p9 Fehler in der Perspektive
+07600 s18p57 Fehler in der Perspektive
+07600 s1p60 Fehler in der Perspektive
+07600 s2p46 Fehler in der Perspektive
+07600 s2p62 Fehler in der Perspektive
+07600 s3p45 Fehler in der Perspektive
+07600 s4p45 Fehler in der Perspektive
+07600 s4p50 Fehler in der Perspektive
+07600 s4p59 Fehler in der Perspektive
+07600 s5p43 Fehler in der Perspektive
+07600 s6p50 Fehler in der Perspektive
+07600 s7p46 Fehler in der Perspektive
+07600 s9p50 Fehler in der Perspektive
+07605 0s2p7 Satz zu lang
+07605 0sp47 Satz zu lang
+07605 0sp52 Satz zu lang
+07605 s11p2 Satz zu lang
+07610 Nonep4 Satzmuster wiederholt sich
+07611 p43~l4 Satzanfang wiederholt sich
+07611 p48~l4 Satzanfang wiederholt sich
+07611 p50~l6 Satzanfang wiederholt sich
+07611 p53~l12 Satzanfang wiederholt sich
+07611 p54~l3 Satzanfang wiederholt sich
+07611 p56~l2 Satzanfang wiederholt sich
+07611 p60~l12 Satzanfang wiederholt sich
+07611 p61~l12 Satzanfang wiederholt sich
+07611 p61~l20 Satzanfang wiederholt sich
+07611 p61~l6 Satzanfang wiederholt sich
+07611 p7~l1 Satzanfang wiederholt sich
+07611 p8~l1 Satzanfang wiederholt sich
+07616 00p-1 Writing statistics
+07620 p1~l0 Einsame Zeile am Seitenanfang
+07620 p92~l0 Einsame Zeile am Seitenanfang
+07625 0sp55 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp59 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp63 Seitenanfang: Seite beginnt nicht mit Text
+07661 p44~l0~c57_59 Schrägstrich: Überflüssiges Leerzeichen
+07661 p47~l0~c192_194 Schrägstrich: Überflüssiges Leerzeichen
+07661 p53~l0~c65_67 Schrägstrich: Überflüssiges Leerzeichen
+07661 p64~l0~c45_47 Schrägstrich: Überflüssiges Leerzeichen
+07661 p64~l0~c74_76 Schrägstrich: Überflüssiges Leerzeichen
+07661 p64~l0~c83_85 Schrägstrich: Überflüssiges Leerzeichen
+08100 s11p2 Umgangssprache erkannt
+08110 0s8p4 Unnötige Vorsilbe
+08110 s10p60 Unnötige Vorsilbe
+08110 s2p55 Unnötige Vorsilbe
+08110 s4p54 Unnötige Vorsilbe
+08110 s7p56 Unnötige Vorsilbe
+08115 s10p9 Ungenaue Formulierung erkannt
+08115 s4p47 Ungenaue Formulierung erkannt

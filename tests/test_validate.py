@@ -23,13 +23,10 @@ import tests.textflow_
 ARCHIVE = utila.join(decider_con.ROOT, 'tests/expected', exist=True)
 
 
-@pytest.mark.parametrize('source', [
-    pytest.param(power.BACHELOR063_PDF, id='bachelor063'),
-    pytest.param(power.BACHELOR076_PDF, id='bachelor076'),
-    pytest.param(power.BACHELOR090_PDF, id='bachelor090'),
-    pytest.param(power.MASTER072_PDF, id='master072'),
-    pytest.param(power.MASTER075_PDF, id='master075'),
-])
+@pytest.mark.parametrize(
+    'source',
+    utilatest.test_resources(tests.conftest.RESOURCES),
+)
 @utilatest.nightly
 def test_validate_huge(source, testdir, monkeypatch):
     utilatest.fixture_requires(source)

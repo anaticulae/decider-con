@@ -1,0 +1,57 @@
+05110 00p-1 Abkürzung wurde nicht im Text verwerdet
+05110 00p-1 Abkürzung wurde nicht im Text verwerdet
+05110 00p-1 Abkürzung wurde nicht im Text verwerdet
+05110 00p-1 Abkürzung wurde nicht im Text verwerdet
+07000 b(504.22;551.78;544.59;619.69)p12 Zu viele aufeinander folgende Trennungen
+07201 00p16 Abbildung nicht referenziert
+07230 00p18 Rückwärtsreferenz Abbildung
+07230 00p19 Rückwärtsreferenz Abbildung
+07600 s10p13 Fehler in der Perspektive
+07600 s17p7 Fehler in der Perspektive
+07600 s19p7 Fehler in der Perspektive
+07600 s1p14 Fehler in der Perspektive
+07600 s3p14 Fehler in der Perspektive
+07600 s7p14 Fehler in der Perspektive
+07605 s11p10 Satz zu lang
+07605 s7p16 Satz zu lang
+07611 p11~l11 Satzanfang wiederholt sich
+07611 p11~l14 Satzanfang wiederholt sich
+07611 p11~l5 Satzanfang wiederholt sich
+07611 p16~l1 Satzanfang wiederholt sich
+07611 p16~l5 Satzanfang wiederholt sich
+07611 p16~l9 Satzanfang wiederholt sich
+07611 p17~l10 Satzanfang wiederholt sich
+07616 00p-1 Writing statistics
+07620 p12~l0 Einsame Zeile am Seitenanfang
+07620 p3~l0 Einsame Zeile am Seitenanfang
+07620 p5~l0 Einsame Zeile am Seitenanfang
+07625 0sp18 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp19 Seitenanfang: Seite beginnt nicht mit Text
+07630 p10_10~l22_23 Paragraph zu kurz
+07630 p16_16~l19_20 Paragraph zu kurz
+07630 p1_1~l7_8 Paragraph zu kurz
+07630 p2_2~l10_11 Paragraph zu kurz
+07630 p2_2~l13_15 Paragraph zu kurz
+07630 p2_2~l17_18 Paragraph zu kurz
+07630 p2_2~l2_3 Paragraph zu kurz
+07630 p2_2~l7_8 Paragraph zu kurz
+07630 p5_5~l21_22 Paragraph zu kurz
+07650 p11~l0~c14_16 Unzuläßiges Leerzeichen vor Komma
+07650 p15~l0~c63_65 Unzuläßiges Leerzeichen vor Komma
+07650 p15~l0~c69_71 Unzuläßiges Leerzeichen vor Komma
+07650 p17~l0~c95_97 Unzuläßiges Leerzeichen vor Komma
+07654 p11~l0~c21_23 Leerzeichen vor Semikolon
+07654 p12~l0~c123_125 Leerzeichen vor Semikolon
+07654 p14~l0~c158_160 Leerzeichen vor Semikolon
+07654 p7~l0~c21_23 Leerzeichen vor Semikolon
+07654 p8~l0~c307_309 Leerzeichen vor Semikolon
+07654 p9~l0~c252_254 Leerzeichen vor Semikolon
+07661 p12~l0~c43_46 Schrägstrich: Überflüssiges Leerzeichen
+07661 p14~l0~c110_113 Schrägstrich: Überflüssiges Leerzeichen
+07661 p17~l0~c54_56 Schrägstrich: Überflüssiges Leerzeichen
+07661 p17~l0~c76_78 Schrägstrich: Überflüssiges Leerzeichen
+07661 p19~l0~c25_28 Schrägstrich: Überflüssiges Leerzeichen
+07670 s6p16 Fehlendes Leerzeichen
+08110 s2p13 Unnötige Vorsilbe
+08110 s7p14 Unnötige Vorsilbe
+08110 s9p11 Unnötige Vorsilbe

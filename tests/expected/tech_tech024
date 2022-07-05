@@ -1,0 +1,47 @@
+06500 000p2 Einleitung unvollständig
+06500 000p2 Einleitung unvollständig
+07005 0s5p4 Satzende vor Aufzählung fehlt
+07005 0s9p4 Satzende vor Aufzählung fehlt
+07006 0s1p6 Satzende vor Aufzählung anpassen
+07006 s12p2 Satzende vor Aufzählung anpassen
+07201 000p2 Abbildung nicht referenziert
+07201 000p5 Abbildung nicht referenziert
+07201 000p6 Abbildung nicht referenziert
+07201 000p6 Abbildung nicht referenziert
+07201 000p6 Abbildung nicht referenziert
+07201 000p8 Abbildung nicht referenziert
+07201 000p8 Abbildung nicht referenziert
+07201 000p9 Abbildung nicht referenziert
+07201 00p10 Abbildung nicht referenziert
+07201 00p11 Abbildung nicht referenziert
+07201 00p12 Abbildung nicht referenziert
+07201 00p12 Abbildung nicht referenziert
+07201 00p13 Abbildung nicht referenziert
+07201 00p13 Abbildung nicht referenziert
+07201 00p14 Abbildung nicht referenziert
+07201 00p14 Abbildung nicht referenziert
+07203 000p6 Tabelle nicht referenziert
+07203 000p6 Tabelle nicht referenziert
+07203 000p7 Tabelle nicht referenziert
+07610 Nonep11 Satzmuster wiederholt sich
+07610 Nonep11 Satzmuster wiederholt sich
+07610 Nonep11 Satzmuster wiederholt sich
+07611 p11~l6 Satzanfang wiederholt sich
+07611 p12~l5 Satzanfang wiederholt sich
+07611 p14~l3 Satzanfang wiederholt sich
+07611 p2~l8 Satzanfang wiederholt sich
+07611 p4~l15 Satzanfang wiederholt sich
+07616 00p-1 Writing statistics
+07620 p4~l0 Einsame Zeile am Seitenanfang
+07625 00sp0 Seitenanfang: Seite beginnt nicht mit Text
+07625 00sp5 Seitenanfang: Seite beginnt nicht mit Text
+07625 00sp6 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp11 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp12 Seitenanfang: Seite beginnt nicht mit Text
+07630 p11_11~l1_2 Paragraph zu kurz
+07630 p3_3~l16_18 Paragraph zu kurz
+07630 p3_3~l20_22 Paragraph zu kurz
+07630 p7_7~l17_18 Paragraph zu kurz
+07650 p12~l0~c47_49 Unzuläßiges Leerzeichen vor Komma
+07651 p12~l0~c33_38 Fehlendes Leerzeichen nach Komma
+07661 p2~l0~c63_66 Schrägstrich: Überflüssiges Leerzeichen

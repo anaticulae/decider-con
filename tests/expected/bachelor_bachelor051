@@ -1,0 +1,48 @@
+07000 b(490.27;182.38;530.39;256.54)p24 Zu viele aufeinander folgende Trennungen
+07000 b(490.27;237.58;530.39;311.74)p25 Zu viele aufeinander folgende Trennungen
+07000 b(490.27;337.54;530.39;411.58)p3 Zu viele aufeinander folgende Trennungen
+07000 b(490.27;472.18;530.39;566.98)p17 Zu viele aufeinander folgende Trennungen
+07000 b(490.27;544.54;530.27;618.58)p3 Zu viele aufeinander folgende Trennungen
+07005 s21p27 Satzende vor Aufzählung fehlt
+07201 00p12 Abbildung nicht referenziert
+07203 00p21 Tabelle nicht referenziert
+07203 00p22 Tabelle nicht referenziert
+07203 00p25 Tabelle nicht referenziert
+07203 00p25 Tabelle nicht referenziert
+07203 00p29 Tabelle nicht referenziert
+07231 00p29 Rückwärtsreferenz Tabelle
+07600 s6p27 Fehler in der Perspektive
+07600 s8p27 Fehler in der Perspektive
+07605 s12p27 Satz zu lang
+07605 s2p19 Satz zu lang
+07610 Nonep27 Satzmuster wiederholt sich
+07610 Nonep27 Satzmuster wiederholt sich
+07611 p20~l3 Satzanfang wiederholt sich
+07611 p22~l4 Satzanfang wiederholt sich
+07611 p23~l12 Satzanfang wiederholt sich
+07611 p24~l11 Satzanfang wiederholt sich
+07611 p24~l2 Satzanfang wiederholt sich
+07611 p24~l6 Satzanfang wiederholt sich
+07611 p25~l1 Satzanfang wiederholt sich
+07611 p26~l0 Satzanfang wiederholt sich
+07611 p27~l20 Satzanfang wiederholt sich
+07616 00p-1 Writing statistics
+07620 p1~l0 Einsame Zeile am Seitenanfang
+07620 p3~l0 Einsame Zeile am Seitenanfang
+07620 p7~l0 Einsame Zeile am Seitenanfang
+07625 0sp12 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp25 Seitenanfang: Seite beginnt nicht mit Text
+07625 0sp29 Seitenanfang: Seite beginnt nicht mit Text
+07630 p0_0~l7_8 Paragraph zu kurz
+07630 p13_13~l13_14 Paragraph zu kurz
+07630 p19_19~l11_13 Paragraph zu kurz
+07630 p21_21~l19_22 Paragraph zu kurz
+07630 p4_4~l11_13 Paragraph zu kurz
+07630 p6_6~l2_3 Paragraph zu kurz
+07630 p6_6~l32_34 Paragraph zu kurz
+08100 s15p26 Umgangssprache erkannt
+08100 s1p21 Umgangssprache erkannt
+08115 s11p23 Ungenaue Formulierung erkannt
+08115 s14p26 Ungenaue Formulierung erkannt
+08115 s2p26 Ungenaue Formulierung erkannt
+08120 s9p26 Adjektiv verbessern
