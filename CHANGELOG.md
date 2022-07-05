@@ -2,6 +2,17 @@
 
 Every noteable change is logged here.
 
+## v0.9.0
+
+### Feature
+
+* add comparative als linter (be6cf5d8fd44)
+* add another comparative linter (a6a5ca2af418)
+
+### Fix
+
+* do not fail on bad parsed headlines (4af0b1555c62)
+
 ## v0.8.1
 
 ### Fix
