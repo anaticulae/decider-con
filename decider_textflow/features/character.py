@@ -213,6 +213,40 @@ def check_7656_missing_dots_between_brackets(linter: callable, driver):
     check_character(linter, driver, MISSING_DOTS_BETWEEN_ANGLE_BRACKETS)
 
 
+SOLUTION_7659 = """\
+Falscher Komparativ
+
+**{{text}}**.
+
+Siehe Duden:
+
+* 5-mal
+* 4-silbig
+* 100-prozentig
+* 1-zeilig
+
+{darstellung/satzzeichen#divis}
+"""
+
+NUMBER_MAL = utila.compiles(r"""
+    \d{1,3}
+    [ ]?
+    [-]?
+    [ ]?
+    [x]
+    [ ]{1,3}
+    (wenig|weniger|mehr)
+""")
+
+
+def check_7659_invalid_comparativ_mal(linter: callable, driver):
+    """\
+    >>> message('7x weniger Impressionen pro Follower und 11 x mehr Klicks', 7659)
+    2
+    """
+    check_character(linter, driver, NUMBER_MAL)
+
+
 SOLUTION_7660 = """\
 Bindestrich zwischen Ziffer und 'mal' fehlt.
 
