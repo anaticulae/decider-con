@@ -213,6 +213,33 @@ def check_7656_missing_dots_between_brackets(linter: callable, driver):
     check_character(linter, driver, MISSING_DOTS_BETWEEN_ANGLE_BRACKETS)
 
 
+SOLUTION_7658 = """\
+Falscher Komparativ
+
+**{{text}}**.
+
+TODO: ADD DOCS
+"""
+
+COMPARATIV_ALS = utila.compiles(r"""
+    (er)
+    [ ]{1,3}
+    (als)
+    [ ]{1,3}
+    (wie)
+    [ ]{1,3}
+""")
+
+
+def check_7658_invalid_comparativ_als(linter: callable, driver):
+    """\
+    >>> message('ich bin größer als wie du', 7658)
+    1
+    """
+    # TODO: MOVE TO SMARTY?
+    check_character(linter, driver, COMPARATIV_ALS)
+
+
 SOLUTION_7659 = """\
 Falscher Komparativ
 
