@@ -7,6 +7,8 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
+import collections
+
 import protocol
 import serializeraw
 import utila
@@ -56,3 +58,40 @@ def create_spelling(hyphen: str, guess: str, pages: tuple):
         guess=guess,
     )
     return result
+
+
+class TokenInside:
+    """\
+    >>> ti = TokenInside()
+    >>> ti.add(5,4,3)
+    >>> ti.add(6,2,6)
+    >>> ti.contains(6,2,6)
+    True
+    >>> ti.contains(0,2,6)
+    False
+    """
+
+    def __init__(self):
+        self.pages = collections.defaultdict(dict)
+
+    def add(self, page, sentence, token):
+        try:
+            self.pages[page][sentence].add(token)
+        except KeyError:
+            self.pages[page][sentence] = {token}
+
+    def contains(self, page, sentence, token) -> bool:
+        try:
+            return token in self.pages[page][sentence]
+        except KeyError:
+            return False
+
+
+def create_tokeninside(hyphens) -> TokenInside:
+    overlapping = TokenInside()
+    for hyphen in hyphens:
+        docref = hyphen.docref
+        for item in docref.marked:
+            for token in utila.rlist(*item):
+                overlapping.add(docref.page, docref.sentence, token)
+    return overlapping
