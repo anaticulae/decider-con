@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.11.0
+
+### Feature
+
+* use new headlines as result (266aee37a7c9)
+
 ## v0.10.0
 
 ### Feature
