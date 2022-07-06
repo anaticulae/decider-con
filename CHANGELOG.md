@@ -2,6 +2,14 @@
 
 Every noteable change is logged here.
 
+## v0.10.0
+
+### Feature
+
+* inform about using hyphen (e7e54498f2f2)
+* add page, sentence, token-checker (a56f46a76acb)
+* add guess linter (c353215c52be)
+
 ## v0.9.0
 
 ### Feature
