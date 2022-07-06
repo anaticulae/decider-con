@@ -9,10 +9,10 @@
 
 import typing
 
-import iamraw
 import protocol
 
 import decider_smarty.driver
+import decider_smarty.utils
 
 
 def work(
@@ -50,7 +50,7 @@ förmlichere Formulierung.
 
 def check_8100_non_formal_speach(linter: callable, driver):
     for error in driver.phrases:
-        location = create_location(error)
+        location = decider_smarty.utils.create_location(error)
         better = f'({error.replacement})' if error.replacement else ''
         linter(location=location, phrase=error.raw, better=better)
 
@@ -67,7 +67,7 @@ Wesentliche **{{better}}**.
 
 def check_8105_pleonasms_detected(linter: callable, driver):
     for error in driver.pleonasma:
-        location = create_location(error)
+        location = decider_smarty.utils.create_location(error)
         better = f'({error.replacement})' if error.replacement else ''
         linter(location=location, phrase=error.raw, better=better)
 
@@ -84,7 +84,7 @@ TODO
 
 def check_8110_not_required_prefix(linter: callable, driver):
     for error in driver.reduce:
-        location = create_location(error)
+        location = decider_smarty.utils.create_location(error)
         better = f'({error.replacement})' if error.replacement else ''
         linter(location=location, phrase=error.raw, better=better)
 
@@ -99,7 +99,7 @@ Die Formulierung **{{phrase}}** ist sehr unkonret. Besser ist **{{better}}**. \
 
 def check_8115_required_improvement(linter: callable, driver):
     for error in driver.improvement:
-        location = create_location(error)
+        location = decider_smarty.utils.create_location(error)
         better = f'({error.replacement})' if error.replacement else '???'
         hint = f'({error.hint})' if error.hint else ''
         linter(
@@ -119,18 +119,10 @@ Die Formulierung **{{phrase}}** ist sehr unkonret. Besser ist **{{better}}**.
 
 def check_8120_better_adjective(linter: callable, driver):
     for error in driver.avoid:
-        location = create_location(error)
+        location = decider_smarty.utils.create_location(error)
         better = f'({error.replacement})' if error.replacement else '???'
         linter(
             location=location,
             phrase=error.raw,
             better=better,
         )
-
-
-def create_location(error):
-    location = iamraw.Location.from_sentence(
-        page=error.docref.page,
-        sentence=error.docref.sentence,
-    )
-    return location

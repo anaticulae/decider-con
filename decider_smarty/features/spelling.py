@@ -11,11 +11,11 @@ import german
 import protocol
 
 import decider_smarty.driver
-import decider_smarty.features.badwords
+import decider_smarty.utils
 
 
 def work(hyphen: str, guess: str, pages: tuple = None) -> protocol.ResultType:
-    driver = create_driver(
+    driver = decider_smarty.driver.create_spelling(
         hyphen,
         guess,
         pages=pages,
@@ -23,20 +23,6 @@ def work(hyphen: str, guess: str, pages: tuple = None) -> protocol.ResultType:
     result = protocol.run(
         modulename=__name__,
         driver=driver,
-    )
-    return result
-
-
-def create_driver(hyphen: str, guess: str, pages: tuple):
-    hyphen = decider_smarty.driver.load_textadvice(hyphen, pages)
-    if not hyphen:
-        hyphen = []
-    guess = decider_smarty.driver.load_textadvice(guess, pages)
-    if not guess:
-        guess = []
-    result = protocol.driver(
-        hyphen=hyphen,
-        guess=guess,
     )
     return result
 
@@ -54,7 +40,7 @@ def check_8200_hyphen_missing(linter: callable, driver):
     for error in driver.hyphen:
         converted = [german.token_plain(item) for item in error.docref.raw]
         rawword = '; '.join(converted)
-        location = decider_smarty.features.badwords.create_location(error)
+        location = decider_smarty.utils.create_location(error)
         linter(
             rawword=rawword,
             location=location,

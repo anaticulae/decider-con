@@ -42,3 +42,17 @@ def load_textadvice(path: str, pages: tuple = None):
         return None
     result = serializeraw.load_textadvices(path, pages=pages)
     return result
+
+
+def create_spelling(hyphen: str, guess: str, pages: tuple):
+    hyphen = load_textadvice(hyphen, pages)
+    if not hyphen:
+        hyphen = []
+    guess = load_textadvice(guess, pages)
+    if not guess:
+        guess = []
+    result = protocol.driver(
+        hyphen=hyphen,
+        guess=guess,
+    )
+    return result
