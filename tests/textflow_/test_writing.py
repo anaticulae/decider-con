@@ -51,6 +51,7 @@ den Medien als Folge einer Individualisierung und als Ersatz für die verlorene 
 Bestätigung aus einem Kollektiv, dem man angehörte, z.B."""
 
 
+@utilatest.longrun
 def test_master72_merge_token_correctly(testdir, monkeypatch):
     """Do not detect errors in perspective inside quotations."""
     source = power.MASTER072_PDF

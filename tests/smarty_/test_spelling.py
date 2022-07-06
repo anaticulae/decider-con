@@ -27,6 +27,7 @@ def decide_smarty_spelling(source, pages, testdir, monkeypatch, msgid=None):
     return findings
 
 
+@utilatest.longrun
 def test_smarty_spelling_hyphen(testdir, monkeypatch):
     findings = decide_smarty_spelling(
         power.BACHELOR077_PDF,

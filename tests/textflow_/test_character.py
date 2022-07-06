@@ -34,6 +34,7 @@ def decider_textflow_character(
     return findings
 
 
+@utilatest.longrun
 def test_textflow_character_space_before_comma(testdir, monkeypatch):
     findings = decider_textflow_character(
         power.BACHELOR090_PDF,

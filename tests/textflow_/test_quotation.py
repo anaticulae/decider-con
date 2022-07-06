@@ -26,6 +26,7 @@ def run_quotation_linter(source, pages, testdir, monkeypatch):
     return result
 
 
+@utilatest.longrun
 def test_home18_quotation_start_with_ellipsis(testdir, monkeypatch):
     source = power.link(power.HOME018_PDF)
     result = run_quotation_linter(source, (7,), testdir, monkeypatch)
