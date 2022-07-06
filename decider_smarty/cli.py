@@ -30,6 +30,7 @@ WORKPLAN = [
         'spelling',
         inputs=[
             utila.ResultFile('smarty', 'spelling_hyphen'),
+            utila.ResultFile('smarty', 'spelling_guess'),
         ],
         output=protocol.ResultDefault,
     ),

@@ -14,9 +14,10 @@ import decider_smarty.driver
 import decider_smarty.features.badwords
 
 
-def work(hyphen: str, pages: tuple = None) -> protocol.ResultType:
+def work(hyphen: str, guess: str, pages: tuple = None) -> protocol.ResultType:
     driver = create_driver(
         hyphen,
+        guess,
         pages=pages,
     )
     result = protocol.run(
@@ -26,11 +27,18 @@ def work(hyphen: str, pages: tuple = None) -> protocol.ResultType:
     return result
 
 
-def create_driver(hyphen, pages: tuple):
+def create_driver(hyphen: str, guess: str, pages: tuple):
     hyphen = decider_smarty.driver.load_textadvice(hyphen, pages)
     if not hyphen:
         hyphen = []
-    return protocol.driver(hyphen=hyphen)
+    guess = decider_smarty.driver.load_textadvice(guess, pages)
+    if not guess:
+        guess = []
+    result = protocol.driver(
+        hyphen=hyphen,
+        guess=guess,
+    )
+    return result
 
 
 SOLUTION_8200 = """\
