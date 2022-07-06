@@ -45,3 +45,38 @@ def check_8200_hyphen_missing(linter: callable, driver):
             rawword=rawword,
             location=location,
         )
+
+
+SOLUTION_8205 = """\
+Wortverbindung empfohlen
+
+**{{rawword}}** überlegen Sie sich ob Bindestriche hier notwendig sind.
+
+TODO: SIEHE DUDEN
+"""
+
+
+def check_8205_try_hyphen(linter: callable, driver):
+    inside = decider_smarty.driver.create_tokeninside(driver.hyphen)
+    for error in driver.guess:
+        docref = error.docref
+        dones = [
+            any(
+                inside.contains(docref.page, docref.sentence, token)
+                for token in tokens)
+            for tokens in docref.marked
+        ]
+        converted = [
+            german.token_plain(item)
+            for item, skip in zip(error.docref.raw, dones)
+            if not skip
+        ]
+        if not converted:
+            # all words are already markes as hyphen error
+            continue
+        rawword = '; '.join(converted)
+        location = decider_smarty.utils.create_location(error)
+        linter(
+            rawword=rawword,
+            location=location,
+        )
