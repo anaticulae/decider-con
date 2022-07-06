@@ -14,14 +14,6 @@ import decider_textflow
 
 DESCRIPTION = ''
 
-CONTENT_INPUT = [
-    utila.ResultFile('headlines', 'result_result'),
-    utila.ResultFile('rawmaker', 'oneline_text_text'),
-    utila.ResultFile('rawmaker', 'oneline_text_positions'),
-    utila.ResultFile('rawmaker', 'border_pages'),
-    utila.ResultFile('groupme', 'footer_footerheader'),
-]
-
 WORKPLAN = [
     utila.create_step(
         'abbrev',
@@ -61,7 +53,12 @@ WORKPLAN = [
     ),
     utila.create_step(
         'paragraph',
-        inputs=CONTENT_INPUT + [
+        inputs=[
+            utila.ResultFile('headlines', 'result_result'),
+            utila.ResultFile('rawmaker', 'oneline_text_text'),
+            utila.ResultFile('rawmaker', 'oneline_text_positions'),
+            utila.ResultFile('rawmaker', 'border_pages'),
+            utila.ResultFile('groupme', 'footer_footerheader'),
             utila.ResultFile('doctextstyle', 'textstyle'),
             utila.ResultFile('magic', 'content_content'),
         ],
@@ -69,7 +66,12 @@ WORKPLAN = [
     ),
     utila.create_step(
         'physical',
-        inputs=CONTENT_INPUT + [
+        inputs=[
+            utila.ResultFile('headlines', 'result_result'),
+            utila.ResultFile('rawmaker', 'oneline_text_text'),
+            utila.ResultFile('rawmaker', 'oneline_text_positions'),
+            utila.ResultFile('rawmaker', 'border_pages'),
+            utila.ResultFile('groupme', 'footer_footerheader'),
             utila.ResultFile('magic', 'content_content'),
         ],
         output=protocol.ResultDefault,
@@ -83,14 +85,24 @@ WORKPLAN = [
     ),
     utila.create_step(
         'startend',
-        inputs=CONTENT_INPUT + [
+        inputs=[
+            utila.ResultFile('headlines', 'result_result'),
+            utila.ResultFile('rawmaker', 'oneline_text_text'),
+            utila.ResultFile('rawmaker', 'oneline_text_positions'),
+            utila.ResultFile('rawmaker', 'border_pages'),
+            utila.ResultFile('groupme', 'footer_footerheader'),
             utila.ResultFile('magic', 'content_content'),
         ],
         output=protocol.ResultDefault,
     ),
     utila.create_step(
         'writing',
-        inputs=CONTENT_INPUT + [
+        inputs=[
+            utila.ResultFile('headlines', 'result_result'),
+            utila.ResultFile('rawmaker', 'oneline_text_text'),
+            utila.ResultFile('rawmaker', 'oneline_text_positions'),
+            utila.ResultFile('rawmaker', 'border_pages'),
+            utila.ResultFile('groupme', 'footer_footerheader'),
             utila.ResultFile('words', 'sentences_sentences'),
             utila.ResultFile('groupme', 'pagenumbers_magic'),
         ],
@@ -101,7 +113,10 @@ WORKPLAN = [
 
 def main():
     root, features = decider_textflow.ROOT, 'decider_textflow.features'
-    hook = protocol.integrate(root=root, features=features)
+    hook = protocol.integrate(
+        root=root,
+        features=features,
+    )
     utila.featurepack(
         workplan=WORKPLAN,
         root=root,
