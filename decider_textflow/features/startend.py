@@ -77,6 +77,9 @@ def check_7620_lonely_page_start(linter: callable, driver):  # pylint:disable=R1
                              f'low: {driver.headlines_confidence}')
         return
     linewidth = textwidth(driver.text_chunks)
+    if linewidth is None:
+        protocol.skip_method('empty linewidth')
+        return
     text = decider_textflow.utils.page_chunks(driver.nomagic_text_chunks)
     for hurenkind in decider_textflow.startend.hurenkind.hurenkinds(
             text,
@@ -187,7 +190,9 @@ def textwidth(chunks) -> float:
         if isinstance(item, iamraw.Headline):
             continue
         result.append(width(item))
-
+    if not result:
+        utila.debug('could not determine textwidth, no text chunks collected')
+        return None
     result = utila.mode(result)
     return result
 
