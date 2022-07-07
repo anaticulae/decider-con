@@ -7,16 +7,16 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-utilatest>=0.14.0<1.0.0
+utilatest>=0.22.0<1.0.0
 
 # test data generator
-power==2.9.0
+power==2.14.1
 
-genex==0.30.0
-genref==1.3.4
+genex==0.35.5
+genref==1.3.8
 
-writers>=1.4.0<2.0.0
-reftable>=0.2.3<1.0.0
+writers>=1.5.0<2.0.0
+reftable>=0.4.0<1.0.0
 # TODO: REMOVE LATER
-sdata>=0.7.1<1.0.0
-sections>=1.21.2<2.0.0
+sdata>=0.7.4<1.0.0
+sections>=1.21.3<2.0.0

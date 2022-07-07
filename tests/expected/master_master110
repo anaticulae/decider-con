@@ -1,66 +1,66 @@
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-07005 s4p59 Satzende vor Aufzählung fehlt
-07006 s9p67 Satzende vor Aufzählung anpassen
-07010 s11p69 Satzende vor Gleichung fehlt
-07010 s13p69 Satzende vor Gleichung fehlt
-07010 s15p69 Satzende vor Gleichung fehlt
-07010 s18p33 Satzende vor Gleichung fehlt
-07010 s21p58 Satzende vor Gleichung fehlt
-07010 s25p58 Satzende vor Gleichung fehlt
-07010 s3p61 Satzende vor Gleichung fehlt
-07010 s3p66 Satzende vor Gleichung fehlt
-07010 s6p29 Satzende vor Gleichung fehlt
-07010 s6p61 Satzende vor Gleichung fehlt
-07010 s9p33 Satzende vor Gleichung fehlt
-07010 s9p55 Satzende vor Gleichung fehlt
-07010 s9p59 Satzende vor Gleichung fehlt
-07010 s9p65 Satzende vor Gleichung fehlt
-07011 s10p41 Satzende vor Gleichung anpassen
-07011 s11p58 Satzende vor Gleichung anpassen
-07011 s13p56 Satzende vor Gleichung anpassen
-07011 s16p55 Satzende vor Gleichung anpassen
-07011 s16p67 Satzende vor Gleichung anpassen
-07011 s17p58 Satzende vor Gleichung anpassen
-07011 s18p64 Satzende vor Gleichung anpassen
-07011 s27p58 Satzende vor Gleichung anpassen
-07011 s2p55 Satzende vor Gleichung anpassen
-07011 s2p59 Satzende vor Gleichung anpassen
-07011 s2p62 Satzende vor Gleichung anpassen
-07011 s4p28 Satzende vor Gleichung anpassen
-07011 s4p57 Satzende vor Gleichung anpassen
-07011 s4p62 Satzende vor Gleichung anpassen
-07011 s6p58 Satzende vor Gleichung anpassen
-07011 s6p64 Satzende vor Gleichung anpassen
-07011 s7p57 Satzende vor Gleichung anpassen
-07011 s7p67 Satzende vor Gleichung anpassen
-07011 s8p59 Satzende vor Gleichung anpassen
-07011 s9p69 Satzende vor Gleichung anpassen
-07200 0sp34 Referenz nicht gefunden
-07200 0sp41 Referenz nicht gefunden
-07200 s10p32 Referenz nicht gefunden
-07200 s16p32 Referenz nicht gefunden
-07200 s7p37 Referenz nicht gefunden
-07201 00p38 Abbildung nicht referenziert
-07201 00p44 Abbildung nicht referenziert
-07201 00p45 Abbildung nicht referenziert
-07201 00p47 Abbildung nicht referenziert
-07201 00p49 Abbildung nicht referenziert
-07201 00p50 Abbildung nicht referenziert
-07201 00p53 Abbildung nicht referenziert
-07201 00p54 Abbildung nicht referenziert
-07201 00p65 Abbildung nicht referenziert
-07201 00p66 Abbildung nicht referenziert
-07201 00p66 Abbildung nicht referenziert
-07201 00p69 Abbildung nicht referenziert
-07230 00p39 Rückwärtsreferenz Abbildung
-07600 s13p32 Fehler in der Perspektive
-07600 s14p61 Fehler in der Perspektive
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+07005 p59s4 Satzende vor Aufzählung fehlt
+07006 p67s9 Satzende vor Aufzählung anpassen
+07010 p29s6 Satzende vor Gleichung fehlt
+07010 p33s18 Satzende vor Gleichung fehlt
+07010 p33s9 Satzende vor Gleichung fehlt
+07010 p55s9 Satzende vor Gleichung fehlt
+07010 p58s21 Satzende vor Gleichung fehlt
+07010 p58s25 Satzende vor Gleichung fehlt
+07010 p59s9 Satzende vor Gleichung fehlt
+07010 p61s3 Satzende vor Gleichung fehlt
+07010 p61s6 Satzende vor Gleichung fehlt
+07010 p65s9 Satzende vor Gleichung fehlt
+07010 p66s3 Satzende vor Gleichung fehlt
+07010 p69s11 Satzende vor Gleichung fehlt
+07010 p69s13 Satzende vor Gleichung fehlt
+07010 p69s15 Satzende vor Gleichung fehlt
+07011 p28s4 Satzende vor Gleichung anpassen
+07011 p41s10 Satzende vor Gleichung anpassen
+07011 p55s16 Satzende vor Gleichung anpassen
+07011 p55s2 Satzende vor Gleichung anpassen
+07011 p56s13 Satzende vor Gleichung anpassen
+07011 p57s4 Satzende vor Gleichung anpassen
+07011 p57s7 Satzende vor Gleichung anpassen
+07011 p58s11 Satzende vor Gleichung anpassen
+07011 p58s17 Satzende vor Gleichung anpassen
+07011 p58s27 Satzende vor Gleichung anpassen
+07011 p58s6 Satzende vor Gleichung anpassen
+07011 p59s2 Satzende vor Gleichung anpassen
+07011 p59s8 Satzende vor Gleichung anpassen
+07011 p62s2 Satzende vor Gleichung anpassen
+07011 p62s4 Satzende vor Gleichung anpassen
+07011 p64s18 Satzende vor Gleichung anpassen
+07011 p64s6 Satzende vor Gleichung anpassen
+07011 p67s16 Satzende vor Gleichung anpassen
+07011 p67s7 Satzende vor Gleichung anpassen
+07011 p69s9 Satzende vor Gleichung anpassen
+07200 p32s10 Referenz nicht gefunden
+07200 p32s16 Referenz nicht gefunden
+07200 p34s0 Referenz nicht gefunden
+07200 p37s7 Referenz nicht gefunden
+07200 p41s0 Referenz nicht gefunden
+07201 p38 Abbildung nicht referenziert
+07201 p44 Abbildung nicht referenziert
+07201 p45 Abbildung nicht referenziert
+07201 p47 Abbildung nicht referenziert
+07201 p49 Abbildung nicht referenziert
+07201 p50 Abbildung nicht referenziert
+07201 p53 Abbildung nicht referenziert
+07201 p54 Abbildung nicht referenziert
+07201 p65 Abbildung nicht referenziert
+07201 p66 Abbildung nicht referenziert
+07201 p66 Abbildung nicht referenziert
+07201 p69 Abbildung nicht referenziert
+07230 p39 Rückwärtsreferenz Abbildung
+07600 p32s13 Fehler in der Perspektive
+07600 p61s14 Fehler in der Perspektive
 07611 p18~l18 Satzanfang wiederholt sich
 07611 p19~l1 Satzanfang wiederholt sich
 07611 p19~l10 Satzanfang wiederholt sich
@@ -79,96 +79,96 @@
 07611 p67~l6 Satzanfang wiederholt sich
 07611 p69~l0 Satzanfang wiederholt sich
 07611 p69~l8 Satzanfang wiederholt sich
-07616 00p-1 Writing statistics
-07625 00sp0 Seitenanfang: Seite beginnt nicht mit Text
-07625 00sp4 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp19 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp25 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp29 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp30 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp34 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp35 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp37 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp38 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp39 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp41 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp42 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp43 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp44 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp45 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp47 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp49 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp53 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp54 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp57 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp63 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp65 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp66 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp68 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp69 Seitenanfang: Seite beginnt nicht mit Text
+07616 p-1 Writing statistics
+07625 p0s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p19s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p25s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p29s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p30s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p34s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p35s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p37s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p38s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p39s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p41s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p42s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p43s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p44s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p45s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p47s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p49s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p4s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p53s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p54s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p57s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p63s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p65s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p66s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p68s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p69s0 Seitenanfang: Seite beginnt nicht mit Text
 07650 p56~l0~c89_91 Unzuläßiges Leerzeichen vor Komma
 07655 p58~l0~c11_13 Fehlendes Leerzeichen nach Semicolon
 07655 p58~l0~c21_23 Fehlendes Leerzeichen nach Semicolon
 07655 p58~l0~c27_29 Fehlendes Leerzeichen nach Semicolon
 07655 p58~l0~c2_4 Fehlendes Leerzeichen nach Semicolon
 07655 p58~l0~c63_65 Fehlendes Leerzeichen nach Semicolon
-08100 s23p20 Umgangssprache erkannt
-08100 s26p20 Umgangssprache erkannt
-08110 s5p64 Unnötige Vorsilbe
-08115 s1p22 Ungenaue Formulierung erkannt
-08115 s3p26 Ungenaue Formulierung erkannt
-08115 s9p18 Ungenaue Formulierung erkannt
-08120 s2p33 Adjektiv verbessern
-08120 s4p29 Adjektiv verbessern
-08205 0sp25 Wortverbindung empfohlen
-08205 0sp53 Wortverbindung empfohlen
-08205 0sp56 Wortverbindung empfohlen
-08205 0sp67 Wortverbindung empfohlen
-08205 s10p55 Wortverbindung empfohlen
-08205 s10p56 Wortverbindung empfohlen
-08205 s11p39 Wortverbindung empfohlen
-08205 s12p23 Wortverbindung empfohlen
-08205 s12p33 Wortverbindung empfohlen
-08205 s13p36 Wortverbindung empfohlen
-08205 s13p38 Wortverbindung empfohlen
-08205 s14p18 Wortverbindung empfohlen
-08205 s14p55 Wortverbindung empfohlen
-08205 s15p18 Wortverbindung empfohlen
-08205 s15p36 Wortverbindung empfohlen
-08205 s16p40 Wortverbindung empfohlen
-08205 s17p23 Wortverbindung empfohlen
-08205 s18p56 Wortverbindung empfohlen
-08205 s19p55 Wortverbindung empfohlen
-08205 s19p67 Wortverbindung empfohlen
-08205 s1p25 Wortverbindung empfohlen
-08205 s20p28 Wortverbindung empfohlen
-08205 s21p39 Wortverbindung empfohlen
-08205 s21p55 Wortverbindung empfohlen
-08205 s21p56 Wortverbindung empfohlen
-08205 s21p58 Wortverbindung empfohlen
-08205 s22p23 Wortverbindung empfohlen
-08205 s22p55 Wortverbindung empfohlen
-08205 s23p40 Wortverbindung empfohlen
-08205 s25p33 Wortverbindung empfohlen
-08205 s26p23 Wortverbindung empfohlen
-08205 s2p28 Wortverbindung empfohlen
-08205 s2p66 Wortverbindung empfohlen
-08205 s3p28 Wortverbindung empfohlen
-08205 s3p54 Wortverbindung empfohlen
-08205 s3p58 Wortverbindung empfohlen
-08205 s4p25 Wortverbindung empfohlen
-08205 s5p18 Wortverbindung empfohlen
-08205 s5p58 Wortverbindung empfohlen
-08205 s6p34 Wortverbindung empfohlen
-08205 s6p39 Wortverbindung empfohlen
-08205 s6p57 Wortverbindung empfohlen
-08205 s6p66 Wortverbindung empfohlen
-08205 s6p69 Wortverbindung empfohlen
-08205 s7p35 Wortverbindung empfohlen
-08205 s8p24 Wortverbindung empfohlen
-08205 s8p28 Wortverbindung empfohlen
-08205 s8p55 Wortverbindung empfohlen
-08205 s8p56 Wortverbindung empfohlen
-08205 s8p66 Wortverbindung empfohlen
-08205 s9p37 Wortverbindung empfohlen
-08205 s9p56 Wortverbindung empfohlen
+08100 p20s23 Umgangssprache erkannt
+08100 p20s26 Umgangssprache erkannt
+08110 p64s5 Unnötige Vorsilbe
+08115 p18s9 Ungenaue Formulierung erkannt
+08115 p22s1 Ungenaue Formulierung erkannt
+08115 p26s3 Ungenaue Formulierung erkannt
+08120 p29s4 Adjektiv verbessern
+08120 p33s2 Adjektiv verbessern
+08205 p18s14 Wortverbindung empfohlen
+08205 p18s15 Wortverbindung empfohlen
+08205 p18s5 Wortverbindung empfohlen
+08205 p23s12 Wortverbindung empfohlen
+08205 p23s17 Wortverbindung empfohlen
+08205 p23s22 Wortverbindung empfohlen
+08205 p23s26 Wortverbindung empfohlen
+08205 p24s8 Wortverbindung empfohlen
+08205 p25s0 Wortverbindung empfohlen
+08205 p25s1 Wortverbindung empfohlen
+08205 p25s4 Wortverbindung empfohlen
+08205 p28s2 Wortverbindung empfohlen
+08205 p28s20 Wortverbindung empfohlen
+08205 p28s3 Wortverbindung empfohlen
+08205 p28s8 Wortverbindung empfohlen
+08205 p33s12 Wortverbindung empfohlen
+08205 p33s25 Wortverbindung empfohlen
+08205 p34s6 Wortverbindung empfohlen
+08205 p35s7 Wortverbindung empfohlen
+08205 p36s13 Wortverbindung empfohlen
+08205 p36s15 Wortverbindung empfohlen
+08205 p37s9 Wortverbindung empfohlen
+08205 p38s13 Wortverbindung empfohlen
+08205 p39s11 Wortverbindung empfohlen
+08205 p39s21 Wortverbindung empfohlen
+08205 p39s6 Wortverbindung empfohlen
+08205 p40s16 Wortverbindung empfohlen
+08205 p40s23 Wortverbindung empfohlen
+08205 p53s0 Wortverbindung empfohlen
+08205 p54s3 Wortverbindung empfohlen
+08205 p55s10 Wortverbindung empfohlen
+08205 p55s14 Wortverbindung empfohlen
+08205 p55s19 Wortverbindung empfohlen
+08205 p55s21 Wortverbindung empfohlen
+08205 p55s22 Wortverbindung empfohlen
+08205 p55s8 Wortverbindung empfohlen
+08205 p56s0 Wortverbindung empfohlen
+08205 p56s10 Wortverbindung empfohlen
+08205 p56s18 Wortverbindung empfohlen
+08205 p56s21 Wortverbindung empfohlen
+08205 p56s8 Wortverbindung empfohlen
+08205 p56s9 Wortverbindung empfohlen
+08205 p57s6 Wortverbindung empfohlen
+08205 p58s21 Wortverbindung empfohlen
+08205 p58s3 Wortverbindung empfohlen
+08205 p58s5 Wortverbindung empfohlen
+08205 p66s2 Wortverbindung empfohlen
+08205 p66s6 Wortverbindung empfohlen
+08205 p66s8 Wortverbindung empfohlen
+08205 p67s0 Wortverbindung empfohlen
+08205 p67s19 Wortverbindung empfohlen
+08205 p69s6 Wortverbindung empfohlen

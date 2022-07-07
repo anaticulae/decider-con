@@ -73,9 +73,6 @@ class Evaluate(utilatest.BaseLiner):
 
 def line(finding) -> str:
     result = str(finding.msgid).zfill(5) + ' '
-    try:
-        result += finding.location.raw().zfill(5)
-    except AttributeError:
-        result += str(finding.location).zfill(5)
-    result += ' ' + finding.solution.title
+    result += str(finding.location) + ' '
+    result += finding.solution.title
     return result

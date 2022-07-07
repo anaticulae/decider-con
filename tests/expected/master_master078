@@ -1,9 +1,9 @@
-06500 000p6 Einleitung unvollständig
-06500 000p6 Einleitung unvollständig
-07006 0s3p7 Satzende vor Aufzählung anpassen
-07600 0s3p8 Fehler in der Perspektive
+06500 p6 Einleitung unvollständig
+06500 p6 Einleitung unvollständig
+07006 p7s3 Satzende vor Aufzählung anpassen
+07600 p8s3 Fehler in der Perspektive
 07611 p9~l0 Satzanfang wiederholt sich
-07616 00p-1 Writing statistics
+07616 p-1 Writing statistics
 07630 p2_2~l12_14 Paragraph zu kurz
 07630 p2_2~l16_19 Paragraph zu kurz
 07630 p2_2~l8_9 Paragraph zu kurz
@@ -13,8 +13,8 @@
 07630 p3_3~l37_38 Paragraph zu kurz
 07630 p3_3~l8_10 Paragraph zu kurz
 07630 p8_8~l2_3 Paragraph zu kurz
-08115 0s7p9 Ungenaue Formulierung erkannt
-08205 0s4p9 Wortverbindung empfohlen
-08205 s11p9 Wortverbindung empfohlen
-08205 s12p9 Wortverbindung empfohlen
-08205 s13p9 Wortverbindung empfohlen
+08115 p9s7 Ungenaue Formulierung erkannt
+08205 p9s11 Wortverbindung empfohlen
+08205 p9s12 Wortverbindung empfohlen
+08205 p9s13 Wortverbindung empfohlen
+08205 p9s4 Wortverbindung empfohlen

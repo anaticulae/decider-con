@@ -1,22 +1,22 @@
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-06500 000p8 Einleitung unvollständig
-06500 000p8 Einleitung unvollständig
-06500 000p8 Einleitung unvollständig
-07005 0s6p8 Satzende vor Aufzählung fehlt
-07005 s2p10 Satzende vor Aufzählung fehlt
-07005 s6p10 Satzende vor Aufzählung fehlt
-07201 000p9 Abbildung nicht referenziert
-07201 00p50 Abbildung nicht referenziert
-07201 00p52 Abbildung nicht referenziert
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+06500 p8 Einleitung unvollständig
+06500 p8 Einleitung unvollständig
+06500 p8 Einleitung unvollständig
+07005 p10s2 Satzende vor Aufzählung fehlt
+07005 p10s6 Satzende vor Aufzählung fehlt
+07005 p8s6 Satzende vor Aufzählung fehlt
+07201 p50 Abbildung nicht referenziert
+07201 p52 Abbildung nicht referenziert
+07201 p9 Abbildung nicht referenziert
 07611 p50~l2 Satzanfang wiederholt sich
 07611 p51~l2 Satzanfang wiederholt sich
-07616 00p-1 Writing statistics
+07616 p-1 Writing statistics
 07620 p10~l0 Einsame Zeile am Seitenanfang
 07620 p50~l0 Einsame Zeile am Seitenanfang
 07620 p54~l0 Einsame Zeile am Seitenanfang
-07625 0sp58 Seitenanfang: Seite beginnt nicht mit Text
+07625 p58s0 Seitenanfang: Seite beginnt nicht mit Text
 07630 p10_10~l14_15 Paragraph zu kurz
 07630 p10_10~l1_3 Paragraph zu kurz
 07630 p10_10~l6_7 Paragraph zu kurz
@@ -37,17 +37,17 @@
 07630 p9_9~l12_14 Paragraph zu kurz
 07630 p9_9~l17_18 Paragraph zu kurz
 07630 p9_9~l8_10 Paragraph zu kurz
-07670 s2p51 Fehlendes Leerzeichen
-07670 s3p51 Fehlendes Leerzeichen
-08205 0s2p8 Wortverbindung empfohlen
-08205 0s4p8 Wortverbindung empfohlen
-08205 0s4p9 Wortverbindung empfohlen
-08205 0s5p8 Wortverbindung empfohlen
-08205 0sp10 Wortverbindung empfohlen
-08205 0sp53 Wortverbindung empfohlen
-08205 s2p10 Wortverbindung empfohlen
-08205 s2p53 Wortverbindung empfohlen
-08205 s3p10 Wortverbindung empfohlen
-08205 s5p10 Wortverbindung empfohlen
-08205 s6p50 Wortverbindung empfohlen
-08205 s7p50 Wortverbindung empfohlen
+07670 p51s2 Fehlendes Leerzeichen
+07670 p51s3 Fehlendes Leerzeichen
+08205 p10s0 Wortverbindung empfohlen
+08205 p10s2 Wortverbindung empfohlen
+08205 p10s3 Wortverbindung empfohlen
+08205 p10s5 Wortverbindung empfohlen
+08205 p50s6 Wortverbindung empfohlen
+08205 p50s7 Wortverbindung empfohlen
+08205 p53s0 Wortverbindung empfohlen
+08205 p53s2 Wortverbindung empfohlen
+08205 p8s2 Wortverbindung empfohlen
+08205 p8s4 Wortverbindung empfohlen
+08205 p8s5 Wortverbindung empfohlen
+08205 p9s4 Wortverbindung empfohlen

@@ -1,40 +1,40 @@
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-05110 00p-1 Abkürzung wurde nicht im Text verwerdet
-06500 000p5 Einleitung unvollständig
-06500 000p5 Einleitung unvollständig
-06500 000p5 Einleitung unvollständig
-07006 0s2p9 Satzende vor Aufzählung anpassen
-07600 00sp5 Fehler in der Perspektive
-07600 00sp6 Fehler in der Perspektive
-07600 0s1p5 Fehler in der Perspektive
-07605 0s1p7 Satz zu lang
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+06500 p5 Einleitung unvollständig
+06500 p5 Einleitung unvollständig
+06500 p5 Einleitung unvollständig
+07006 p9s2 Satzende vor Aufzählung anpassen
+07600 p5s0 Fehler in der Perspektive
+07600 p5s1 Fehler in der Perspektive
+07600 p6s0 Fehler in der Perspektive
+07605 p7s1 Satz zu lang
 07611 p5~l2 Satzanfang wiederholt sich
 07611 p7~l5 Satzanfang wiederholt sich
 07611 p8~l6 Satzanfang wiederholt sich
-07616 00p-1 Writing statistics
+07616 p-1 Writing statistics
 07620 p1~l0 Einsame Zeile am Seitenanfang
 07620 p2~l0 Einsame Zeile am Seitenanfang
-07625 00sp0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p0s0 Seitenanfang: Seite beginnt nicht mit Text
 07630 p1_1~l1_3 Paragraph zu kurz
 07630 p1_1~l5_6 Paragraph zu kurz
 07630 p4_4~l3_4 Paragraph zu kurz
@@ -46,22 +46,22 @@
 07630 p8_8~l27_28 Paragraph zu kurz
 07630 p9_9~l2_4 Paragraph zu kurz
 07630 p9_9~l6_7 Paragraph zu kurz
-08110 0s1p6 Unnötige Vorsilbe
-08115 0s6p6 Ungenaue Formulierung erkannt
-08115 0s9p7 Ungenaue Formulierung erkannt
-08115 s10p6 Ungenaue Formulierung erkannt
-08115 s16p5 Ungenaue Formulierung erkannt
-08205 00sp5 Wortverbindung empfohlen
-08205 0s1p5 Wortverbindung empfohlen
-08205 0s1p6 Wortverbindung empfohlen
-08205 0s1p8 Wortverbindung empfohlen
-08205 0s2p8 Wortverbindung empfohlen
-08205 0s2p9 Wortverbindung empfohlen
-08205 0s3p8 Wortverbindung empfohlen
-08205 0s4p5 Wortverbindung empfohlen
-08205 0s4p9 Wortverbindung empfohlen
-08205 0s7p5 Wortverbindung empfohlen
-08205 0s8p8 Wortverbindung empfohlen
-08205 0s9p8 Wortverbindung empfohlen
-08205 s10p8 Wortverbindung empfohlen
-08205 s12p8 Wortverbindung empfohlen
+08110 p6s1 Unnötige Vorsilbe
+08115 p5s16 Ungenaue Formulierung erkannt
+08115 p6s10 Ungenaue Formulierung erkannt
+08115 p6s6 Ungenaue Formulierung erkannt
+08115 p7s9 Ungenaue Formulierung erkannt
+08205 p5s0 Wortverbindung empfohlen
+08205 p5s1 Wortverbindung empfohlen
+08205 p5s4 Wortverbindung empfohlen
+08205 p5s7 Wortverbindung empfohlen
+08205 p6s1 Wortverbindung empfohlen
+08205 p8s1 Wortverbindung empfohlen
+08205 p8s10 Wortverbindung empfohlen
+08205 p8s12 Wortverbindung empfohlen
+08205 p8s2 Wortverbindung empfohlen
+08205 p8s3 Wortverbindung empfohlen
+08205 p8s8 Wortverbindung empfohlen
+08205 p8s9 Wortverbindung empfohlen
+08205 p9s2 Wortverbindung empfohlen
+08205 p9s4 Wortverbindung empfohlen

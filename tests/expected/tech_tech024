@@ -1,43 +1,43 @@
-06500 000p2 Einleitung unvollständig
-06500 000p2 Einleitung unvollständig
-07005 0s5p4 Satzende vor Aufzählung fehlt
-07005 0s9p4 Satzende vor Aufzählung fehlt
-07006 0s1p6 Satzende vor Aufzählung anpassen
-07006 s12p2 Satzende vor Aufzählung anpassen
-07201 000p2 Abbildung nicht referenziert
-07201 000p5 Abbildung nicht referenziert
-07201 000p6 Abbildung nicht referenziert
-07201 000p6 Abbildung nicht referenziert
-07201 000p6 Abbildung nicht referenziert
-07201 000p8 Abbildung nicht referenziert
-07201 000p8 Abbildung nicht referenziert
-07201 000p9 Abbildung nicht referenziert
-07201 00p10 Abbildung nicht referenziert
-07201 00p11 Abbildung nicht referenziert
-07201 00p12 Abbildung nicht referenziert
-07201 00p12 Abbildung nicht referenziert
-07201 00p13 Abbildung nicht referenziert
-07201 00p13 Abbildung nicht referenziert
-07201 00p14 Abbildung nicht referenziert
-07201 00p14 Abbildung nicht referenziert
-07203 000p6 Tabelle nicht referenziert
-07203 000p6 Tabelle nicht referenziert
-07203 000p7 Tabelle nicht referenziert
-07610 Nonep11 Satzmuster wiederholt sich
-07610 Nonep11 Satzmuster wiederholt sich
-07610 Nonep11 Satzmuster wiederholt sich
+06500 p2 Einleitung unvollständig
+06500 p2 Einleitung unvollständig
+07005 p4s5 Satzende vor Aufzählung fehlt
+07005 p4s9 Satzende vor Aufzählung fehlt
+07006 p2s12 Satzende vor Aufzählung anpassen
+07006 p6s1 Satzende vor Aufzählung anpassen
+07201 p10 Abbildung nicht referenziert
+07201 p11 Abbildung nicht referenziert
+07201 p12 Abbildung nicht referenziert
+07201 p12 Abbildung nicht referenziert
+07201 p13 Abbildung nicht referenziert
+07201 p13 Abbildung nicht referenziert
+07201 p14 Abbildung nicht referenziert
+07201 p14 Abbildung nicht referenziert
+07201 p2 Abbildung nicht referenziert
+07201 p5 Abbildung nicht referenziert
+07201 p6 Abbildung nicht referenziert
+07201 p6 Abbildung nicht referenziert
+07201 p6 Abbildung nicht referenziert
+07201 p8 Abbildung nicht referenziert
+07201 p8 Abbildung nicht referenziert
+07201 p9 Abbildung nicht referenziert
+07203 p6 Tabelle nicht referenziert
+07203 p6 Tabelle nicht referenziert
+07203 p7 Tabelle nicht referenziert
+07610 p11None Satzmuster wiederholt sich
+07610 p11None Satzmuster wiederholt sich
+07610 p11None Satzmuster wiederholt sich
 07611 p11~l6 Satzanfang wiederholt sich
 07611 p12~l5 Satzanfang wiederholt sich
 07611 p14~l3 Satzanfang wiederholt sich
 07611 p2~l8 Satzanfang wiederholt sich
 07611 p4~l15 Satzanfang wiederholt sich
-07616 00p-1 Writing statistics
+07616 p-1 Writing statistics
 07620 p4~l0 Einsame Zeile am Seitenanfang
-07625 00sp0 Seitenanfang: Seite beginnt nicht mit Text
-07625 00sp5 Seitenanfang: Seite beginnt nicht mit Text
-07625 00sp6 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp11 Seitenanfang: Seite beginnt nicht mit Text
-07625 0sp12 Seitenanfang: Seite beginnt nicht mit Text
+07625 p0s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p11s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p12s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p5s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p6s0 Seitenanfang: Seite beginnt nicht mit Text
 07630 p11_11~l1_2 Paragraph zu kurz
 07630 p3_3~l16_18 Paragraph zu kurz
 07630 p3_3~l20_22 Paragraph zu kurz
@@ -45,37 +45,37 @@
 07650 p12~l0~c47_49 Unzuläßiges Leerzeichen vor Komma
 07651 p12~l0~c33_38 Fehlendes Leerzeichen nach Komma
 07661 p2~l0~c63_66 Schrägstrich: Überflüssiges Leerzeichen
-08205 00sp2 Wortverbindung empfohlen
-08205 00sp5 Wortverbindung empfohlen
-08205 0s1p2 Wortverbindung empfohlen
-08205 0s1p4 Wortverbindung empfohlen
-08205 0s2p5 Wortverbindung empfohlen
-08205 0s2p6 Wortverbindung empfohlen
-08205 0s3p3 Wortverbindung empfohlen
-08205 0s3p6 Wortverbindung empfohlen
-08205 0s4p2 Wortverbindung empfohlen
-08205 0s4p7 Wortverbindung empfohlen
-08205 0s5p2 Wortverbindung empfohlen
-08205 0s5p8 Wortverbindung empfohlen
-08205 0s6p4 Wortverbindung empfohlen
-08205 0s6p8 Wortverbindung empfohlen
-08205 0s7p8 Wortverbindung empfohlen
-08205 0s8p2 Wortverbindung empfohlen
-08205 0s8p4 Wortverbindung empfohlen
-08205 0s8p6 Wortverbindung empfohlen
-08205 0s8p7 Wortverbindung empfohlen
-08205 0s9p3 Wortverbindung empfohlen
-08205 0s9p4 Wortverbindung empfohlen
-08205 0s9p6 Wortverbindung empfohlen
-08205 0sp10 Wortverbindung empfohlen
-08205 s10p4 Wortverbindung empfohlen
-08205 s10p5 Wortverbindung empfohlen
-08205 s10p7 Wortverbindung empfohlen
-08205 s15p10 Wortverbindung empfohlen
-08205 s16p3 Wortverbindung empfohlen
-08205 s1p13 Wortverbindung empfohlen
-08205 s20p11 Wortverbindung empfohlen
-08205 s22p11 Wortverbindung empfohlen
-08205 s3p14 Wortverbindung empfohlen
-08205 s4p14 Wortverbindung empfohlen
-08205 s9p10 Wortverbindung empfohlen
+08205 p10s0 Wortverbindung empfohlen
+08205 p10s15 Wortverbindung empfohlen
+08205 p10s9 Wortverbindung empfohlen
+08205 p11s20 Wortverbindung empfohlen
+08205 p11s22 Wortverbindung empfohlen
+08205 p13s1 Wortverbindung empfohlen
+08205 p14s3 Wortverbindung empfohlen
+08205 p14s4 Wortverbindung empfohlen
+08205 p2s0 Wortverbindung empfohlen
+08205 p2s1 Wortverbindung empfohlen
+08205 p2s4 Wortverbindung empfohlen
+08205 p2s5 Wortverbindung empfohlen
+08205 p2s8 Wortverbindung empfohlen
+08205 p3s16 Wortverbindung empfohlen
+08205 p3s3 Wortverbindung empfohlen
+08205 p3s9 Wortverbindung empfohlen
+08205 p4s1 Wortverbindung empfohlen
+08205 p4s10 Wortverbindung empfohlen
+08205 p4s6 Wortverbindung empfohlen
+08205 p4s8 Wortverbindung empfohlen
+08205 p4s9 Wortverbindung empfohlen
+08205 p5s0 Wortverbindung empfohlen
+08205 p5s10 Wortverbindung empfohlen
+08205 p5s2 Wortverbindung empfohlen
+08205 p6s2 Wortverbindung empfohlen
+08205 p6s3 Wortverbindung empfohlen
+08205 p6s8 Wortverbindung empfohlen
+08205 p6s9 Wortverbindung empfohlen
+08205 p7s10 Wortverbindung empfohlen
+08205 p7s4 Wortverbindung empfohlen
+08205 p7s8 Wortverbindung empfohlen
+08205 p8s5 Wortverbindung empfohlen
+08205 p8s6 Wortverbindung empfohlen
+08205 p8s7 Wortverbindung empfohlen

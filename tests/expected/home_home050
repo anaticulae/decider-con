@@ -1,15 +1,15 @@
-06500 00p30 Einleitung unvollständig
-06500 00p30 Einleitung unvollständig
-06500 00p30 Einleitung unvollständig
-06500 00p30 Einleitung unvollständig
-06500 00p30 Einleitung unvollständig
-07201 00p33 Abbildung nicht referenziert
-07201 00p36 Abbildung nicht referenziert
-07201 00p37 Abbildung nicht referenziert
-07203 00p32 Tabelle nicht referenziert
-07230 00p36 Rückwärtsreferenz Abbildung
+06500 p30 Einleitung unvollständig
+06500 p30 Einleitung unvollständig
+06500 p30 Einleitung unvollständig
+06500 p30 Einleitung unvollständig
+06500 p30 Einleitung unvollständig
+07201 p33 Abbildung nicht referenziert
+07201 p36 Abbildung nicht referenziert
+07201 p37 Abbildung nicht referenziert
+07203 p32 Tabelle nicht referenziert
+07230 p36 Rückwärtsreferenz Abbildung
 07611 p37~l3 Satzanfang wiederholt sich
-07616 00p-1 Writing statistics
+07616 p-1 Writing statistics
 07620 p30~l0 Einsame Zeile am Seitenanfang
 07620 p36~l0 Einsame Zeile am Seitenanfang
 07620 p38~l0 Einsame Zeile am Seitenanfang
@@ -20,18 +20,18 @@
 07630 p32_32~l2_4 Paragraph zu kurz
 07630 p34_34~l1_2 Paragraph zu kurz
 07630 p37_38~l8_0 Paragraph zu kurz
-07670 s13p32 Fehlendes Leerzeichen
-08205 0sp34 Wortverbindung empfohlen
-08205 0sp38 Wortverbindung empfohlen
-08205 s13p36 Wortverbindung empfohlen
-08205 s13p39 Wortverbindung empfohlen
-08205 s1p35 Wortverbindung empfohlen
-08205 s1p38 Wortverbindung empfohlen
-08205 s1p39 Wortverbindung empfohlen
-08205 s2p39 Wortverbindung empfohlen
-08205 s3p35 Wortverbindung empfohlen
-08205 s3p39 Wortverbindung empfohlen
-08205 s4p37 Wortverbindung empfohlen
-08205 s4p39 Wortverbindung empfohlen
-08205 s9p36 Wortverbindung empfohlen
-08205 s9p39 Wortverbindung empfohlen
+07670 p32s13 Fehlendes Leerzeichen
+08205 p34s0 Wortverbindung empfohlen
+08205 p35s1 Wortverbindung empfohlen
+08205 p35s3 Wortverbindung empfohlen
+08205 p36s13 Wortverbindung empfohlen
+08205 p36s9 Wortverbindung empfohlen
+08205 p37s4 Wortverbindung empfohlen
+08205 p38s0 Wortverbindung empfohlen
+08205 p38s1 Wortverbindung empfohlen
+08205 p39s1 Wortverbindung empfohlen
+08205 p39s13 Wortverbindung empfohlen
+08205 p39s2 Wortverbindung empfohlen
+08205 p39s3 Wortverbindung empfohlen
+08205 p39s4 Wortverbindung empfohlen
+08205 p39s9 Wortverbindung empfohlen
