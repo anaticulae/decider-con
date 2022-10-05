@@ -10,6 +10,7 @@
 import genex
 import power
 import pytest
+import utilatest
 import writers
 
 import decider_con
@@ -49,7 +50,7 @@ RESOURCES = [
     power.MASTER075_PDF,
 ]
 
-WORKER = 4
+WORKER = utilatest.worker_count(4, onci=len(RESOURCES))
 
 
 @pytest.mark.usefixtures('session')
