@@ -10,5 +10,5 @@
 import tests.smarty_
 
 
-def test_decider_smarty_cli_help(monkeypatch):
-    tests.smarty_.run('--help', monkeypatch=monkeypatch)
+def test_decider_smarty_cli_help(mp):
+    tests.smarty_.run('--help', mp=mp)

@@ -16,47 +16,47 @@ import decider_smarty
 import tests.smarty_
 
 
-def decide_smarty_badwords(source, pages, testdir, monkeypatch, msgid=None):
+def decide_smarty_badwords(source, pages, td, mp, msgid=None):
     utilatest.fixture_requires(source)
     source = power.link(source)
     tests.smarty_.run(
         f'--badwords -i {source} --pages={pages}',
-        monkeypatch=monkeypatch,
+        mp=mp,
     )
-    path = decider_smarty.path.badwords(testdir.tmpdir)
+    path = decider_smarty.path.badwords(td.tmpdir)
     findings = serializeraw.load_findings(path, msgids=msgid)
     return findings
 
 
-def test_smarty_badwords_bachelor128_non_formal_speach(testdir, monkeypatch):
+def test_smarty_badwords_bachelor128_non_formal_speach(td, mp):
     findings = decide_smarty_badwords(
         power.BACHELOR128_PDF,
         ':',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgid=8100,
     )
     assert len(findings) >= 11
 
 
 @pytest.mark.xfail(reason='broken test, overlapped by figures?')
-def test_smarty_badwords_bachelor128_pleonasms(testdir, monkeypatch):
+def test_smarty_badwords_bachelor128_pleonasms(td, mp):
     findings = decide_smarty_badwords(
         power.BACHELOR128_PDF,
         ':',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgid=8105,
     )
     assert len(findings) >= 2
 
 
-def test_smarty_badwords_bachelor128_not_required_prefix(testdir, monkeypatch):
+def test_smarty_badwords_bachelor128_not_required_prefix(td, mp):
     findings = decide_smarty_badwords(
         power.BACHELOR128_PDF,
         ':',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgid=8110,
     )
     assert len(findings) >= 1

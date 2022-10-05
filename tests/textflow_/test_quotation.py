@@ -16,18 +16,18 @@ import decider_textflow.path
 import tests.textflow_
 
 
-def run_quotation_linter(source, pages, testdir, monkeypatch):
+def run_quotation_linter(source, pages, td, mp):
     utilatest.fixture_requires(source)
     pages = utila.from_tuple(pages, separator=',')
     cmd = f'-i={source} --quotation --pages={pages}'
-    tests.textflow_.run(cmd, monkeypatch=monkeypatch)
+    tests.textflow_.run(cmd, mp=mp)
     result = serializeraw.load_findings(
-        decider_textflow.path.quotation_linted(testdir.tmpdir))
+        decider_textflow.path.quotation_linted(td.tmpdir))
     return result
 
 
 @utilatest.longrun
-def test_home18_quotation_start_with_ellipsis(testdir, monkeypatch):
+def test_home18_quotation_start_with_ellipsis(td, mp):
     source = power.link(power.HOME018_PDF)
-    result = run_quotation_linter(source, (7,), testdir, monkeypatch)
+    result = run_quotation_linter(source, (7,), td, mp)
     assert not result

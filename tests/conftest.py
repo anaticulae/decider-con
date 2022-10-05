@@ -12,6 +12,8 @@ import power
 import pytest
 import utilatest
 import writers
+from utilatest import mp  # pylint:disable=W0611
+from utilatest import td  # pylint:disable=W0611
 
 import decider_con
 

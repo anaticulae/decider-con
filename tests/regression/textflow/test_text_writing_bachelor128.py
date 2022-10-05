@@ -15,13 +15,13 @@ import tests.textflow_
 
 
 @utilatest.requires(power.BACHELOR128_PDF)
-def test_writing_bachelor128page69(testdir, monkeypatch):
+def test_writing_bachelor128page69(td, mp):
     """Regression that replaced quote was detected as finding.
 
     `**Wir** im Satz: **** sollte vermieden werden.`
     """
     source = power.link(power.BACHELOR128_PDF)
     cmd = f'-i {source} --writing --pages=69'
-    tests.textflow_.run(cmd, monkeypatch=monkeypatch)
-    findings = protocol.findings_from_path(testdir.tmpdir, msgid=7600)
+    tests.textflow_.run(cmd, mp=mp)
+    findings = protocol.findings_from_path(td.tmpdir, msgid=7600)
     assert not findings

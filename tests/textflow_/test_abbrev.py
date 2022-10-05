@@ -76,13 +76,13 @@ def test_linter_abbreviation_text_before_used():
     pytest.param(power.BACHELOR037_PDF, '1', id='bachelor37'),
 ])
 @utilatest.longrun
-def test_cli_reftable_abbreviation_text(source, pages, testdir, monkeypatch):
+def test_cli_reftable_abbreviation_text(source, pages, td, mp):
     """Run decider"""
     utilatest.fixture_requires(source)
     source = power.link(source)
-    root = testdir.tmpdir
+    root = td.tmpdir
     cmd = f'reftable -i {source} -o {root} --abbrev --pages={pages}'
     completed = utila.run(cmd)
     assert completed.returncode == utila.SUCCESS, str(completed)
     cmd = f'-i {root} -i {source} -o {root} --abbrev'
-    tests.textflow_.run(cmd, monkeypatch=monkeypatch)
+    tests.textflow_.run(cmd, mp=mp)

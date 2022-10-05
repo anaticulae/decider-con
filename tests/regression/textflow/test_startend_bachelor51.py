@@ -16,7 +16,7 @@ import tests.textflow_
 
 
 @utilatest.requires(power.BACHELOR051_PDF)
-def test_empty_start_bachelor51page2128(testdir, monkeypatch, capsys):
+def test_empty_start_bachelor51page2128(td, mp, capsys):
     """The table on page 21 is on the bottom of the page. Page 28 starts
     with a list, which was also false detected cause of invalid magic
     content check.
@@ -30,9 +30,9 @@ def test_empty_start_bachelor51page2128(testdir, monkeypatch, capsys):
     """
     source = power.link(power.BACHELOR051_PDF)
     cmd = f'-i {source}  --startend --pages=15:30'
-    tests.textflow_.run(cmd, monkeypatch=monkeypatch)
+    tests.textflow_.run(cmd, mp=mp)
     # ensure that startend is runned
     assert 'disable `startend`' not in utilatest.stderr(capsys)
-    path = decider_textflow.path.startend_linted(testdir.tmpdir)
+    path = decider_textflow.path.startend_linted(td.tmpdir)
     loaded = serializeraw.load_findings(path, msgids={7625}, pages=(21, 28))
     assert not loaded

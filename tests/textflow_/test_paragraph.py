@@ -18,15 +18,15 @@ import tests
 import tests.textflow_
 
 
-def run_paragraph_length_linter(source, pages, testdir, monkeypatch):
+def run_paragraph_length_linter(source, pages, td, mp):
     utilatest.fixture_requires(source)
     source = power.link(source)
     pages = utila.from_tuple(pages, separator=',')
     cmd = f'-i={source} --paragraph --pages={pages}'
     # run textflow
-    tests.textflow_.run(cmd, monkeypatch=monkeypatch)
+    tests.textflow_.run(cmd, mp=mp)
     result = serializeraw.load_findings(
-        decider_textflow.path.paragraph_linted(testdir.tmpdir),
+        decider_textflow.path.paragraph_linted(td.tmpdir),
         7630,
     )
     return result
@@ -37,16 +37,16 @@ def run_paragraph_length_linter(source, pages, testdir, monkeypatch):
     pytest.param(power.BACHELOR090_PDF, (12, 13, 14), 5, id='bachelor90'),
     pytest.param(power.MASTER116_PDF, (18,), 0, id='master116'),
 ])
-def test_paragraph_too_short(source, pages, expected, testdir, monkeypatch):
-    result = run_paragraph_length_linter(source, pages, testdir, monkeypatch)
+def test_paragraph_too_short(source, pages, expected, td, mp):
+    result = run_paragraph_length_linter(source, pages, td, mp)
     assert len(result) == expected, str(result)  # TODO: VALIDATE LATER
 
 
 @utilatest.longrun
-def test_list_no_paragraph_too_short(testdir, monkeypatch):
+def test_list_no_paragraph_too_short(td, mp):
     source = power.MASTER072_PDF
     pages = (7,)
-    result = run_paragraph_length_linter(source, pages, testdir, monkeypatch)
+    result = run_paragraph_length_linter(source, pages, td, mp)
     result = [item for item in result if item.location.page == 7]
     # TODO: This content before a list should not be an error
     # REMAINING ERROR:

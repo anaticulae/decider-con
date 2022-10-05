@@ -15,25 +15,25 @@ import decider_smarty
 import tests.smarty_
 
 
-def decide_smarty_spelling(source, pages, testdir, monkeypatch, msgid=None):
+def decide_smarty_spelling(source, pages, td, mp, msgid=None):
     utilatest.fixture_requires(source)
     source = power.link(source)
     tests.smarty_.run(
         f'--spelling -i {source} --pages={pages}',
-        monkeypatch=monkeypatch,
+        mp=mp,
     )
-    path = decider_smarty.path.spelling(testdir.tmpdir)
+    path = decider_smarty.path.spelling(td.tmpdir)
     findings = serializeraw.load_findings(path, msgids=msgid)
     return findings
 
 
 @utilatest.longrun
-def test_smarty_spelling_hyphen(testdir, monkeypatch):
+def test_smarty_spelling_hyphen(td, mp):
     findings = decide_smarty_spelling(
         power.BACHELOR077_PDF,
         ':',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgid=8200,
     )
     assert len(findings) >= 5

@@ -15,19 +15,19 @@ import decider_textflow.path
 import tests.textflow_
 
 
-def decide_textflow(source, pages, testdir, monkeypatch, msgids=None):
+def decide_textflow(source, pages, td, mp, msgids=None):
     utilatest.fixture_requires(source)
     source = power.link(source)
     tests.textflow_.run(
         f'--docref -i {source} --pages={pages}',
-        monkeypatch=monkeypatch,
+        mp=mp,
     )
-    path = decider_textflow.path.docref_linted(testdir.tmpdir)
+    path = decider_textflow.path.docref_linted(td.tmpdir)
     findings = serializeraw.load_findings(path, msgids=msgids)
     return findings
 
 
-def test_bachelor76_docref_negative(testdir, monkeypatch):
+def test_bachelor76_docref_negative(td, mp):
     """This document contains only valid references.
 
     Therefore we do not detect any missing references.
@@ -37,14 +37,14 @@ def test_bachelor76_docref_negative(testdir, monkeypatch):
     findings = decide_textflow(
         source,
         pages,
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids={7200, 7202},
     )
     assert not findings
 
 
-def test_bachelor76_figure_missing_intext_ref(testdir, monkeypatch):
+def test_bachelor76_figure_missing_intext_ref(td, mp):
     """Remove this test after extending docref intext parser.
 
     Pattern: 'Die folgende Abbildung soll durch' not supported yet.
@@ -54,8 +54,8 @@ def test_bachelor76_figure_missing_intext_ref(testdir, monkeypatch):
     findings = decide_textflow(
         source,
         pages,
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids={7201},
     )
     # assert not findings # TODO: ENABLE LATER
@@ -63,28 +63,28 @@ def test_bachelor76_figure_missing_intext_ref(testdir, monkeypatch):
     assert len(findings) == 2
 
 
-def test_master75_docref(testdir, monkeypatch):
+def test_master75_docref(td, mp):
     # TODO: DESCRIBE PURPOSE OF TEST
     source = power.MASTER075_PDF
     findings = decide_textflow(
         source,
         ':',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids={7200, 7202},
     )
     assert findings  # may changes later
 
 
-def test_bachelor56page15_tableref(testdir, monkeypatch):
+def test_bachelor56page15_tableref(td, mp):
     """Verify that `s. Tab. 1` matches with `Tabelle 1`"""
     source = power.BACHELOR056_PDF
     pages = '15'
     findings = decide_textflow(
         source,
         pages,
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids={7202},
     )
     assert not findings

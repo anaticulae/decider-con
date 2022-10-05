@@ -16,24 +16,24 @@ import tests.textflow_
 
 
 @utilatest.requires(power.BACHELOR067_PDF)
-def test_writing_bachelor067_too_long_sentence(testdir, monkeypatch):
+def test_writing_bachelor067_too_long_sentence(td, mp):
     """A very long sentence is detected, which is a result of bad parsed
     list."""
     source = power.link(power.BACHELOR067_PDF)
     cmd = f'-i {source} --writing --pages=54'
-    tests.textflow_.run(cmd, monkeypatch=monkeypatch)
-    findings = protocol.findings_from_path(testdir.tmpdir, msgid=7605)
+    tests.textflow_.run(cmd, mp=mp)
+    findings = protocol.findings_from_path(td.tmpdir, msgid=7605)
     assert not findings
 
 
 @pytest.mark.xfail(reason='upgrade resources')
 @utilatest.requires(power.BACHELOR067_PDF)
-def test_writing_bachelor067_perspective(testdir, monkeypatch):
+def test_writing_bachelor067_perspective(td, mp):
     """Detect two times `man` inside a list."""
     source = power.link(power.BACHELOR067_PDF)
     cmd = f'-i {source} --writing --pages=54'
-    tests.textflow_.run(cmd, monkeypatch=monkeypatch)
-    findings = protocol.findings_from_path(testdir.tmpdir, msgid=7600)
+    tests.textflow_.run(cmd, mp=mp)
+    findings = protocol.findings_from_path(td.tmpdir, msgid=7600)
     content = findings[0].content
     # two `man` findings
     assert len(content) == 2

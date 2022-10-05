@@ -17,32 +17,32 @@ import decider_textflow.path
 import tests.textflow_
 
 
-def decide_textflow(source, testdir, monkeypatch, pages=None, msgids=None):
+def decide_textflow(source, td, mp, pages=None, msgids=None):
     utilatest.fixture_requires(source)
     source = power.link(source)
     cmd = f'--writing -i {source} '
     if pages:
         cmd += f'--pages={pages}'
-    tests.textflow_.run(cmd, monkeypatch=monkeypatch)
-    path = decider_textflow.path.writing_linted(testdir.tmpdir)
+    tests.textflow_.run(cmd, mp=mp)
+    path = decider_textflow.path.writing_linted(td.tmpdir)
     findings = serializeraw.load_findings(path, msgids=msgids)
     return findings
 
 
 @utilatest.nightly
-def test_bachelor76_perspective(testdir, monkeypatch):
+def test_bachelor76_perspective(td, mp):
     source = power.BACHELOR076_PDF
-    findings = decide_textflow(source, testdir, monkeypatch, msgids=7600)
+    findings = decide_textflow(source, td, mp, msgids=7600)
     assert len(findings) == 5  # VALIDATED
 
 
 @pytest.mark.xfail(reason='man in quotation')
 @utilatest.longrun
-def test_master72_writing_quotation(testdir, monkeypatch):
+def test_master72_writing_quotation(td, mp):
     """Do not detect errors in perspective inside quotations."""
     source = power.MASTER072_PDF
     pages = '12:15'
-    findings = decide_textflow(source, testdir, monkeypatch, pages, msgids=7600)
+    findings = decide_textflow(source, td, mp, pages, msgids=7600)
     assert not findings
 
 
@@ -52,22 +52,22 @@ Bestätigung aus einem Kollektiv, dem man angehörte, z.B."""
 
 
 @utilatest.longrun
-def test_master72_merge_token_correctly(testdir, monkeypatch):
+def test_master72_merge_token_correctly(td, mp):
     """Do not detect errors in perspective inside quotations."""
     source = power.MASTER072_PDF
     pages = '16'
-    findings = decide_textflow(source, testdir, monkeypatch, pages, msgids=7600)
+    findings = decide_textflow(source, td, mp, pages, msgids=7600)
     assert len(findings) == 1
     description = findings[0].solution.description
     assert EXPECTED in description
 
 
 @utilatest.longrun
-def test_master72_text_too_long(testdir, monkeypatch):
+def test_master72_text_too_long(td, mp):
     """Detect sentence which are too long."""
     source = power.MASTER072_PDF
     pages = '3:6'
-    with monkeypatch.context() as context:
+    with mp.context() as context:
         context.setattr(
             decider_textflow.features.writing,
             'SENTENCE_LENGTH_MAX',
@@ -75,8 +75,8 @@ def test_master72_text_too_long(testdir, monkeypatch):
         )
         findings = decide_textflow(
             source,
-            testdir,
-            monkeypatch,
+            td,
+            mp,
             pages=pages,
             msgids=7605,
         )
@@ -84,31 +84,31 @@ def test_master72_text_too_long(testdir, monkeypatch):
 
 
 @utilatest.longrun
-def test_writing_text_statistics(testdir, monkeypatch):
+def test_writing_text_statistics(td, mp):
     source = power.MASTER110_PDF
     findings = decide_textflow(
         source,
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids=7616,
     )
     assert len(findings) == 1
 
 
 @utilatest.longrun
-def test_writing_repeating_sentence_start(testdir, monkeypatch):
+def test_writing_repeating_sentence_start(td, mp):
     source = power.MASTER110_PDF
     findings = decide_textflow(
         source,
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids=7611,
     )
     assert findings
     # assert len(findings) in (0, 23, 24, 25)  # NOT VALIDATED
 
 
-def test_sentence_start_repeat_inside_list_master063p24(testdir, monkeypatch):
+def test_sentence_start_repeat_inside_list_master063p24(td, mp):
     """Do not detect repeating sentence start inside list.
 
     banks, those risks are:
@@ -119,8 +119,8 @@ def test_sentence_start_repeat_inside_list_master063p24(testdir, monkeypatch):
     source = power.MASTER063_PDF
     findings = decide_textflow(
         source,
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         pages=24,
         msgids=7611,
     )
@@ -132,9 +132,9 @@ def test_sentence_start_repeat_inside_list_master063p24(testdir, monkeypatch):
 
 
 @utilatest.longrun
-def test_writing_repeating_sentence_pattern(testdir, monkeypatch):
+def test_writing_repeating_sentence_pattern(td, mp):
     source = power.MASTER110_PDF
-    with monkeypatch.context() as context:
+    with mp.context() as context:
         context.setattr(
             decider_textflow.features.writing,
             'SENTENCE_PATTERN_WINDOW',
@@ -142,8 +142,8 @@ def test_writing_repeating_sentence_pattern(testdir, monkeypatch):
         )
         findings = decide_textflow(
             source,
-            testdir,
-            monkeypatch,
+            td,
+            mp,
             msgids=7610,
         )
     assert findings

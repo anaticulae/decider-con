@@ -16,16 +16,16 @@ import decider_chapter
 import tests.chapter_
 
 
-def run_intro(source, testdir, monkeypatch, optional: str = ''):
+def run_intro(source, td, mp, optional: str = ''):
     utilatest.fixture_requires(source)
     source = power.link(source)
     # run intro
     tests.chapter_.run(
         f'--intro -i={source} {optional}',
-        monkeypatch=monkeypatch,
+        mp=mp,
     )
     # load findings
-    path = decider_chapter.path.decider_chapter_intro(testdir.tmpdir)
+    path = decider_chapter.path.decider_chapter_intro(td.tmpdir)
     findings = serializeraw.load_findings(path)
     return findings
 
@@ -33,8 +33,8 @@ def run_intro(source, testdir, monkeypatch, optional: str = ''):
 @pytest.mark.parametrize('source', [
     pytest.param(power.MASTER072_PDF, id='master72'),
 ])
-def test_intro_x(source, testdir, monkeypatch):
-    findings = run_intro(source, testdir, monkeypatch)
+def test_intro_x(source, td, mp):
+    findings = run_intro(source, td, mp)
     assert not findings
 
 
@@ -42,14 +42,14 @@ def test_intro_x(source, testdir, monkeypatch):
     pytest.param(power.MASTER075_PDF, id='master75'),
     pytest.param(power.MASTER078_PDF, id='master78'),
 ])
-def test_intro_x_error(source, testdir, monkeypatch):
-    findings = run_intro(source, testdir, monkeypatch)
+def test_intro_x_error(source, td, mp):
+    findings = run_intro(source, td, mp)
     # TODO: ADD SEPARATE VALIDATE METHODS
     assert findings
 
 
-def test_intro_disable_small_document(testdir, monkeypatch):
+def test_intro_disable_small_document(td, mp):
     """Do not use this AI-Linter on small documents."""
     source = power.DOCU014_PDF
-    findings = run_intro(source, testdir, monkeypatch, optional='--docinfo=14')
+    findings = run_intro(source, td, mp, optional='--docinfo=14')
     assert not findings

@@ -19,52 +19,52 @@ import tests.textflow_
 def decider_textflow_character(
     source,
     pages,
-    testdir,
-    monkeypatch,
+    td,
+    mp,
     msgids=None,
 ):
     utilatest.fixture_requires(source)
     source = power.link(source)
     tests.textflow_.run(
         f'--writing -i {source} --pages={pages} --character',
-        monkeypatch=monkeypatch,
+        mp=mp,
     )
-    path = decider_textflow.path.character_linted(testdir.tmpdir)
+    path = decider_textflow.path.character_linted(td.tmpdir)
     findings = serializeraw.load_findings(path, msgids=msgids)
     return findings
 
 
 @utilatest.longrun
-def test_textflow_character_space_before_comma(testdir, monkeypatch):
+def test_textflow_character_space_before_comma(td, mp):
     findings = decider_textflow_character(
         power.BACHELOR090_PDF,
         '30',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids=7650,
     )
     assert len(findings) == 1
 
 
 @utilatest.nightly
-def test_textflow_character_missing_space_after_comma(testdir, monkeypatch):
+def test_textflow_character_missing_space_after_comma(td, mp):
     findings = decider_textflow_character(
         power.BACHELOR090_PDF,
         ':',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids=7651,
     )
     assert len(findings) == 2
 
 
 @utilatest.longrun
-def test_textflow_character_space_before_square_bracket(testdir, monkeypatch):
+def test_textflow_character_space_before_square_bracket(td, mp):
     findings = decider_textflow_character(
         power.BACHELOR090_PDF,
         ':',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids=7652,
     )
     assert len(findings) == 2
@@ -72,13 +72,13 @@ def test_textflow_character_space_before_square_bracket(testdir, monkeypatch):
 
 @pytest.mark.xfail(reason='layout parser?')
 @utilatest.longrun
-def test_textflow_character_space_after_square_bracket(testdir, monkeypatch):
+def test_textflow_character_space_after_square_bracket(td, mp):
     """[ Hello24]."""
     findings = decider_textflow_character(
         power.BACHELOR090_PDF,
         ':',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids=7653,
     )
     assert len(findings) == 2
@@ -86,12 +86,12 @@ def test_textflow_character_space_after_square_bracket(testdir, monkeypatch):
 
 @pytest.mark.xfail(reason='ana is changed from all to sentence only')
 @utilatest.longrun
-def test_textflow_character_missing_space_before_semicolon(testdir, monkeypatch): # yapf:disable
+def test_textflow_character_missing_space_before_semicolon(td, mp): # yapf:disable
     findings = decider_textflow_character(
         power.BACHELOR090_PDF,
         ':',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids=7654,
     )
     assert len(findings) == 22  # TODO: VALIDATE LATER
@@ -99,15 +99,15 @@ def test_textflow_character_missing_space_before_semicolon(testdir, monkeypatch)
 
 @utilatest.longrun
 def test_missing_space_after_semicolon_master110_page59(
-    testdir,
-    monkeypatch,
+    td,
+    mp,
 ):
     """Verify that magic content skips errors located in formula."""
     findings = decider_textflow_character(
         power.MASTER110_PDF,
         '59',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids=7655,
     )
     # works after fixing rawmaker, or formula detector?
@@ -117,8 +117,8 @@ def test_missing_space_after_semicolon_master110_page59(
 @pytest.mark.xfail(reason='require line formula inside parser')
 @utilatest.longrun
 def test_character_missing_space_after_comma_master116_page23(
-    testdir,
-    monkeypatch,
+    td,
+    mp,
 ):
     """False positve comma detection.
 
@@ -129,14 +129,14 @@ def test_character_missing_space_after_comma_master116_page23(
     findings = decider_textflow_character(
         power.MASTER116_PDF,
         '23',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids=7651,
     )
     assert not findings
 
 
-def test_bachelor028_highnote_space(testdir, monkeypatch):
+def test_bachelor028_highnote_space(td, mp):
     """\
     page:17
     Dabei geht die Anti-BEPS-Richtlinie zum Teil auch inhaltlich
@@ -145,8 +145,8 @@ def test_bachelor028_highnote_space(testdir, monkeypatch):
     findings = decider_textflow_character(
         power.BACHELOR028_PDF,
         '17',
-        testdir,
-        monkeypatch,
+        td,
+        mp,
         msgids=7666,
     )
     assert len(findings) == 3  # VALIDATED

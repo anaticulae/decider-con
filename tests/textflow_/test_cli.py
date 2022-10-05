@@ -14,8 +14,8 @@ import utilatest
 import tests.textflow_
 
 
-def test_cli_help(monkeypatch):
-    tests.textflow_.run('--help', monkeypatch=monkeypatch)
+def test_cli_help(mp):
+    tests.textflow_.run('--help', mp=mp)
 
 
 @pytest.mark.parametrize('source', [
@@ -30,11 +30,11 @@ def test_cli_help(monkeypatch):
     pytest.param(power.MASTER099_PDF, id='master99'),
 ])
 @utilatest.nightly
-def test_cli_textflow_example(source, testdir, monkeypatch):
+def test_cli_textflow_example(source, td, mp):  # pylint:disable=W0613
     """Run textflow."""
     utilatest.fixture_requires(source)
     source = power.link(source)
     tests.textflow_.run(
         f'-i {source}',
-        monkeypatch=monkeypatch,
+        mp=mp,
     )

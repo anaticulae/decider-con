@@ -19,11 +19,11 @@ import tests.textflow_
 @pytest.mark.xfail(reason='???')
 @utilatest.longrun
 @utilatest.requires(power.MASTER116_PDF)
-def test_paragraph_too_short_in_table_master116_page79(testdir, monkeypatch):
+def test_paragraph_too_short_in_table_master116_page79(td, mp):
     source = power.link(power.MASTER116_PDF)
     cmd = f'-i {source}  --paragraph --pages=79'
-    tests.textflow_.run(cmd, monkeypatch=monkeypatch)
-    path = decider_textflow.path.paragraph_linted(testdir.tmpdir)
+    tests.textflow_.run(cmd, mp=mp)
+    path = decider_textflow.path.paragraph_linted(td.tmpdir)
     loaded = serializeraw.load_findings(path, msgids={7630})
     expected = [
         (10, 11),
