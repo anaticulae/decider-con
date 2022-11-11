@@ -12,7 +12,6 @@ Schusterjunge: Single Line at Page End
 """
 
 import statistics
-import typing
 
 import configo
 import iamraw
@@ -32,7 +31,7 @@ def work(
     headerfooter: str,
     magiccontent: str,
     pages: tuple = None,
-) -> typing.Tuple[str, str]:
+) -> tuple[str, str]:
     driver = decider_textflow.features.create_driver(
         headlines,
         text,

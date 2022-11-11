@@ -31,7 +31,7 @@ def text_chunks(  # pylint:disable=R0912,R0914,R1260,W0613
         magicvalid = [iamraw.PageContentType.TEXT]
     magiccontent = magiccontent if magiccontent else []
     # TODO: SO BAD
-    headlines = utila.flatten(headlines)
+    headlines = utila.flat(headlines)
     visited = utila.Single()
     flat = []
     for headline in headlines:

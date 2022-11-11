@@ -7,8 +7,6 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import typing
-
 import iamraw
 import protocol
 import serializeraw
@@ -21,7 +19,7 @@ MORETHAN = 10
 def work(
     sentences: str,
     pages: tuple = None,
-) -> typing.Tuple[str, str]:
+) -> tuple[str, str]:
     sentences = serializeraw.load_text(
         sentences,
         pages=pages,

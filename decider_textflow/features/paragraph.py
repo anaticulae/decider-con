@@ -7,8 +7,6 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import typing
-
 import configo
 import iamraw
 import protocol
@@ -32,7 +30,7 @@ def work(
     textstyle: str,
     magiccontent: str,
     pages: tuple = None,
-) -> typing.Tuple[str, str]:
+) -> tuple[str, str]:
     textstyle = serializeraw.load_doctextstyle(textstyle)
     driver = decider_textflow.features.create_driver(
         headlines,

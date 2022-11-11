@@ -8,7 +8,6 @@
 # =============================================================================
 
 import re
-import typing
 
 import iamraw
 import protocol
@@ -31,7 +30,7 @@ def work(
     headerfooter: str,
     magiccontent: str,
     pages: tuple = None,
-) -> typing.Tuple[str, str]:
+) -> tuple[str, str]:
     driver = decider_textflow.features.create_driver(
         headlines,
         text,

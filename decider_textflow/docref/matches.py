@@ -59,7 +59,7 @@ class ReferenceMatcher:
 
     def __init__(self):
         self.iois = collections.defaultdict(list)
-        self.iois_page = dict()
+        self.iois_page = {}
         self.references = collections.defaultdict(list)
 
     def add_ioi(self, page: int, number: str, raw: str = None):

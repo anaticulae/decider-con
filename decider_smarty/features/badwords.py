@@ -7,8 +7,6 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import typing
-
 import protocol
 
 import decider_smarty.driver
@@ -22,7 +20,7 @@ def work(
     pleonasma: str,
     reduce: str,
     pages: tuple = None,
-) -> typing.Tuple[str, str]:
+) -> tuple[str, str]:
     driver = decider_smarty.driver.create(
         avoid,
         improvement,

@@ -55,7 +55,7 @@ def determine(sentences) -> WritingStatistics:
     result.sentence_min = min(sento)
     result.sentence_max = max(sento)
 
-    wordo = utila.flatten([[len(key)] * value for key, value in words.items()])
+    wordo = utila.flat([[len(key)] * value for key, value in words.items()])
     result.word_avg = statistics.mean(wordo)
     result.sentence_avg = statistics.mean(sento)
 
