@@ -46,6 +46,10 @@
 07600 p61s0 Fehler in der Perspektive
 07600 p61s2 Fehler in der Perspektive
 07600 p64s9 Fehler in der Perspektive
+07600 p67s6 Fehler in der Perspektive
+07600 p68s0 Fehler in der Perspektive
+07600 p68s1 Fehler in der Perspektive
+07600 p69s3 Fehler in der Perspektive
 07600 p7s5 Fehler in der Perspektive
 07600 p8s3 Fehler in der Perspektive
 07600 p8s4 Fehler in der Perspektive
@@ -63,6 +67,9 @@
 07611 p58~l5 Satzanfang wiederholt sich
 07611 p58~l8 Satzanfang wiederholt sich
 07611 p62~l6 Satzanfang wiederholt sich
+07611 p67~l7 Satzanfang wiederholt sich
+07611 p68~l2 Satzanfang wiederholt sich
+07611 p69~l3 Satzanfang wiederholt sich
 07611 p9~l3 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
 07620 p1~l0 Einsame Zeile am Seitenanfang
@@ -126,6 +133,10 @@
 07666 p63~l0~c161_175 Überflüßiges Leerzeichen
 07666 p63~l0~c68_82 Überflüßiges Leerzeichen
 07666 p64~l0~c183_197 Überflüßiges Leerzeichen
+07666 p65~l0~c151_165 Überflüßiges Leerzeichen
+07666 p66~l0~c146_160 Überflüßiges Leerzeichen
+07666 p66~l0~c194_208 Überflüßiges Leerzeichen
+07666 p69~l0~c192_206 Überflüßiges Leerzeichen
 07666 p7~l0~c136_148 Überflüßiges Leerzeichen
 07666 p7~l0~c182_194 Überflüßiges Leerzeichen
 07666 p7~l0~c210_222 Überflüßiges Leerzeichen
@@ -142,10 +153,12 @@
 08100 p57s9 Umgangssprache erkannt
 08100 p58s9 Umgangssprache erkannt
 08100 p61s3 Umgangssprache erkannt
+08100 p67s3 Umgangssprache erkannt
 08100 p7s12 Umgangssprache erkannt
 08100 p8s8 Umgangssprache erkannt
 08105 p7s12 Pleonasma erkannt
 08110 p14s8 Unnötige Vorsilbe
+08115 p66s7 Ungenaue Formulierung erkannt
 08115 p9s13 Ungenaue Formulierung erkannt
 08115 p9s5 Ungenaue Formulierung erkannt
 08205 p10s0 Wortverbindung empfohlen
@@ -153,31 +166,23 @@
 08205 p10s2 Wortverbindung empfohlen
 08205 p11s0 Wortverbindung empfohlen
 08205 p12s0 Wortverbindung empfohlen
-08205 p12s5 Wortverbindung empfohlen
 08205 p13s2 Wortverbindung empfohlen
 08205 p13s7 Wortverbindung empfohlen
 08205 p13s9 Wortverbindung empfohlen
 08205 p14s5 Wortverbindung empfohlen
-08205 p14s6 Wortverbindung empfohlen
 08205 p15s0 Wortverbindung empfohlen
 08205 p15s16 Wortverbindung empfohlen
 08205 p15s2 Wortverbindung empfohlen
 08205 p18s0 Wortverbindung empfohlen
 08205 p18s2 Wortverbindung empfohlen
-08205 p18s3 Wortverbindung empfohlen
 08205 p19s2 Wortverbindung empfohlen
 08205 p51s0 Wortverbindung empfohlen
-08205 p51s11 Wortverbindung empfohlen
 08205 p51s12 Wortverbindung empfohlen
 08205 p51s4 Wortverbindung empfohlen
 08205 p51s5 Wortverbindung empfohlen
-08205 p51s7 Wortverbindung empfohlen
 08205 p51s8 Wortverbindung empfohlen
-08205 p52s1 Wortverbindung empfohlen
 08205 p52s3 Wortverbindung empfohlen
-08205 p52s4 Wortverbindung empfohlen
 08205 p52s5 Wortverbindung empfohlen
-08205 p52s7 Wortverbindung empfohlen
 08205 p53s0 Wortverbindung empfohlen
 08205 p53s11 Wortverbindung empfohlen
 08205 p53s12 Wortverbindung empfohlen
@@ -199,26 +204,26 @@
 08205 p57s4 Wortverbindung empfohlen
 08205 p57s5 Wortverbindung empfohlen
 08205 p58s11 Wortverbindung empfohlen
-08205 p58s3 Wortverbindung empfohlen
 08205 p58s4 Wortverbindung empfohlen
-08205 p58s6 Wortverbindung empfohlen
 08205 p59s4 Wortverbindung empfohlen
 08205 p59s8 Wortverbindung empfohlen
-08205 p60s1 Wortverbindung empfohlen
-08205 p60s2 Wortverbindung empfohlen
 08205 p60s3 Wortverbindung empfohlen
 08205 p60s7 Wortverbindung empfohlen
-08205 p60s8 Wortverbindung empfohlen
 08205 p61s0 Wortverbindung empfohlen
 08205 p61s8 Wortverbindung empfohlen
 08205 p62s1 Wortverbindung empfohlen
 08205 p62s10 Wortverbindung empfohlen
 08205 p62s11 Wortverbindung empfohlen
-08205 p62s12 Wortverbindung empfohlen
 08205 p62s7 Wortverbindung empfohlen
-08205 p63s4 Wortverbindung empfohlen
 08205 p63s5 Wortverbindung empfohlen
 08205 p63s6 Wortverbindung empfohlen
+08205 p65s1 Wortverbindung empfohlen
+08205 p65s2 Wortverbindung empfohlen
+08205 p67s6 Wortverbindung empfohlen
+08205 p68s0 Wortverbindung empfohlen
+08205 p68s1 Wortverbindung empfohlen
+08205 p68s6 Wortverbindung empfohlen
+08205 p68s8 Wortverbindung empfohlen
 08205 p7s0 Wortverbindung empfohlen
 08205 p7s12 Wortverbindung empfohlen
 08205 p7s2 Wortverbindung empfohlen

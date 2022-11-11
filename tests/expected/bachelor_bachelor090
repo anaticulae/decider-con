@@ -1,5 +1,12 @@
 05110 p-1 Abkürzung wurde nicht im Text verwerdet
 05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+05110 p-1 Abkürzung wurde nicht im Text verwerdet
+06500 p12 Einleitung unvollständig
+06500 p12 Einleitung unvollständig
 06500 p12 Einleitung unvollständig
 06500 p12 Einleitung unvollständig
 07000 p28b(494.1;632.82;534.11;698.59) Zu viele aufeinander folgende Trennungen
@@ -24,7 +31,6 @@
 07200 p28s14 Referenz nicht gefunden
 07200 p31s7 Referenz nicht gefunden
 07200 p33s0 Referenz nicht gefunden
-07200 p33s3 Referenz nicht gefunden
 07200 p35s4 Referenz nicht gefunden
 07200 p49s12 Referenz nicht gefunden
 07200 p49s14 Referenz nicht gefunden
@@ -88,17 +94,14 @@
 07611 p24~l6 Satzanfang wiederholt sich
 07611 p26~l1 Satzanfang wiederholt sich
 07611 p26~l15 Satzanfang wiederholt sich
-07611 p28~l12 Satzanfang wiederholt sich
-07611 p29~l1 Satzanfang wiederholt sich
-07611 p31~l5 Satzanfang wiederholt sich
+07611 p31~l4 Satzanfang wiederholt sich
 07611 p32~l4 Satzanfang wiederholt sich
 07611 p33~l5 Satzanfang wiederholt sich
 07611 p36~l0 Satzanfang wiederholt sich
 07611 p36~l4 Satzanfang wiederholt sich
 07611 p39~l4 Satzanfang wiederholt sich
-07611 p45~l9 Satzanfang wiederholt sich
+07611 p45~l10 Satzanfang wiederholt sich
 07611 p47~l3 Satzanfang wiederholt sich
-07611 p50~l1 Satzanfang wiederholt sich
 07611 p51~l0 Satzanfang wiederholt sich
 07611 p52~l3 Satzanfang wiederholt sich
 07611 p53~l0 Satzanfang wiederholt sich
@@ -107,8 +110,7 @@
 07611 p65~l13 Satzanfang wiederholt sich
 07611 p65~l9 Satzanfang wiederholt sich
 07611 p68~l11 Satzanfang wiederholt sich
-07611 p68~l8 Satzanfang wiederholt sich
-07611 p69~l0 Satzanfang wiederholt sich
+07611 p68~l7 Satzanfang wiederholt sich
 07611 p70~l4 Satzanfang wiederholt sich
 07611 p71~l25 Satzanfang wiederholt sich
 07611 p71~l5 Satzanfang wiederholt sich
@@ -148,7 +150,7 @@
 07630 p19_19~l15_16 Paragraph zu kurz
 07630 p1_1~l2_3 Paragraph zu kurz
 07630 p22_22~l2_3 Paragraph zu kurz
-07630 p22_22~l9_11 Paragraph zu kurz
+07630 p22_22~l6_9 Paragraph zu kurz
 07630 p24_24~l1_4 Paragraph zu kurz
 07630 p25_25~l5_7 Paragraph zu kurz
 07630 p25_26~l27_0 Paragraph zu kurz
@@ -161,22 +163,24 @@
 07630 p36_36~l26_28 Paragraph zu kurz
 07630 p36_36~l5_6 Paragraph zu kurz
 07630 p36_36~l8_10 Paragraph zu kurz
+07630 p37_37~l12_14 Paragraph zu kurz
 07630 p37_37~l6_7 Paragraph zu kurz
 07630 p38_38~l15_16 Paragraph zu kurz
 07630 p38_39~l29_0 Paragraph zu kurz
 07630 p3_3~l1_2 Paragraph zu kurz
 07630 p40_40~l11_13 Paragraph zu kurz
 07630 p41_41~l8_10 Paragraph zu kurz
+07630 p42_42~l3_5 Paragraph zu kurz
 07630 p43_43~l3_5 Paragraph zu kurz
 07630 p44_44~l13_14 Paragraph zu kurz
 07630 p44_44~l15_17 Paragraph zu kurz
 07630 p44_44~l1_2 Paragraph zu kurz
-07630 p44_44~l24_25 Paragraph zu kurz
 07630 p45_45~l11_12 Paragraph zu kurz
-07630 p45_45~l5_8 Paragraph zu kurz
+07630 p45_45~l6_7 Paragraph zu kurz
+07630 p45_45~l8_10 Paragraph zu kurz
 07630 p46_46~l13_15 Paragraph zu kurz
 07630 p46_46~l3_5 Paragraph zu kurz
-07630 p47_47~l2_4 Paragraph zu kurz
+07630 p47_47~l3_4 Paragraph zu kurz
 07630 p4_4~l12_13 Paragraph zu kurz
 07630 p4_4~l15_16 Paragraph zu kurz
 07630 p4_4~l18_20 Paragraph zu kurz
@@ -208,6 +212,7 @@
 07630 p5_5~l30_32 Paragraph zu kurz
 07630 p5_5~l7_8 Paragraph zu kurz
 07630 p61_61~l0_1 Paragraph zu kurz
+07630 p62_62~l16_18 Paragraph zu kurz
 07630 p62_62~l1_3 Paragraph zu kurz
 07630 p63_63~l15_16 Paragraph zu kurz
 07630 p63_63~l7_8 Paragraph zu kurz
@@ -222,7 +227,7 @@
 07630 p6_6~l0_1 Paragraph zu kurz
 07630 p6_6~l5_6 Paragraph zu kurz
 07630 p6_7~l22_0 Paragraph zu kurz
-07630 p70_70~l1_3 Paragraph zu kurz
+07630 p70_70~l3_4 Paragraph zu kurz
 07630 p73_73~l1_3 Paragraph zu kurz
 07630 p73_73~l23_25 Paragraph zu kurz
 07630 p74_74~l22_24 Paragraph zu kurz
@@ -286,7 +291,7 @@
 08110 p51s15 Unnötige Vorsilbe
 08115 p74s15 Ungenaue Formulierung erkannt
 08120 p65s0 Adjektiv verbessern
-08200 p45s17 Wortverbindung uneindeutig
+08200 p45s18 Wortverbindung uneindeutig
 08205 p12s0 Wortverbindung empfohlen
 08205 p12s18 Wortverbindung empfohlen
 08205 p13s1 Wortverbindung empfohlen
@@ -312,7 +317,6 @@
 08205 p19s13 Wortverbindung empfohlen
 08205 p19s16 Wortverbindung empfohlen
 08205 p19s22 Wortverbindung empfohlen
-08205 p23s2 Wortverbindung empfohlen
 08205 p24s0 Wortverbindung empfohlen
 08205 p25s16 Wortverbindung empfohlen
 08205 p25s18 Wortverbindung empfohlen
@@ -323,6 +327,7 @@
 08205 p27s1 Wortverbindung empfohlen
 08205 p27s15 Wortverbindung empfohlen
 08205 p27s4 Wortverbindung empfohlen
+08205 p28s11 Wortverbindung empfohlen
 08205 p31s2 Wortverbindung empfohlen
 08205 p31s9 Wortverbindung empfohlen
 08205 p34s0 Wortverbindung empfohlen
@@ -337,7 +342,7 @@
 08205 p38s19 Wortverbindung empfohlen
 08205 p43s2 Wortverbindung empfohlen
 08205 p44s10 Wortverbindung empfohlen
-08205 p45s12 Wortverbindung empfohlen
+08205 p45s13 Wortverbindung empfohlen
 08205 p45s4 Wortverbindung empfohlen
 08205 p50s3 Wortverbindung empfohlen
 08205 p51s18 Wortverbindung empfohlen
@@ -352,11 +357,7 @@
 08205 p59s6 Wortverbindung empfohlen
 08205 p62s7 Wortverbindung empfohlen
 08205 p63s21 Wortverbindung empfohlen
-08205 p65s1 Wortverbindung empfohlen
-08205 p65s2 Wortverbindung empfohlen
-08205 p65s8 Wortverbindung empfohlen
 08205 p68s0 Wortverbindung empfohlen
-08205 p69s0 Wortverbindung empfohlen
 08205 p71s20 Wortverbindung empfohlen
 08205 p71s25 Wortverbindung empfohlen
 08205 p73s0 Wortverbindung empfohlen

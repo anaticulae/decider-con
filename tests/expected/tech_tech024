@@ -1,9 +1,10 @@
 06500 p2 Einleitung unvollständig
 06500 p2 Einleitung unvollständig
+06500 p2 Einleitung unvollständig
+06500 p2 Einleitung unvollständig
+07005 p3s0 Satzende vor Aufzählung fehlt
 07005 p4s5 Satzende vor Aufzählung fehlt
 07005 p4s9 Satzende vor Aufzählung fehlt
-07006 p2s12 Satzende vor Aufzählung anpassen
-07006 p6s1 Satzende vor Aufzählung anpassen
 07201 p10 Abbildung nicht referenziert
 07201 p11 Abbildung nicht referenziert
 07201 p12 Abbildung nicht referenziert
@@ -20,33 +21,32 @@
 07201 p8 Abbildung nicht referenziert
 07201 p8 Abbildung nicht referenziert
 07201 p9 Abbildung nicht referenziert
-07203 p6 Tabelle nicht referenziert
-07203 p6 Tabelle nicht referenziert
-07203 p7 Tabelle nicht referenziert
+07600 p7s6 Fehler in der Perspektive
 07610 p11None Satzmuster wiederholt sich
 07610 p11None Satzmuster wiederholt sich
 07610 p11None Satzmuster wiederholt sich
+07610 p3None Satzmuster wiederholt sich
+07611 p10~l17 Satzanfang wiederholt sich
 07611 p11~l6 Satzanfang wiederholt sich
-07611 p12~l5 Satzanfang wiederholt sich
+07611 p12~l4 Satzanfang wiederholt sich
 07611 p14~l3 Satzanfang wiederholt sich
 07611 p2~l8 Satzanfang wiederholt sich
 07611 p4~l15 Satzanfang wiederholt sich
+07611 p7~l3 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
-07620 p4~l0 Einsame Zeile am Seitenanfang
-07625 p0s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p11s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p12s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p5s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p6s0 Seitenanfang: Seite beginnt nicht mit Text
-07630 p11_11~l1_2 Paragraph zu kurz
+07625 p9s0 Seitenanfang: Seite beginnt nicht mit Text
+07630 p1_1~l37_38 Paragraph zu kurz
 07630 p3_3~l16_18 Paragraph zu kurz
 07630 p3_3~l20_22 Paragraph zu kurz
-07630 p7_7~l17_18 Paragraph zu kurz
+07630 p5_6~l15_0 Paragraph zu kurz
 07650 p12~l0~c47_49 Unzuläßiges Leerzeichen vor Komma
 07651 p12~l0~c33_38 Fehlendes Leerzeichen nach Komma
 07661 p2~l0~c63_66 Schrägstrich: Überflüssiges Leerzeichen
-08205 p10s0 Wortverbindung empfohlen
-08205 p10s15 Wortverbindung empfohlen
+08205 p10s6 Wortverbindung empfohlen
 08205 p10s9 Wortverbindung empfohlen
 08205 p11s20 Wortverbindung empfohlen
 08205 p11s22 Wortverbindung empfohlen
@@ -58,24 +58,15 @@
 08205 p2s4 Wortverbindung empfohlen
 08205 p2s5 Wortverbindung empfohlen
 08205 p2s8 Wortverbindung empfohlen
-08205 p3s16 Wortverbindung empfohlen
-08205 p3s3 Wortverbindung empfohlen
-08205 p3s9 Wortverbindung empfohlen
-08205 p4s1 Wortverbindung empfohlen
-08205 p4s10 Wortverbindung empfohlen
-08205 p4s6 Wortverbindung empfohlen
-08205 p4s8 Wortverbindung empfohlen
+08205 p3s0 Wortverbindung empfohlen
+08205 p3s10 Wortverbindung empfohlen
+08205 p3s17 Wortverbindung empfohlen
+08205 p3s4 Wortverbindung empfohlen
+08205 p4s5 Wortverbindung empfohlen
 08205 p4s9 Wortverbindung empfohlen
-08205 p5s0 Wortverbindung empfohlen
 08205 p5s10 Wortverbindung empfohlen
 08205 p5s2 Wortverbindung empfohlen
-08205 p6s2 Wortverbindung empfohlen
-08205 p6s3 Wortverbindung empfohlen
+08205 p6s1 Wortverbindung empfohlen
 08205 p6s8 Wortverbindung empfohlen
 08205 p6s9 Wortverbindung empfohlen
 08205 p7s10 Wortverbindung empfohlen
-08205 p7s4 Wortverbindung empfohlen
-08205 p7s8 Wortverbindung empfohlen
-08205 p8s5 Wortverbindung empfohlen
-08205 p8s6 Wortverbindung empfohlen
-08205 p8s7 Wortverbindung empfohlen

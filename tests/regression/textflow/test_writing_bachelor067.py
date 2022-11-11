@@ -9,7 +9,6 @@
 
 import power
 import protocol
-import pytest
 import utilatest
 
 import tests.textflow_
@@ -26,7 +25,6 @@ def test_writing_bachelor067_too_long_sentence(td, mp):
     assert not findings
 
 
-@pytest.mark.xfail(reason='upgrade resources')
 @utilatest.requires(power.BACHELOR067_PDF)
 def test_writing_bachelor067_perspective(td, mp):
     """Detect two times `man` inside a list."""

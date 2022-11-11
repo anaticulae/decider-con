@@ -1,4 +1,6 @@
 06500 p2 Einleitung unvollständig
+06500 p2 Einleitung unvollständig
+06500 p2 Einleitung unvollständig
 07600 p17s2 Fehler in der Perspektive
 07600 p21s2 Fehler in der Perspektive
 07605 p10s3 Satz zu lang
@@ -35,7 +37,7 @@
 07620 p25~l0 Einsame Zeile am Seitenanfang
 07620 p27~l0 Einsame Zeile am Seitenanfang
 07625 p19s0 Seitenanfang: Seite beginnt nicht mit Text
-07630 p0_0~l6_7 Paragraph zu kurz
+07630 p0_0~l4_5 Paragraph zu kurz
 07630 p18_18~l13_14 Paragraph zu kurz
 07630 p18_18~l15_17 Paragraph zu kurz
 07630 p1_1~l12_13 Paragraph zu kurz
@@ -119,10 +121,7 @@
 08205 p12s1 Wortverbindung empfohlen
 08205 p13s4 Wortverbindung empfohlen
 08205 p13s6 Wortverbindung empfohlen
-08205 p13s7 Wortverbindung empfohlen
-08205 p15s0 Wortverbindung empfohlen
 08205 p15s2 Wortverbindung empfohlen
-08205 p15s3 Wortverbindung empfohlen
 08205 p17s0 Wortverbindung empfohlen
 08205 p17s4 Wortverbindung empfohlen
 08205 p17s6 Wortverbindung empfohlen
@@ -132,12 +131,9 @@
 08205 p18s3 Wortverbindung empfohlen
 08205 p20s5 Wortverbindung empfohlen
 08205 p20s8 Wortverbindung empfohlen
-08205 p21s0 Wortverbindung empfohlen
 08205 p21s1 Wortverbindung empfohlen
 08205 p21s5 Wortverbindung empfohlen
 08205 p21s7 Wortverbindung empfohlen
-08205 p22s3 Wortverbindung empfohlen
-08205 p22s4 Wortverbindung empfohlen
 08205 p22s5 Wortverbindung empfohlen
 08205 p3s3 Wortverbindung empfohlen
 08205 p3s5 Wortverbindung empfohlen
@@ -149,7 +145,6 @@
 08205 p7s2 Wortverbindung empfohlen
 08205 p7s3 Wortverbindung empfohlen
 08205 p7s6 Wortverbindung empfohlen
-08205 p8s4 Wortverbindung empfohlen
 08205 p8s7 Wortverbindung empfohlen
 08205 p8s8 Wortverbindung empfohlen
 08205 p9s4 Wortverbindung empfohlen

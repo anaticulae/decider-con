@@ -1,5 +1,6 @@
 06500 p2 Einleitung unvollständig
 06500 p2 Einleitung unvollständig
+06500 p2 Einleitung unvollständig
 07000 p3b(504.36;196.21;544.48;240.73) Zu viele aufeinander folgende Trennungen
 07000 p49b(504.32;258.72;544.56;332.76) Zu viele aufeinander folgende Trennungen
 07000 p60b(504.44;486.38;544.56;581.18) Zu viele aufeinander folgende Trennungen
@@ -26,7 +27,7 @@
 07600 p50s6 Fehler in der Perspektive
 07600 p50s9 Fehler in der Perspektive
 07600 p57s18 Fehler in der Perspektive
-07600 p59s4 Fehler in der Perspektive
+07600 p59s5 Fehler in der Perspektive
 07600 p5s2 Fehler in der Perspektive
 07600 p60s1 Fehler in der Perspektive
 07600 p62s2 Fehler in der Perspektive
@@ -72,81 +73,40 @@
 08110 p60s10 Unnötige Vorsilbe
 08115 p47s4 Ungenaue Formulierung erkannt
 08115 p9s10 Ungenaue Formulierung erkannt
-08205 p2s1 Wortverbindung empfohlen
-08205 p2s11 Wortverbindung empfohlen
-08205 p2s2 Wortverbindung empfohlen
-08205 p3s12 Wortverbindung empfohlen
 08205 p3s13 Wortverbindung empfohlen
-08205 p3s14 Wortverbindung empfohlen
-08205 p3s6 Wortverbindung empfohlen
-08205 p43s1 Wortverbindung empfohlen
-08205 p44s12 Wortverbindung empfohlen
 08205 p44s5 Wortverbindung empfohlen
-08205 p44s8 Wortverbindung empfohlen
-08205 p44s9 Wortverbindung empfohlen
-08205 p45s1 Wortverbindung empfohlen
 08205 p45s8 Wortverbindung empfohlen
-08205 p46s11 Wortverbindung empfohlen
 08205 p47s0 Wortverbindung empfohlen
-08205 p47s2 Wortverbindung empfohlen
-08205 p47s8 Wortverbindung empfohlen
-08205 p47s9 Wortverbindung empfohlen
 08205 p48s4 Wortverbindung empfohlen
 08205 p48s5 Wortverbindung empfohlen
 08205 p48s6 Wortverbindung empfohlen
 08205 p48s7 Wortverbindung empfohlen
-08205 p48s8 Wortverbindung empfohlen
 08205 p49s15 Wortverbindung empfohlen
 08205 p49s5 Wortverbindung empfohlen
 08205 p49s6 Wortverbindung empfohlen
-08205 p4s12 Wortverbindung empfohlen
 08205 p4s2 Wortverbindung empfohlen
 08205 p4s7 Wortverbindung empfohlen
 08205 p50s0 Wortverbindung empfohlen
 08205 p50s1 Wortverbindung empfohlen
-08205 p50s4 Wortverbindung empfohlen
 08205 p50s5 Wortverbindung empfohlen
-08205 p50s6 Wortverbindung empfohlen
-08205 p50s7 Wortverbindung empfohlen
 08205 p51s1 Wortverbindung empfohlen
 08205 p51s12 Wortverbindung empfohlen
 08205 p52s12 Wortverbindung empfohlen
 08205 p52s6 Wortverbindung empfohlen
-08205 p52s8 Wortverbindung empfohlen
 08205 p53s0 Wortverbindung empfohlen
-08205 p53s18 Wortverbindung empfohlen
 08205 p53s2 Wortverbindung empfohlen
 08205 p53s5 Wortverbindung empfohlen
 08205 p53s6 Wortverbindung empfohlen
 08205 p53s9 Wortverbindung empfohlen
-08205 p54s0 Wortverbindung empfohlen
 08205 p54s3 Wortverbindung empfohlen
-08205 p56s0 Wortverbindung empfohlen
-08205 p56s1 Wortverbindung empfohlen
 08205 p56s18 Wortverbindung empfohlen
-08205 p56s3 Wortverbindung empfohlen
 08205 p56s6 Wortverbindung empfohlen
 08205 p57s14 Wortverbindung empfohlen
-08205 p57s16 Wortverbindung empfohlen
 08205 p58s2 Wortverbindung empfohlen
-08205 p59s4 Wortverbindung empfohlen
-08205 p5s0 Wortverbindung empfohlen
 08205 p5s2 Wortverbindung empfohlen
-08205 p60s1 Wortverbindung empfohlen
 08205 p60s11 Wortverbindung empfohlen
-08205 p60s15 Wortverbindung empfohlen
-08205 p60s3 Wortverbindung empfohlen
-08205 p60s4 Wortverbindung empfohlen
 08205 p60s8 Wortverbindung empfohlen
-08205 p61s19 Wortverbindung empfohlen
 08205 p64s1 Wortverbindung empfohlen
-08205 p64s9 Wortverbindung empfohlen
-08205 p6s1 Wortverbindung empfohlen
-08205 p6s2 Wortverbindung empfohlen
-08205 p6s4 Wortverbindung empfohlen
-08205 p6s5 Wortverbindung empfohlen
 08205 p8s10 Wortverbindung empfohlen
 08205 p8s12 Wortverbindung empfohlen
-08205 p8s9 Wortverbindung empfohlen
-08205 p9s11 Wortverbindung empfohlen
 08205 p9s12 Wortverbindung empfohlen

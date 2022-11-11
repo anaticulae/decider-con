@@ -1,5 +1,6 @@
 06500 p8 Einleitung unvollständig
 06500 p8 Einleitung unvollständig
+06500 p8 Einleitung unvollständig
 07000 p10b(518.69;155.68;558.83;214.96) Zu viele aufeinander folgende Trennungen
 07000 p13b(518.69;142.36;558.7;201.76) Zu viele aufeinander folgende Trennungen
 07000 p14b(518.69;682.96;558.7;742.36) Zu viele aufeinander folgende Trennungen
@@ -12,16 +13,16 @@
 07005 p31s15 Satzende vor Aufzählung fehlt
 07005 p31s19 Satzende vor Aufzählung fehlt
 07005 p31s23 Satzende vor Aufzählung fehlt
-07005 p31s27 Satzende vor Aufzählung fehlt
 07005 p35s1 Satzende vor Aufzählung fehlt
 07005 p35s13 Satzende vor Aufzählung fehlt
-07006 p33s8 Satzende vor Aufzählung anpassen
-07010 p14s7 Satzende vor Gleichung fehlt
+07005 p37s7 Satzende vor Aufzählung fehlt
+07005 p38s0 Satzende vor Aufzählung fehlt
+07005 p38s3 Satzende vor Aufzählung fehlt
+07006 p37s0 Satzende vor Aufzählung anpassen
 07010 p26s2 Satzende vor Gleichung fehlt
 07010 p27s3 Satzende vor Gleichung fehlt
 07011 p24s9 Satzende vor Gleichung anpassen
 07201 p15 Abbildung nicht referenziert
-07201 p22 Abbildung nicht referenziert
 07201 p23 Abbildung nicht referenziert
 07201 p30 Abbildung nicht referenziert
 07201 p33 Abbildung nicht referenziert
@@ -33,15 +34,16 @@
 07230 p18 Rückwärtsreferenz Abbildung
 07230 p20 Rückwärtsreferenz Abbildung
 07230 p21 Rückwärtsreferenz Abbildung
+07230 p23 Rückwärtsreferenz Abbildung
 07230 p37 Rückwärtsreferenz Abbildung
 07611 p12~l10 Satzanfang wiederholt sich
 07611 p12~l3 Satzanfang wiederholt sich
-07611 p14~l2 Satzanfang wiederholt sich
 07611 p17~l10 Satzanfang wiederholt sich
 07611 p17~l12 Satzanfang wiederholt sich
 07611 p18~l2 Satzanfang wiederholt sich
 07611 p20~l1 Satzanfang wiederholt sich
-07611 p24~l15 Satzanfang wiederholt sich
+07611 p22~l1 Satzanfang wiederholt sich
+07611 p24~l14 Satzanfang wiederholt sich
 07611 p25~l2 Satzanfang wiederholt sich
 07611 p26~l1 Satzanfang wiederholt sich
 07611 p29~l1 Satzanfang wiederholt sich
@@ -49,7 +51,7 @@
 07611 p30~l0 Satzanfang wiederholt sich
 07611 p33~l1 Satzanfang wiederholt sich
 07611 p35~l1 Satzanfang wiederholt sich
-07611 p37~l3 Satzanfang wiederholt sich
+07611 p38~l0 Satzanfang wiederholt sich
 07611 p41~l1 Satzanfang wiederholt sich
 07611 p41~l7 Satzanfang wiederholt sich
 07611 p42~l1 Satzanfang wiederholt sich
@@ -63,31 +65,29 @@
 07625 p11s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p14s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p15s0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p1s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p22s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p23s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p25s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p34s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p46s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p47s0 Seitenanfang: Seite beginnt nicht mit Text
-07630 p13_13~l11_13 Paragraph zu kurz
-07630 p14_14~l14_15 Paragraph zu kurz
+07625 p62s0 Seitenanfang: Seite beginnt nicht mit Text
 07630 p15_15~l16_18 Paragraph zu kurz
 07630 p19_19~l1_2 Paragraph zu kurz
 07630 p20_20~l11_12 Paragraph zu kurz
-07630 p25_25~l13_14 Paragraph zu kurz
+07630 p23_23~l2_4 Paragraph zu kurz
+07630 p24_24~l16_18 Paragraph zu kurz
 07630 p29_29~l4_6 Paragraph zu kurz
 07630 p35_35~l1_3 Paragraph zu kurz
-07630 p37_37~l8_9 Paragraph zu kurz
+07630 p3_3~l10_12 Paragraph zu kurz
 07630 p3_3~l1_2 Paragraph zu kurz
 07630 p3_3~l4_6 Paragraph zu kurz
-07630 p58_58~l2_3 Paragraph zu kurz
+07630 p3_3~l7_8 Paragraph zu kurz
+07630 p58_58~l1_2 Paragraph zu kurz
 07630 p59_59~l12_13 Paragraph zu kurz
 07630 p61_61~l11_12 Paragraph zu kurz
-07630 p61_61~l14_15 Paragraph zu kurz
-07630 p61_61~l18_19 Paragraph zu kurz
-07630 p61_61~l1_2 Paragraph zu kurz
-07630 p61_61~l26_27 Paragraph zu kurz
+07630 p61_61~l15_16 Paragraph zu kurz
+07630 p61_61~l1_3 Paragraph zu kurz
 07630 p61_61~l5_6 Paragraph zu kurz
 07630 p61_61~l8_9 Paragraph zu kurz
 07630 p6_6~l10_12 Paragraph zu kurz
@@ -95,12 +95,11 @@
 07630 p7_7~l0_1 Paragraph zu kurz
 07630 p7_7~l16_17 Paragraph zu kurz
 07630 p7_7~l19_21 Paragraph zu kurz
-07650 p10~l0~c137_139 Unzuläßiges Leerzeichen vor Komma
+07650 p10~l0~c41_43 Unzuläßiges Leerzeichen vor Komma
 07650 p10~l0~c69_71 Unzuläßiges Leerzeichen vor Komma
 07650 p12~l0~c56_58 Unzuläßiges Leerzeichen vor Komma
 07650 p14~l0~c52_54 Unzuläßiges Leerzeichen vor Komma
 07650 p14~l0~c67_69 Unzuläßiges Leerzeichen vor Komma
-07650 p15~l0~c67_69 Unzuläßiges Leerzeichen vor Komma
 07670 p10s18 Fehlendes Leerzeichen
 07670 p10s19 Fehlendes Leerzeichen
 07670 p12s3 Fehlendes Leerzeichen
@@ -131,16 +130,15 @@
 07670 p35s9 Fehlendes Leerzeichen
 07670 p35s9 Fehlendes Leerzeichen
 07670 p37s8 Fehlendes Leerzeichen
-07670 p58s2 Fehlendes Leerzeichen
+07670 p58s1 Fehlendes Leerzeichen
 07670 p60s18 Fehlendes Leerzeichen
 07670 p9s8 Fehlendes Leerzeichen
 07670 p9s9 Fehlendes Leerzeichen
 08105 p13s10 Pleonasma erkannt
 08110 p35s15 Unnötige Vorsilbe
-08110 p37s5 Unnötige Vorsilbe
+08110 p37s6 Unnötige Vorsilbe
 08115 p40s9 Ungenaue Formulierung erkannt
 08120 p31s25 Adjektiv verbessern
-08205 p10s3 Wortverbindung empfohlen
 08205 p11s5 Wortverbindung empfohlen
 08205 p14s12 Wortverbindung empfohlen
 08205 p14s4 Wortverbindung empfohlen
@@ -151,7 +149,6 @@
 08205 p18s16 Wortverbindung empfohlen
 08205 p18s17 Wortverbindung empfohlen
 08205 p19s3 Wortverbindung empfohlen
-08205 p20s5 Wortverbindung empfohlen
 08205 p23s2 Wortverbindung empfohlen
 08205 p24s2 Wortverbindung empfohlen
 08205 p24s6 Wortverbindung empfohlen
@@ -161,10 +158,7 @@
 08205 p29s10 Wortverbindung empfohlen
 08205 p33s2 Wortverbindung empfohlen
 08205 p35s0 Wortverbindung empfohlen
-08205 p35s14 Wortverbindung empfohlen
 08205 p35s26 Wortverbindung empfohlen
-08205 p35s7 Wortverbindung empfohlen
 08205 p39s12 Wortverbindung empfohlen
 08205 p41s10 Wortverbindung empfohlen
-08205 p41s21 Wortverbindung empfohlen
 08205 p8s15 Wortverbindung empfohlen

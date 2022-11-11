@@ -1,25 +1,24 @@
 05110 p-1 Abkürzung wurde nicht im Text verwerdet
 05110 p-1 Abkürzung wurde nicht im Text verwerdet
 05110 p-1 Abkürzung wurde nicht im Text verwerdet
-05110 p-1 Abkürzung wurde nicht im Text verwerdet
 07000 p12b(504.22;551.78;544.59;619.69) Zu viele aufeinander folgende Trennungen
 07201 p16 Abbildung nicht referenziert
 07230 p18 Rückwärtsreferenz Abbildung
 07230 p19 Rückwärtsreferenz Abbildung
-07600 p13s10 Fehler in der Perspektive
+07600 p13s8 Fehler in der Perspektive
 07600 p14s1 Fehler in der Perspektive
 07600 p14s3 Fehler in der Perspektive
 07600 p14s7 Fehler in der Perspektive
 07600 p7s17 Fehler in der Perspektive
 07600 p7s19 Fehler in der Perspektive
 07605 p10s11 Satz zu lang
-07605 p16s7 Satz zu lang
-07611 p11~l11 Satzanfang wiederholt sich
-07611 p11~l14 Satzanfang wiederholt sich
-07611 p11~l5 Satzanfang wiederholt sich
+07605 p10s15 Satz zu lang
+07605 p16s9 Satz zu lang
+07611 p11~l10 Satzanfang wiederholt sich
+07611 p11~l13 Satzanfang wiederholt sich
+07611 p11~l4 Satzanfang wiederholt sich
 07611 p16~l1 Satzanfang wiederholt sich
 07611 p16~l5 Satzanfang wiederholt sich
-07611 p16~l9 Satzanfang wiederholt sich
 07611 p17~l10 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
 07620 p12~l0 Einsame Zeile am Seitenanfang
@@ -28,19 +27,18 @@
 07625 p18s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p19s0 Seitenanfang: Seite beginnt nicht mit Text
 07630 p10_10~l22_23 Paragraph zu kurz
-07630 p16_16~l19_20 Paragraph zu kurz
-07630 p1_1~l7_8 Paragraph zu kurz
+07630 p1_1~l2_3 Paragraph zu kurz
 07630 p2_2~l10_11 Paragraph zu kurz
 07630 p2_2~l13_15 Paragraph zu kurz
 07630 p2_2~l17_18 Paragraph zu kurz
 07630 p2_2~l2_3 Paragraph zu kurz
 07630 p2_2~l7_8 Paragraph zu kurz
 07630 p5_5~l21_22 Paragraph zu kurz
-07650 p11~l0~c14_16 Unzuläßiges Leerzeichen vor Komma
+07650 p10~l0~c398_400 Unzuläßiges Leerzeichen vor Komma
 07650 p15~l0~c63_65 Unzuläßiges Leerzeichen vor Komma
 07650 p15~l0~c69_71 Unzuläßiges Leerzeichen vor Komma
 07650 p17~l0~c95_97 Unzuläßiges Leerzeichen vor Komma
-07654 p11~l0~c21_23 Leerzeichen vor Semikolon
+07654 p10~l0~c405_407 Leerzeichen vor Semikolon
 07654 p12~l0~c123_125 Leerzeichen vor Semikolon
 07654 p14~l0~c158_160 Leerzeichen vor Semikolon
 07654 p7~l0~c21_23 Leerzeichen vor Semikolon
@@ -52,33 +50,18 @@
 07661 p17~l0~c76_78 Schrägstrich: Überflüssiges Leerzeichen
 07661 p19~l0~c25_28 Schrägstrich: Überflüssiges Leerzeichen
 07670 p16s6 Fehlendes Leerzeichen
-08110 p11s9 Unnötige Vorsilbe
-08110 p13s2 Unnötige Vorsilbe
+08110 p11s8 Unnötige Vorsilbe
+08110 p13s0 Unnötige Vorsilbe
 08110 p14s7 Unnötige Vorsilbe
-08205 p10s1 Wortverbindung empfohlen
 08205 p10s15 Wortverbindung empfohlen
-08205 p10s4 Wortverbindung empfohlen
-08205 p10s6 Wortverbindung empfohlen
-08205 p11s3 Wortverbindung empfohlen
-08205 p13s22 Wortverbindung empfohlen
-08205 p13s4 Wortverbindung empfohlen
-08205 p14s11 Wortverbindung empfohlen
+08205 p13s20 Wortverbindung empfohlen
 08205 p14s15 Wortverbindung empfohlen
-08205 p14s2 Wortverbindung empfohlen
 08205 p14s7 Wortverbindung empfohlen
 08205 p14s8 Wortverbindung empfohlen
-08205 p15s12 Wortverbindung empfohlen
-08205 p15s14 Wortverbindung empfohlen
-08205 p16s1 Wortverbindung empfohlen
 08205 p16s8 Wortverbindung empfohlen
-08205 p17s10 Wortverbindung empfohlen
 08205 p17s15 Wortverbindung empfohlen
 08205 p17s16 Wortverbindung empfohlen
 08205 p18s3 Wortverbindung empfohlen
 08205 p7s14 Wortverbindung empfohlen
 08205 p8s0 Wortverbindung empfohlen
-08205 p8s1 Wortverbindung empfohlen
-08205 p8s5 Wortverbindung empfohlen
 08205 p9s3 Wortverbindung empfohlen
-08205 p9s4 Wortverbindung empfohlen
-08205 p9s5 Wortverbindung empfohlen

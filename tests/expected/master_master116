@@ -1,18 +1,21 @@
 06500 p8 Einleitung unvollständig
+06500 p8 Einleitung unvollständig
+07010 p24s10 Satzende vor Gleichung fehlt
 07010 p25s10 Satzende vor Gleichung fehlt
-07010 p25s2 Satzende vor Gleichung fehlt
-07010 p25s7 Satzende vor Gleichung fehlt
-07010 p26s4 Satzende vor Gleichung fehlt
+07010 p25s5 Satzende vor Gleichung fehlt
+07010 p25s8 Satzende vor Gleichung fehlt
+07010 p27s4 Satzende vor Gleichung fehlt
+07010 p28s14 Satzende vor Gleichung fehlt
 07010 p29s4 Satzende vor Gleichung fehlt
-07010 p30s13 Satzende vor Gleichung fehlt
-07010 p30s3 Satzende vor Gleichung fehlt
+07010 p30s14 Satzende vor Gleichung fehlt
+07010 p30s4 Satzende vor Gleichung fehlt
 07010 p44s0 Satzende vor Gleichung fehlt
 07010 p44s11 Satzende vor Gleichung fehlt
 07010 p44s14 Satzende vor Gleichung fehlt
-07010 p45s16 Satzende vor Gleichung fehlt
-07010 p45s2 Satzende vor Gleichung fehlt
-07010 p45s21 Satzende vor Gleichung fehlt
-07010 p45s28 Satzende vor Gleichung fehlt
+07010 p45s1 Satzende vor Gleichung fehlt
+07010 p45s15 Satzende vor Gleichung fehlt
+07010 p45s20 Satzende vor Gleichung fehlt
+07010 p45s27 Satzende vor Gleichung fehlt
 07010 p46s1 Satzende vor Gleichung fehlt
 07010 p46s11 Satzende vor Gleichung fehlt
 07010 p46s16 Satzende vor Gleichung fehlt
@@ -22,33 +25,32 @@
 07010 p46s6 Satzende vor Gleichung fehlt
 07010 p75s2 Satzende vor Gleichung fehlt
 07010 p75s7 Satzende vor Gleichung fehlt
-07010 p77s2 Satzende vor Gleichung fehlt
-07010 p79s0 Satzende vor Gleichung fehlt
-07011 p24s7 Satzende vor Gleichung anpassen
+07010 p76s4 Satzende vor Gleichung fehlt
+07010 p79s1 Satzende vor Gleichung fehlt
 07011 p28s0 Satzende vor Gleichung anpassen
-07200 p13s11 Referenz nicht gefunden
-07200 p16s4 Referenz nicht gefunden
-07200 p18s8 Referenz nicht gefunden
+07200 p13s10 Referenz nicht gefunden
+07200 p16s3 Referenz nicht gefunden
+07200 p18s7 Referenz nicht gefunden
 07200 p19s2 Referenz nicht gefunden
-07200 p20s10 Referenz nicht gefunden
-07200 p20s5 Referenz nicht gefunden
-07200 p21s2 Referenz nicht gefunden
+07200 p20s4 Referenz nicht gefunden
+07200 p21s1 Referenz nicht gefunden
 07200 p22s10 Referenz nicht gefunden
 07200 p26s1 Referenz nicht gefunden
 07200 p26s6 Referenz nicht gefunden
-07200 p27s4 Referenz nicht gefunden
+07200 p27s2 Referenz nicht gefunden
 07200 p29s16 Referenz nicht gefunden
-07200 p30s0 Referenz nicht gefunden
-07200 p31s14 Referenz nicht gefunden
+07200 p31s13 Referenz nicht gefunden
 07200 p33s1 Referenz nicht gefunden
 07200 p34s1 Referenz nicht gefunden
 07200 p34s3 Referenz nicht gefunden
+07200 p35s10 Referenz nicht gefunden
 07200 p35s3 Referenz nicht gefunden
 07200 p35s6 Referenz nicht gefunden
-07200 p36s11 Referenz nicht gefunden
+07200 p36s13 Referenz nicht gefunden
 07200 p36s3 Referenz nicht gefunden
 07200 p37s7 Referenz nicht gefunden
 07200 p39s10 Referenz nicht gefunden
+07200 p39s15 Referenz nicht gefunden
 07200 p41s1 Referenz nicht gefunden
 07200 p42s3 Referenz nicht gefunden
 07200 p42s5 Referenz nicht gefunden
@@ -56,15 +58,13 @@
 07200 p49s6 Referenz nicht gefunden
 07200 p75s17 Referenz nicht gefunden
 07200 p75s18 Referenz nicht gefunden
-07200 p76s9 Referenz nicht gefunden
-07200 p77s1 Referenz nicht gefunden
-07200 p77s6 Referenz nicht gefunden
+07200 p76s8 Referenz nicht gefunden
 07200 p80s5 Referenz nicht gefunden
-07200 p81s12 Referenz nicht gefunden
-07200 p81s9 Referenz nicht gefunden
+07200 p81s11 Referenz nicht gefunden
+07200 p81s8 Referenz nicht gefunden
 07200 p83s3 Referenz nicht gefunden
-07200 p83s5 Referenz nicht gefunden
-07200 p84s0 Referenz nicht gefunden
+07200 p83s8 Referenz nicht gefunden
+07200 p84s2 Referenz nicht gefunden
 07201 p101 Abbildung nicht referenziert
 07201 p101 Abbildung nicht referenziert
 07201 p101 Abbildung nicht referenziert
@@ -93,8 +93,6 @@
 07201 p18 Abbildung nicht referenziert
 07201 p19 Abbildung nicht referenziert
 07201 p19 Abbildung nicht referenziert
-07201 p20 Abbildung nicht referenziert
-07201 p20 Abbildung nicht referenziert
 07201 p22 Abbildung nicht referenziert
 07201 p26 Abbildung nicht referenziert
 07201 p27 Abbildung nicht referenziert
@@ -122,8 +120,6 @@
 07201 p43 Abbildung nicht referenziert
 07201 p49 Abbildung nicht referenziert
 07201 p75 Abbildung nicht referenziert
-07201 p77 Abbildung nicht referenziert
-07201 p78 Abbildung nicht referenziert
 07201 p80 Abbildung nicht referenziert
 07201 p81 Abbildung nicht referenziert
 07201 p82 Abbildung nicht referenziert
@@ -133,64 +129,69 @@
 07201 p83 Abbildung nicht referenziert
 07201 p84 Abbildung nicht referenziert
 07201 p84 Abbildung nicht referenziert
-07202 p18s0 Referenz nicht gefunden
-07202 p20s8 Referenz nicht gefunden
+07202 p17s18 Referenz nicht gefunden
+07202 p20s7 Referenz nicht gefunden
 07202 p32s9 Referenz nicht gefunden
 07202 p33s0 Referenz nicht gefunden
-07202 p49s13 Referenz nicht gefunden
-07202 p76s17 Referenz nicht gefunden
-07202 p77s4 Referenz nicht gefunden
-07202 p78s1 Referenz nicht gefunden
+07202 p49s14 Referenz nicht gefunden
+07202 p76s16 Referenz nicht gefunden
 07203 p18 Tabelle nicht referenziert
 07203 p32 Tabelle nicht referenziert
 07203 p33 Tabelle nicht referenziert
-07203 p77 Tabelle nicht referenziert
-07203 p78 Tabelle nicht referenziert
 07203 p79 Tabelle nicht referenziert
 07203 p79 Tabelle nicht referenziert
+07610 p12None Satzmuster wiederholt sich
+07610 p21None Satzmuster wiederholt sich
+07610 p37None Satzmuster wiederholt sich
+07610 p43None Satzmuster wiederholt sich
+07610 p75None Satzmuster wiederholt sich
 07611 p10~l2 Satzanfang wiederholt sich
 07611 p11~l0 Satzanfang wiederholt sich
-07611 p11~l6 Satzanfang wiederholt sich
-07611 p12~l3 Satzanfang wiederholt sich
+07611 p11~l8 Satzanfang wiederholt sich
+07611 p12~l5 Satzanfang wiederholt sich
 07611 p14~l1 Satzanfang wiederholt sich
-07611 p15~l0 Satzanfang wiederholt sich
-07611 p16~l1 Satzanfang wiederholt sich
-07611 p17~l0 Satzanfang wiederholt sich
-07611 p18~l0 Satzanfang wiederholt sich
+07611 p15~l3 Satzanfang wiederholt sich
+07611 p16~l4 Satzanfang wiederholt sich
 07611 p18~l3 Satzanfang wiederholt sich
 07611 p21~l0 Satzanfang wiederholt sich
 07611 p22~l5 Satzanfang wiederholt sich
-07611 p23~l12 Satzanfang wiederholt sich
-07611 p24~l3 Satzanfang wiederholt sich
-07611 p25~l3 Satzanfang wiederholt sich
-07611 p25~l7 Satzanfang wiederholt sich
-07611 p27~l2 Satzanfang wiederholt sich
+07611 p23~l23 Satzanfang wiederholt sich
+07611 p24~l2 Satzanfang wiederholt sich
+07611 p24~l5 Satzanfang wiederholt sich
+07611 p25~l2 Satzanfang wiederholt sich
+07611 p25~l6 Satzanfang wiederholt sich
+07611 p27~l0 Satzanfang wiederholt sich
 07611 p28~l6 Satzanfang wiederholt sich
-07611 p31~l2 Satzanfang wiederholt sich
+07611 p31~l5 Satzanfang wiederholt sich
 07611 p32~l3 Satzanfang wiederholt sich
 07611 p35~l1 Satzanfang wiederholt sich
 07611 p36~l0 Satzanfang wiederholt sich
 07611 p37~l0 Satzanfang wiederholt sich
 07611 p39~l2 Satzanfang wiederholt sich
-07611 p41~l0 Satzanfang wiederholt sich
-07611 p41~l6 Satzanfang wiederholt sich
+07611 p41~l5 Satzanfang wiederholt sich
 07611 p42~l1 Satzanfang wiederholt sich
-07611 p43~l0 Satzanfang wiederholt sich
 07611 p44~l9 Satzanfang wiederholt sich
-07611 p45~l26 Satzanfang wiederholt sich
-07611 p48~l8 Satzanfang wiederholt sich
 07611 p49~l1 Satzanfang wiederholt sich
-07611 p75~l22 Satzanfang wiederholt sich
-07611 p76~l8 Satzanfang wiederholt sich
-07611 p78~l2 Satzanfang wiederholt sich
+07611 p76~l0 Satzanfang wiederholt sich
+07611 p76~l4 Satzanfang wiederholt sich
+07611 p76~l7 Satzanfang wiederholt sich
+07611 p81~l8 Satzanfang wiederholt sich
 07611 p86~l3 Satzanfang wiederholt sich
 07611 p86~l7 Satzanfang wiederholt sich
 07611 p8~l18 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
+07620 p113~l0 Einsame Zeile am Seitenanfang
+07620 p114~l0 Einsame Zeile am Seitenanfang
+07620 p15~l0 Einsame Zeile am Seitenanfang
+07620 p18~l0 Einsame Zeile am Seitenanfang
+07620 p21~l0 Einsame Zeile am Seitenanfang
 07620 p22~l0 Einsame Zeile am Seitenanfang
+07620 p26~l0 Einsame Zeile am Seitenanfang
 07620 p29~l0 Einsame Zeile am Seitenanfang
 07620 p7~l0 Einsame Zeile am Seitenanfang
 07620 p99~l0 Einsame Zeile am Seitenanfang
+07625 p110s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p111s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p112s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p27s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p30s0 Seitenanfang: Seite beginnt nicht mit Text
@@ -199,9 +200,13 @@
 07625 p78s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p79s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p82s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p94s0 Seitenanfang: Seite beginnt nicht mit Text
+07625 p95s0 Seitenanfang: Seite beginnt nicht mit Text
 07630 p100_100~l0_1 Paragraph zu kurz
 07630 p100_100~l3_4 Paragraph zu kurz
 07630 p100_100~l6_7 Paragraph zu kurz
+07630 p10_10~l0_2 Paragraph zu kurz
+07630 p10_10~l8_9 Paragraph zu kurz
 07630 p112_112~l13_14 Paragraph zu kurz
 07630 p112_112~l2_3 Paragraph zu kurz
 07630 p112_112~l5_7 Paragraph zu kurz
@@ -209,6 +214,7 @@
 07630 p113_113~l13_15 Paragraph zu kurz
 07630 p113_113~l17_18 Paragraph zu kurz
 07630 p113_113~l1_2 Paragraph zu kurz
+07630 p113_113~l21_23 Paragraph zu kurz
 07630 p113_113~l27_28 Paragraph zu kurz
 07630 p113_113~l31_32 Paragraph zu kurz
 07630 p113_113~l34_36 Paragraph zu kurz
@@ -223,38 +229,46 @@
 07630 p114_114~l27_28 Paragraph zu kurz
 07630 p114_114~l29_31 Paragraph zu kurz
 07630 p114_114~l32_34 Paragraph zu kurz
+07630 p114_114~l36_38 Paragraph zu kurz
 07630 p114_114~l4_5 Paragraph zu kurz
 07630 p114_114~l7_8 Paragraph zu kurz
 07630 p11_11~l1_3 Paragraph zu kurz
+07630 p13_13~l0_1 Paragraph zu kurz
 07630 p15_15~l26_28 Paragraph zu kurz
+07630 p15_15~l30_32 Paragraph zu kurz
 07630 p17_17~l19_21 Paragraph zu kurz
 07630 p17_17~l8_10 Paragraph zu kurz
+07630 p19_19~l0_2 Paragraph zu kurz
+07630 p19_19~l5_8 Paragraph zu kurz
 07630 p1_1~l1_3 Paragraph zu kurz
-07630 p20_20~l11_12 Paragraph zu kurz
 07630 p21_21~l13_14 Paragraph zu kurz
 07630 p22_22~l6_7 Paragraph zu kurz
 07630 p24_24~l0_2 Paragraph zu kurz
 07630 p24_24~l13_14 Paragraph zu kurz
-07630 p25_25~l11_12 Paragraph zu kurz
-07630 p25_25~l16_17 Paragraph zu kurz
-07630 p25_25~l24_25 Paragraph zu kurz
+07630 p24_24~l16_17 Paragraph zu kurz
+07630 p24_24~l19_20 Paragraph zu kurz
+07630 p25_25~l11_13 Paragraph zu kurz
+07630 p25_25~l14_15 Paragraph zu kurz
+07630 p25_25~l18_19 Paragraph zu kurz
 07630 p25_25~l4_5 Paragraph zu kurz
-07630 p27_27~l1_3 Paragraph zu kurz
+07630 p27_27~l2_3 Paragraph zu kurz
 07630 p27_27~l6_8 Paragraph zu kurz
 07630 p28_28~l0_2 Paragraph zu kurz
 07630 p28_28~l4_6 Paragraph zu kurz
 07630 p28_28~l8_9 Paragraph zu kurz
-07630 p29_29~l10_12 Paragraph zu kurz
+07630 p29_29~l16_18 Paragraph zu kurz
 07630 p29_29~l2_3 Paragraph zu kurz
 07630 p29_29~l7_8 Paragraph zu kurz
 07630 p30_30~l13_15 Paragraph zu kurz
 07630 p30_30~l18_19 Paragraph zu kurz
 07630 p30_30~l21_22 Paragraph zu kurz
-07630 p38_39~l10_0 Paragraph zu kurz
-07630 p40_40~l2_3 Paragraph zu kurz
+07630 p30_30~l3_5 Paragraph zu kurz
+07630 p38_38~l11_12 Paragraph zu kurz
 07630 p41_41~l1_3 Paragraph zu kurz
 07630 p42_42~l1_3 Paragraph zu kurz
 07630 p42_42~l5_7 Paragraph zu kurz
+07630 p43_43~l11_12 Paragraph zu kurz
+07630 p44_44~l0_2 Paragraph zu kurz
 07630 p44_44~l11_12 Paragraph zu kurz
 07630 p44_44~l4_6 Paragraph zu kurz
 07630 p45_45~l13_14 Paragraph zu kurz
@@ -268,6 +282,7 @@
 07630 p46_46~l17_18 Paragraph zu kurz
 07630 p46_46~l21_23 Paragraph zu kurz
 07630 p46_46~l4_5 Paragraph zu kurz
+07630 p47_47~l14_15 Paragraph zu kurz
 07630 p49_49~l7_8 Paragraph zu kurz
 07630 p4_4~l10_11 Paragraph zu kurz
 07630 p4_4~l16_17 Paragraph zu kurz
@@ -280,19 +295,20 @@
 07630 p5_5~l29_31 Paragraph zu kurz
 07630 p5_5~l33_34 Paragraph zu kurz
 07630 p5_5~l37_38 Paragraph zu kurz
+07630 p5_5~l40_41 Paragraph zu kurz
 07630 p5_5~l4_5 Paragraph zu kurz
 07630 p5_5~l8_9 Paragraph zu kurz
 07630 p75_75~l0_1 Paragraph zu kurz
 07630 p75_75~l7_9 Paragraph zu kurz
 07630 p76_76~l19_21 Paragraph zu kurz
-07630 p77_77~l9_10 Paragraph zu kurz
-07630 p78_78~l1_2 Paragraph zu kurz
-07630 p79_79~l0_1 Paragraph zu kurz
-07630 p80_80~l11_12 Paragraph zu kurz
+07630 p81_81~l19_20 Paragraph zu kurz
 07630 p81_81~l9_10 Paragraph zu kurz
+07630 p83_83~l10_11 Paragraph zu kurz
+07630 p84_84~l0_2 Paragraph zu kurz
 07630 p85_85~l0_2 Paragraph zu kurz
+07630 p87_87~l0_1 Paragraph zu kurz
 07630 p89_89~l15_17 Paragraph zu kurz
-07630 p89_89~l25_27 Paragraph zu kurz
+07630 p90_90~l2_3 Paragraph zu kurz
 07630 p91_91~l14_16 Paragraph zu kurz
 07630 p97_97~l11_12 Paragraph zu kurz
 07630 p97_97~l13_15 Paragraph zu kurz
@@ -327,49 +343,70 @@
 07651 p23~l0~c28_35 Fehlendes Leerzeichen nach Komma
 07651 p23~l0~c29_34 Fehlendes Leerzeichen nach Komma
 07651 p23~l0~c33_39 Fehlendes Leerzeichen nach Komma
-07652 p25~l0~c3_6 Unzuläßiges Leerzeichen vor eckiger Klammer
+08115 p9s30 Ungenaue Formulierung erkannt
+08205 p11s18 Wortverbindung empfohlen
+08205 p11s7 Wortverbindung empfohlen
+08205 p12s2 Wortverbindung empfohlen
+08205 p13s2 Wortverbindung empfohlen
 08205 p14s2 Wortverbindung empfohlen
-08205 p15s20 Wortverbindung empfohlen
-08205 p16s4 Wortverbindung empfohlen
-08205 p17s5 Wortverbindung empfohlen
-08205 p17s8 Wortverbindung empfohlen
-08205 p17s9 Wortverbindung empfohlen
-08205 p19s6 Wortverbindung empfohlen
-08205 p20s2 Wortverbindung empfohlen
-08205 p20s7 Wortverbindung empfohlen
-08205 p21s14 Wortverbindung empfohlen
-08205 p21s5 Wortverbindung empfohlen
-08205 p21s7 Wortverbindung empfohlen
+08205 p14s24 Wortverbindung empfohlen
+08205 p15s17 Wortverbindung empfohlen
+08205 p15s8 Wortverbindung empfohlen
+08205 p16s3 Wortverbindung empfohlen
+08205 p17s18 Wortverbindung empfohlen
+08205 p17s4 Wortverbindung empfohlen
+08205 p17s6 Wortverbindung empfohlen
+08205 p17s7 Wortverbindung empfohlen
+08205 p19s7 Wortverbindung empfohlen
+08205 p20s1 Wortverbindung empfohlen
+08205 p20s10 Wortverbindung empfohlen
+08205 p20s6 Wortverbindung empfohlen
+08205 p21s13 Wortverbindung empfohlen
+08205 p21s4 Wortverbindung empfohlen
+08205 p21s6 Wortverbindung empfohlen
 08205 p22s10 Wortverbindung empfohlen
 08205 p22s6 Wortverbindung empfohlen
-08205 p23s1 Wortverbindung empfohlen
 08205 p23s16 Wortverbindung empfohlen
 08205 p23s3 Wortverbindung empfohlen
-08205 p24s1 Wortverbindung empfohlen
-08205 p24s14 Wortverbindung empfohlen
-08205 p25s20 Wortverbindung empfohlen
-08205 p25s27 Wortverbindung empfohlen
-08205 p25s5 Wortverbindung empfohlen
-08205 p27s2 Wortverbindung empfohlen
-08205 p27s3 Wortverbindung empfohlen
-08205 p28s0 Wortverbindung empfohlen
-08205 p28s3 Wortverbindung empfohlen
-08205 p28s6 Wortverbindung empfohlen
-08205 p30s18 Wortverbindung empfohlen
-08205 p36s3 Wortverbindung empfohlen
+08205 p23s30 Wortverbindung empfohlen
+08205 p24s0 Wortverbindung empfohlen
+08205 p24s16 Wortverbindung empfohlen
+08205 p25s13 Wortverbindung empfohlen
+08205 p25s18 Wortverbindung empfohlen
+08205 p25s23 Wortverbindung empfohlen
+08205 p25s4 Wortverbindung empfohlen
+08205 p26s9 Wortverbindung empfohlen
+08205 p27s13 Wortverbindung empfohlen
+08205 p27s9 Wortverbindung empfohlen
+08205 p28s2 Wortverbindung empfohlen
+08205 p28s20 Wortverbindung empfohlen
+08205 p28s5 Wortverbindung empfohlen
+08205 p29s19 Wortverbindung empfohlen
+08205 p30s24 Wortverbindung empfohlen
+08205 p31s17 Wortverbindung empfohlen
+08205 p33s7 Wortverbindung empfohlen
+08205 p34s7 Wortverbindung empfohlen
+08205 p36s15 Wortverbindung empfohlen
+08205 p37s16 Wortverbindung empfohlen
+08205 p38s9 Wortverbindung empfohlen
+08205 p39s17 Wortverbindung empfohlen
+08205 p40s2 Wortverbindung empfohlen
+08205 p41s14 Wortverbindung empfohlen
+08205 p43s0 Wortverbindung empfohlen
 08205 p43s1 Wortverbindung empfohlen
 08205 p43s2 Wortverbindung empfohlen
 08205 p43s3 Wortverbindung empfohlen
-08205 p43s4 Wortverbindung empfohlen
 08205 p44s23 Wortverbindung empfohlen
 08205 p44s24 Wortverbindung empfohlen
-08205 p45s24 Wortverbindung empfohlen
-08205 p45s26 Wortverbindung empfohlen
-08205 p45s9 Wortverbindung empfohlen
+08205 p45s23 Wortverbindung empfohlen
+08205 p45s25 Wortverbindung empfohlen
+08205 p45s8 Wortverbindung empfohlen
 08205 p46s31 Wortverbindung empfohlen
 08205 p47s0 Wortverbindung empfohlen
 08205 p49s4 Wortverbindung empfohlen
-08205 p76s13 Wortverbindung empfohlen
-08205 p76s9 Wortverbindung empfohlen
-08205 p77s0 Wortverbindung empfohlen
+08205 p76s12 Wortverbindung empfohlen
+08205 p76s8 Wortverbindung empfohlen
+08205 p77s2 Wortverbindung empfohlen
+08205 p79s8 Wortverbindung empfohlen
+08205 p84s2 Wortverbindung empfohlen
 08205 p86s22 Wortverbindung empfohlen

@@ -4,12 +4,17 @@
 06500 p8 Einleitung unvollständig
 06500 p8 Einleitung unvollständig
 06500 p8 Einleitung unvollständig
+06500 p8 Einleitung unvollständig
 07005 p10s2 Satzende vor Aufzählung fehlt
 07005 p10s6 Satzende vor Aufzählung fehlt
-07005 p8s6 Satzende vor Aufzählung fehlt
+07005 p9s0 Satzende vor Aufzählung fehlt
+07005 p9s2 Satzende vor Aufzählung fehlt
+07006 p55s0 Satzende vor Aufzählung anpassen
 07201 p50 Abbildung nicht referenziert
 07201 p52 Abbildung nicht referenziert
 07201 p9 Abbildung nicht referenziert
+07600 p54s11 Fehler in der Perspektive
+07600 p54s6 Fehler in der Perspektive
 07611 p50~l2 Satzanfang wiederholt sich
 07611 p51~l2 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
@@ -34,20 +39,15 @@
 07630 p57_57~l4_5 Paragraph zu kurz
 07630 p57_57~l8_9 Paragraph zu kurz
 07630 p8_8~l14_17 Paragraph zu kurz
+07630 p8_8~l20_22 Paragraph zu kurz
 07630 p9_9~l12_14 Paragraph zu kurz
 07630 p9_9~l17_18 Paragraph zu kurz
 07630 p9_9~l8_10 Paragraph zu kurz
 07670 p51s2 Fehlendes Leerzeichen
 07670 p51s3 Fehlendes Leerzeichen
-08205 p10s0 Wortverbindung empfohlen
 08205 p10s2 Wortverbindung empfohlen
 08205 p10s3 Wortverbindung empfohlen
-08205 p10s5 Wortverbindung empfohlen
-08205 p50s6 Wortverbindung empfohlen
-08205 p50s7 Wortverbindung empfohlen
-08205 p53s0 Wortverbindung empfohlen
-08205 p53s2 Wortverbindung empfohlen
+08205 p55s8 Wortverbindung empfohlen
 08205 p8s2 Wortverbindung empfohlen
 08205 p8s4 Wortverbindung empfohlen
 08205 p8s5 Wortverbindung empfohlen
-08205 p9s4 Wortverbindung empfohlen
