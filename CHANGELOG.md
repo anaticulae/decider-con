@@ -2,6 +2,25 @@
 
 Every noteable change is logged here.
 
+## v0.11.1 (2022-11-11)
+
+### Fix
+
+* do not fail on missing line width (1bf9fab75fa9)
+
+### Chore
+
+* publish resources if all fails (4444ac4a9d69)
+* add pipe library (8db5d26030b3)
+* convert nightly to all (a0a0f4f23965)
+* add separate generate step (d6743bb27607)
+* upgrade environment (8ef85a5d4b4a)
+* increase worker count on CI (e50a6013f050)
+* upgrade requirements.txt (cbe1e1f6ccc1)
+* add Jenkinsfile (be844d91d37b)
+* extend test data generator (c47ed044642d)
+* upgrade requirements.txt (0834b67bead6)
+
 ## v0.11.0
 
 ### Feature
