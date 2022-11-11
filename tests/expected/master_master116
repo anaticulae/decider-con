@@ -190,23 +190,15 @@
 07620 p29~l0 Einsame Zeile am Seitenanfang
 07620 p7~l0 Einsame Zeile am Seitenanfang
 07620 p99~l0 Einsame Zeile am Seitenanfang
-07625 p110s0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p111s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p112s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p27s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p30s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p40s0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p77s0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p78s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p79s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p82s0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p94s0 Seitenanfang: Seite beginnt nicht mit Text
-07625 p95s0 Seitenanfang: Seite beginnt nicht mit Text
 07630 p100_100~l0_1 Paragraph zu kurz
 07630 p100_100~l3_4 Paragraph zu kurz
 07630 p100_100~l6_7 Paragraph zu kurz
-07630 p10_10~l0_2 Paragraph zu kurz
-07630 p10_10~l8_9 Paragraph zu kurz
 07630 p112_112~l13_14 Paragraph zu kurz
 07630 p112_112~l2_3 Paragraph zu kurz
 07630 p112_112~l5_7 Paragraph zu kurz
@@ -229,17 +221,13 @@
 07630 p114_114~l27_28 Paragraph zu kurz
 07630 p114_114~l29_31 Paragraph zu kurz
 07630 p114_114~l32_34 Paragraph zu kurz
-07630 p114_114~l36_38 Paragraph zu kurz
 07630 p114_114~l4_5 Paragraph zu kurz
 07630 p114_114~l7_8 Paragraph zu kurz
 07630 p11_11~l1_3 Paragraph zu kurz
-07630 p13_13~l0_1 Paragraph zu kurz
 07630 p15_15~l26_28 Paragraph zu kurz
-07630 p15_15~l30_32 Paragraph zu kurz
 07630 p17_17~l19_21 Paragraph zu kurz
 07630 p17_17~l8_10 Paragraph zu kurz
-07630 p19_19~l0_2 Paragraph zu kurz
-07630 p19_19~l5_8 Paragraph zu kurz
+07630 p19_19~l5_7 Paragraph zu kurz
 07630 p1_1~l1_3 Paragraph zu kurz
 07630 p21_21~l13_14 Paragraph zu kurz
 07630 p22_22~l6_7 Paragraph zu kurz
@@ -256,19 +244,16 @@
 07630 p28_28~l0_2 Paragraph zu kurz
 07630 p28_28~l4_6 Paragraph zu kurz
 07630 p28_28~l8_9 Paragraph zu kurz
-07630 p29_29~l16_18 Paragraph zu kurz
 07630 p29_29~l2_3 Paragraph zu kurz
 07630 p29_29~l7_8 Paragraph zu kurz
 07630 p30_30~l13_15 Paragraph zu kurz
 07630 p30_30~l18_19 Paragraph zu kurz
 07630 p30_30~l21_22 Paragraph zu kurz
 07630 p30_30~l3_5 Paragraph zu kurz
-07630 p38_38~l11_12 Paragraph zu kurz
+07630 p38_39~l11_0 Paragraph zu kurz
 07630 p41_41~l1_3 Paragraph zu kurz
 07630 p42_42~l1_3 Paragraph zu kurz
 07630 p42_42~l5_7 Paragraph zu kurz
-07630 p43_43~l11_12 Paragraph zu kurz
-07630 p44_44~l0_2 Paragraph zu kurz
 07630 p44_44~l11_12 Paragraph zu kurz
 07630 p44_44~l4_6 Paragraph zu kurz
 07630 p45_45~l13_14 Paragraph zu kurz
@@ -282,7 +267,6 @@
 07630 p46_46~l17_18 Paragraph zu kurz
 07630 p46_46~l21_23 Paragraph zu kurz
 07630 p46_46~l4_5 Paragraph zu kurz
-07630 p47_47~l14_15 Paragraph zu kurz
 07630 p49_49~l7_8 Paragraph zu kurz
 07630 p4_4~l10_11 Paragraph zu kurz
 07630 p4_4~l16_17 Paragraph zu kurz
@@ -295,18 +279,14 @@
 07630 p5_5~l29_31 Paragraph zu kurz
 07630 p5_5~l33_34 Paragraph zu kurz
 07630 p5_5~l37_38 Paragraph zu kurz
-07630 p5_5~l40_41 Paragraph zu kurz
 07630 p5_5~l4_5 Paragraph zu kurz
 07630 p5_5~l8_9 Paragraph zu kurz
 07630 p75_75~l0_1 Paragraph zu kurz
 07630 p75_75~l7_9 Paragraph zu kurz
 07630 p76_76~l19_21 Paragraph zu kurz
-07630 p81_81~l19_20 Paragraph zu kurz
+07630 p79_80~l11_1 Paragraph zu kurz
 07630 p81_81~l9_10 Paragraph zu kurz
-07630 p83_83~l10_11 Paragraph zu kurz
-07630 p84_84~l0_2 Paragraph zu kurz
 07630 p85_85~l0_2 Paragraph zu kurz
-07630 p87_87~l0_1 Paragraph zu kurz
 07630 p89_89~l15_17 Paragraph zu kurz
 07630 p90_90~l2_3 Paragraph zu kurz
 07630 p91_91~l14_16 Paragraph zu kurz
