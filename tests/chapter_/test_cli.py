@@ -20,6 +20,7 @@ def test_decider_content_cli_help(mp):
     tests.chapter_.run('--help', mp=mp)
 
 
+@utilatest.hasprog(decider_chapter.PROCESS)
 def test_decider_content_nomonkey_cli_help():
     utila.run(f'{decider_chapter.PROCESS} --help')
 
