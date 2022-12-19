@@ -3,14 +3,7 @@
 06500 p6 Einleitung unvollständig
 06500 p6 Einleitung unvollständig
 06500 p6 Einleitung unvollständig
-07620 p4~l0 Einsame Zeile am Seitenanfang
-07620 p5~l0 Einsame Zeile am Seitenanfang
-07620 p7~l0 Einsame Zeile am Seitenanfang
-07620 p9~l0 Einsame Zeile am Seitenanfang
 07625 p6s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p8s0 Seitenanfang: Seite beginnt nicht mit Text
-07630 p4_5~l1_0 Paragraph zu kurz
-07630 p5_6~l1_0 Paragraph zu kurz
 07630 p6_6~l3_4 Paragraph zu kurz
-07630 p7_8~l1_0 Paragraph zu kurz
 07630 p8_8~l3_5 Paragraph zu kurz

@@ -21,10 +21,6 @@
 07010 p55s2 Satzende vor Gleichung fehlt
 07010 p58s20 Satzende vor Gleichung fehlt
 07010 p59s9 Satzende vor Gleichung fehlt
-07010 p60s19 Satzende vor Gleichung fehlt
-07010 p60s21 Satzende vor Gleichung fehlt
-07010 p60s23 Satzende vor Gleichung fehlt
-07010 p60s25 Satzende vor Gleichung fehlt
 07010 p61s10 Satzende vor Gleichung fehlt
 07010 p61s3 Satzende vor Gleichung fehlt
 07010 p61s6 Satzende vor Gleichung fehlt
@@ -101,8 +97,6 @@
 07611 p53~l3 Satzanfang wiederholt sich
 07611 p55~l0 Satzanfang wiederholt sich
 07611 p57~l1 Satzanfang wiederholt sich
-07611 p60~l21 Satzanfang wiederholt sich
-07611 p60~l25 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
 07625 p0s0 Seitenanfang: Seite beginnt nicht mit Text
 07625 p19s0 Seitenanfang: Seite beginnt nicht mit Text
