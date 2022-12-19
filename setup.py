@@ -8,57 +8,24 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import os
-import re
+import utila
 
-import setuptools
-
-ROOT = os.path.abspath(os.path.dirname(__file__))
-
-with open(os.path.join(ROOT, 'README.md'), encoding='utf8') as fp:
-    README = fp.read()
-
-with open(os.path.join(ROOT, 'decider_con/__init__.py'),  encoding='utf8') as fp: # yapf:disable
-    VERSION = re.search(r'__version__ = \'(.*?)\'', fp.read()).group(1)
-
-with open(os.path.join(ROOT, "requirements.txt"), encoding='utf8') as fp:
-    REQUIRES = [line for line in fp.readlines() if line and '#' not in line]
-
+PACKAGES = [
+    'decider_chapter',
+    'decider_chapter.features',
+    'decider_con',
+    'decider_smarty',
+    'decider_smarty.features',
+    'decider_textflow',
+    'decider_textflow.docref',
+    'decider_textflow.features',
+    'decider_textflow.startend',
+    'decider_textflow.writing',
+]
+ENTRY_POINTS = dict(console_scripts=[
+    'decider_chapter = decider_chapter.cli:main',
+    'decider_smarty = decider_smarty.cli:main',
+    'decider_textflow = decider_textflow.cli:main',
+])
 if __name__ == "__main__":
-    # allow ssetup.py to run from another directory
-    os.chdir(ROOT)
-    setuptools.setup(
-        author='Helmut Konrad Fahrendholz',
-        author_email='info@checkitweg.de',
-        description='judge content',
-        install_requires=REQUIRES,
-        long_description=README,
-        name='decider_con',
-        platforms='any',
-        url='https://dev.package.checkitweg.de/decider_con',
-        version=VERSION,
-        zip_safe=False,  # create 'zip'-file if True. Don't do it!
-        classifiers=[
-            'Programming Language :: Python :: 3.7',
-            'Programming Language :: Python :: 3.8',
-        ],
-        packages=[
-            'decider_chapter',
-            'decider_chapter.features',
-            'decider_con',
-            'decider_smarty',
-            'decider_smarty.features',
-            'decider_textflow',
-            'decider_textflow.docref',
-            'decider_textflow.features',
-            'decider_textflow.startend',
-            'decider_textflow.writing',
-        ],
-        entry_points={
-            'console_scripts': [
-                'decider_chapter = decider_chapter.cli:main',
-                'decider_smarty = decider_smarty.cli:main',
-                'decider_textflow = decider_textflow.cli:main',
-            ],
-        },
-    )
+    utila.install(__file__)
