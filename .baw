@@ -15,6 +15,3 @@ source = decider_con
     decider_chapter
     decider_smarty
     decider_textflow
-
-[release]
-fail_on_finding = True
