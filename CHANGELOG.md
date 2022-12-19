@@ -2,6 +2,20 @@
 
 Every noteable change is logged here.
 
+## v0.12.0 (2022-12-19)
+
+### Feature
+
+* use more modern data (bcfc4a05fad3)
+
+### Chore
+
+* remove default behavior (f386a4d28d89)
+* use quick install (87e789b4d3f0)
+* upgrade pipeline (0aec38f0abad)
+* upgrade pipe library (eabc8e7f3b36)
+* upgrade requirements.txt (42e0b7179354)
+
 ## v0.11.1 (2022-11-11)
 
 ### Fix
