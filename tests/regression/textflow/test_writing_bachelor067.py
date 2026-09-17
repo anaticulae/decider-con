@@ -7,31 +7,31 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import power
-import protocol
-import utilatest
+import hoverpower
+import protoerror
+import utilotest
 
 import tests.textflow_
 
 
-@utilatest.requires(power.BACHELOR067_PDF)
+@utilotest.requires(hoverpower.BACHELOR067_PDF)
 def test_writing_bachelor067_too_long_sentence(td, mp):
     """A very long sentence is detected, which is a result of bad parsed
     list."""
-    source = power.link(power.BACHELOR067_PDF)
+    source = hoverpower.link(hoverpower.BACHELOR067_PDF)
     cmd = f'-i {source} --writing --pages=54'
     tests.textflow_.run(cmd, mp=mp)
-    findings = protocol.findings_from_path(td.tmpdir, msgid=7605)
+    findings = protoerror.findings_from_path(td.tmpdir, msgid=7605)
     assert not findings
 
 
-@utilatest.requires(power.BACHELOR067_PDF)
+@utilotest.requires(hoverpower.BACHELOR067_PDF)
 def test_writing_bachelor067_perspective(td, mp):
     """Detect two times `man` inside a list."""
-    source = power.link(power.BACHELOR067_PDF)
+    source = hoverpower.link(hoverpower.BACHELOR067_PDF)
     cmd = f'-i {source} --writing --pages=54'
     tests.textflow_.run(cmd, mp=mp)
-    findings = protocol.findings_from_path(td.tmpdir, msgid=7600)
+    findings = protoerror.findings_from_path(td.tmpdir, msgid=7600)
     content = findings[0].content
     # two `man` findings
     assert len(content) == 2

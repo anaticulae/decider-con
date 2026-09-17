@@ -7,23 +7,23 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import power
+import hoverpower
 import pytest
 import serializeraw
-import utilatest
+import utilotest
 
-import decider_textflow.path
 import tests.textflow_
+import textflow_.path
 
 
 def decide_textflow(source, pages, td, mp, msgids=None):
-    utilatest.fixture_requires(source)
-    source = power.link(source)
+    utilotest.fixture_requires(source)
+    source = hoverpower.link(source)
     tests.textflow_.run(
         f'--docref -i {source} --pages={pages}',
         mp=mp,
     )
-    path = decider_textflow.path.docref_linted(td.tmpdir)
+    path = textflow_.path.docref_linted(td.tmpdir)
     findings = serializeraw.load_findings(path, msgids=msgids)
     return findings
 
@@ -34,7 +34,7 @@ def test_bachelor76_docref_negative(td, mp):
 
     Therefore we do not detect any missing references.
     """
-    source = power.BACHELOR076_PDF
+    source = hoverpower.BACHELOR076_PDF
     pages = '0:30'
     findings = decide_textflow(
         source,
@@ -51,7 +51,7 @@ def test_bachelor76_figure_missing_intext_ref(td, mp):
 
     Pattern: 'Die folgende Abbildung soll durch' not supported yet.
     """
-    source = power.BACHELOR076_PDF
+    source = hoverpower.BACHELOR076_PDF
     pages = '0:30'
     findings = decide_textflow(
         source,
@@ -67,7 +67,7 @@ def test_bachelor76_figure_missing_intext_ref(td, mp):
 
 def test_master75_docref(td, mp):
     # TODO: DESCRIBE PURPOSE OF TEST
-    source = power.MASTER075_PDF
+    source = hoverpower.MASTER075_PDF
     findings = decide_textflow(
         source,
         ':',
@@ -80,7 +80,7 @@ def test_master75_docref(td, mp):
 
 def test_bachelor56page15_tableref(td, mp):
     """Verify that `s. Tab. 1` matches with `Tabelle 1`"""
-    source = power.BACHELOR056_PDF
+    source = hoverpower.BACHELOR056_PDF
     pages = '15'
     findings = decide_textflow(
         source,

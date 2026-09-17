@@ -7,8 +7,8 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import utilatest
+import utilotest
 
-import decider_smarty
+import smarty_
 
-run, fail = utilatest.create_cli_runner(decider_smarty)
+run, fail = utilotest.create_cli_runner(smarty_)

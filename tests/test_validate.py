@@ -9,27 +9,28 @@
 
 import functools
 
-import power
-import protocol
+import hoverpower
+import protoerror
 import pytest
-import utila
-import utilatest
+import utilo
+import utilotest
 
 import decider_con
 import tests.chapter_
+import tests.conftest
 import tests.smarty_
 import tests.textflow_
 
-ARCHIVE = utila.join(decider_con.ROOT, 'tests/expected', exist=True)
+ARCHIVE = utilo.join(decider_con.ROOT, 'tests/expected', exist=True)
 
 
 @pytest.mark.parametrize(
     'source',
-    utilatest.test_resources(tests.conftest.RESOURCES),
+    utilotest.test_resources(tests.conftest.RESOURCES),
 )
-@utilatest.nightly
+@utilotest.nightly
 def test_validate_huge(source, td, mp):
-    utilatest.fixture_requires(source)
+    utilotest.fixture_requires(source)
     Evaluate(
         source=source,
         workdir=td.tmpdir,
@@ -43,7 +44,7 @@ def run_extraction(cmd, mp):  # pylint:disable=W0613
     tests.textflow_.run(cmd, mp=mp)
 
 
-class Evaluate(utilatest.BaseLiner):
+class Evaluate(utilotest.BaseLiner):
 
     def __init__(self, source, workdir, mp):
         super().__init__(
@@ -53,7 +54,7 @@ class Evaluate(utilatest.BaseLiner):
             ),
             step=None,
             pages=':',
-            source=power.link(source),
+            source=hoverpower.link(source),
             workdir=workdir,
             archive=ARCHIVE,
             loader=self.frompath,
@@ -61,13 +62,13 @@ class Evaluate(utilatest.BaseLiner):
         )
 
     def frompath(self, path):  # pylint:disable=R0201
-        return protocol.findings_from_path(path)
+        return protoerror.findings_from_path(path)
 
     def raw(self, value) -> str:
-        findings = utila.flatten_content(value)
+        findings = utilo.flatten_content(value)
         findings = [line(item) for item in findings]
-        findings = sorted(findings, key=utila.alphabetically)
-        result = utila.NEWLINE.join(findings)
+        findings = sorted(findings, key=utilo.alphabetically)
+        result = utilo.NEWLINE.join(findings)
         return result
 
 

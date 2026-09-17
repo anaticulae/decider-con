@@ -11,7 +11,6 @@
 short = decider_con
 name = judge content
 
-source = decider_con
-    decider_chapter
-    decider_smarty
-    decider_textflow
+source = chapter_
+    smarty_
+    textflow_

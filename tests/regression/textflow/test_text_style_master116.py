@@ -7,23 +7,23 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import power
+import hoverpower
 import pytest
 import serializeraw
-import utilatest
+import utilotest
 
-import decider_textflow
 import tests.textflow_
+import textflow_
 
 
 @pytest.mark.xfail(reason='???')
-@utilatest.longrun
-@utilatest.requires(power.MASTER116_PDF)
+@utilotest.longrun
+@utilotest.requires(hoverpower.MASTER116_PDF)
 def test_paragraph_too_short_in_table_master116_page79(td, mp):
-    source = power.link(power.MASTER116_PDF)
+    source = hoverpower.link(hoverpower.MASTER116_PDF)
     cmd = f'-i {source}  --paragraph --pages=79'
     tests.textflow_.run(cmd, mp=mp)
-    path = decider_textflow.path.paragraph_linted(td.tmpdir)
+    path = textflow_.path.paragraph_linted(td.tmpdir)
     loaded = serializeraw.load_findings(path, msgids={7630})
     expected = [
         (10, 11),

@@ -7,32 +7,32 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import power
+import hoverpower
 import serializeraw
-import utilatest
+import utilotest
 
-import decider_textflow.features
-import decider_textflow.writing.statistics
+import textflow_.features
+import textflow_.writing.statistics
 
 
 def create_sentences(
     pdf,
     pages: tuple = None,
-) -> decider_textflow.features.Sentences:
-    utilatest.fixture_requires(pdf)
-    source = power.link(pdf)
+) -> textflow_.features.Sentences:
+    utilotest.fixture_requires(pdf)
+    source = hoverpower.link(pdf)
     headlines = serializeraw.load_headlines(source, pages=pages)
     words = serializeraw.load_text(
         content=source,
         headlines=headlines,
         pages=pages,
     )
-    sentences = decider_textflow.features.Sentences(words)
+    sentences = textflow_.features.Sentences(words)
     return sentences
 
 
 def test_statistics():
-    sentences = create_sentences(power.MASTER110_PDF)
-    stats = decider_textflow.writing.statistics.determine(sentences)
+    sentences = create_sentences(hoverpower.MASTER110_PDF)
+    stats = textflow_.writing.statistics.determine(sentences)
     assert stats.words
     assert stats.word_min

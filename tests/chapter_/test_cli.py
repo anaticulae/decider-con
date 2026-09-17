@@ -7,12 +7,12 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import power
-import protocol
-import utila
-import utilatest
+import hoverpower
+import protoerror
+import utilo
+import utilotest
 
-import decider_chapter
+import chapter_
 import tests.chapter_
 
 
@@ -20,22 +20,22 @@ def test_decider_content_cli_help(mp):
     tests.chapter_.run('--help', mp=mp)
 
 
-@utilatest.hasprog(decider_chapter.PROCESS)
+@utilotest.hasprog(chapter_.PROCESS)
 def test_decider_content_nomonkey_cli_help():
-    utila.run(f'{decider_chapter.PROCESS} --help')
+    utilo.run(f'{chapter_.PROCESS} --help')
 
 
-@utilatest.requires(power.MASTER075_PDF)
+@utilotest.requires(hoverpower.MASTER075_PDF)
 def test_language_decorator(td, mp):
     """Disable 6500 for other language than german."""
-    source = power.link(power.MASTER075_PDF)
+    source = hoverpower.link(hoverpower.MASTER075_PDF)
     german = td.tmpdir.join('german')
     tests.chapter_.run(f'-i {source} -o {german}', mp=mp)
-    germans = protocol.findings_from_path(german, msgid=6500)
+    germans = protoerror.findings_from_path(german, msgid=6500)
     assert germans
     # skip check for english lang
     english = td.tmpdir.join('english')
     cmd = f'-i {source} -o {english} --docinfo=english'
     tests.chapter_.run(cmd, mp=mp)
-    englishs = protocol.findings_from_path(english, msgid=6500)
+    englishs = protoerror.findings_from_path(english, msgid=6500)
     assert not englishs, 'is english supported now?'

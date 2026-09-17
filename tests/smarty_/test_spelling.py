@@ -7,30 +7,30 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import power
+import hoverpower
 import serializeraw
-import utilatest
+import utilotest
 
-import decider_smarty
+import smarty_
 import tests.smarty_
 
 
 def decide_smarty_spelling(source, pages, td, mp, msgid=None):
-    utilatest.fixture_requires(source)
-    source = power.link(source)
+    utilotest.fixture_requires(source)
+    source = hoverpower.link(source)
     tests.smarty_.run(
         f'--spelling -i {source} --pages={pages}',
         mp=mp,
     )
-    path = decider_smarty.path.spelling(td.tmpdir)
+    path = smarty_.path.spelling(td.tmpdir)
     findings = serializeraw.load_findings(path, msgids=msgid)
     return findings
 
 
-@utilatest.longrun
+@utilotest.longrun
 def test_smarty_spelling_hyphen(td, mp):
     findings = decide_smarty_spelling(
-        power.BACHELOR077_PDF,
+        hoverpower.BACHELOR077_PDF,
         ':',
         td,
         mp,

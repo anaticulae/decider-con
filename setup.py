@@ -8,24 +8,24 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import utila
+import utilo
 
 PACKAGES = [
-    'decider_chapter',
-    'decider_chapter.features',
+    'chapter_',
+    'chapter_.features',
     'decider_con',
-    'decider_smarty',
-    'decider_smarty.features',
-    'decider_textflow',
-    'decider_textflow.docref',
-    'decider_textflow.features',
-    'decider_textflow.startend',
-    'decider_textflow.writing',
+    'smarty_',
+    'smarty_.features',
+    'textflow_',
+    'textflow_.docref',
+    'textflow_.features',
+    'textflow_.startend',
+    'textflow_.writing',
 ]
 ENTRY_POINTS = dict(console_scripts=[
-    'decider_chapter = decider_chapter.cli:main',
-    'decider_smarty = decider_smarty.cli:main',
-    'decider_textflow = decider_textflow.cli:main',
+    'chapter_ = chapter_.cli:main',
+    'smarty_ = smarty_.cli:main',
+    'textflow_ = textflow_.cli:main',
 ])
 if __name__ == "__main__":
-    utila.install(__file__)
+    utilo.install(__file__)

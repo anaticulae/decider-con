@@ -8,56 +8,56 @@
 # =============================================================================
 
 import genex
-import power
+import hoverpower
 import pytest
-import utilatest
+import utilotest
 import writers
-from utilatest import mp  # pylint:disable=W0611
-from utilatest import td  # pylint:disable=W0611
+from utilotest import mp  # pylint:disable=W0611
+from utilotest import td  # pylint:disable=W0611
 
 import decider_con
 
 pytest_plugins = ['pytester', 'xdist']  # pylint: disable=invalid-name
 
 PACKAGE = decider_con.PROCESS
-power.setup(decider_con.ROOT)
+hoverpower.setup(decider_con.ROOT)
 
 RESOURCES = [
-    (power.BACHELOR037_PDF, '0:20'),
-    (power.BACHELOR051_PDF, '0:30'),
-    (power.BACHELOR056_PDF, '0:20'),
-    (power.BACHELOR067_PDF, '8:11,50:59'),
-    (power.BACHELOR128_PDF, '0:20,50:70'),
-    (power.BOOK007_PDF, '0:10'),
-    (power.DISS157_PDF, '140:150'),
-    (power.DOCU035_PDF, '0:10'),
-    (power.HOME050_PDF, '30:40'),
-    (power.MASTER063_PDF, '20:30'),
-    (power.MASTER078_PDF, '0:10'),
-    (power.MASTER083_PDF, '0:10'),
-    (power.MASTER098_PDF, '0:10,43:65,88:97'),
-    (power.MASTER099_PDF, '0:10'),
-    (power.MASTER110_PDF, '0:70'),
-    (power.MASTER116_PDF, '0:50,75:115'),
-    (power.TECH024_PDF, '0:15'),
-    power.BACHELOR028_PDF,
-    power.BACHELOR063_PDF,
-    power.BACHELOR076_PDF,
-    power.BACHELOR077_PDF,
-    power.BACHELOR090_PDF,
-    power.DISS144_PDF,
-    power.DOCU014_PDF,
-    power.HOME018_PDF,
-    power.MASTER072_PDF,
-    power.MASTER075_PDF,
+    (hoverpower.BACHELOR037_PDF, '0:20'),
+    (hoverpower.BACHELOR051_PDF, '0:30'),
+    (hoverpower.BACHELOR056_PDF, '0:20'),
+    (hoverpower.BACHELOR067_PDF, '8:11,50:59'),
+    (hoverpower.BACHELOR128_PDF, '0:20,50:70'),
+    (hoverpower.BOOK007_PDF, '0:10'),
+    (hoverpower.DISS157_PDF, '140:150'),
+    (hoverpower.DOCU035_PDF, '0:10'),
+    (hoverpower.HOME050_PDF, '30:40'),
+    (hoverpower.MASTER063_PDF, '20:30'),
+    (hoverpower.MASTER078_PDF, '0:10'),
+    (hoverpower.MASTER083_PDF, '0:10'),
+    (hoverpower.MASTER098_PDF, '0:10,43:65,88:97'),
+    (hoverpower.MASTER099_PDF, '0:10'),
+    (hoverpower.MASTER110_PDF, '0:70'),
+    (hoverpower.MASTER116_PDF, '0:50,75:115'),
+    (hoverpower.TECH024_PDF, '0:15'),
+    hoverpower.BACHELOR028_PDF,
+    hoverpower.BACHELOR063_PDF,
+    hoverpower.BACHELOR076_PDF,
+    hoverpower.BACHELOR077_PDF,
+    hoverpower.BACHELOR090_PDF,
+    hoverpower.DISS144_PDF,
+    hoverpower.DOCU014_PDF,
+    hoverpower.HOME018_PDF,
+    hoverpower.MASTER072_PDF,
+    hoverpower.MASTER075_PDF,
 ]
 
-WORKER = utilatest.worker_count(4, onci=len(RESOURCES))
+WORKER = utilotest.worker_count(4, onci=len(RESOURCES))
 
 
 @pytest.mark.usefixtures('session')
 def pytest_sessionstart():
-    power.run()
+    hoverpower.run()
 
 
 def extract(resources):

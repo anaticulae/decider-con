@@ -7,31 +7,31 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import power
+import hoverpower
 import pytest
 import serializeraw
-import utilatest
+import utilotest
 
-import decider_chapter
+import chapter_
 import tests.chapter_
 
 
 def run_intro(source, td, mp, optional: str = ''):
-    utilatest.fixture_requires(source)
-    source = power.link(source)
+    utilotest.fixture_requires(source)
+    source = hoverpower.link(source)
     # run intro
     tests.chapter_.run(
         f'--intro -i={source} {optional}',
         mp=mp,
     )
     # load findings
-    path = decider_chapter.path.decider_chapter_intro(td.tmpdir)
+    path = chapter_.path.chapter__intro(td.tmpdir)
     findings = serializeraw.load_findings(path)
     return findings
 
 
 @pytest.mark.parametrize('source', [
-    pytest.param(power.MASTER072_PDF, id='master72'),
+    pytest.param(hoverpower.MASTER072_PDF, id='master72'),
 ])
 def test_intro_x(source, td, mp):
     findings = run_intro(source, td, mp)
@@ -39,8 +39,8 @@ def test_intro_x(source, td, mp):
 
 
 @pytest.mark.parametrize('source', [
-    pytest.param(power.MASTER075_PDF, id='master75'),
-    pytest.param(power.MASTER078_PDF, id='master78'),
+    pytest.param(hoverpower.MASTER075_PDF, id='master75'),
+    pytest.param(hoverpower.MASTER078_PDF, id='master78'),
 ])
 def test_intro_x_error(source, td, mp):
     findings = run_intro(source, td, mp)
@@ -50,6 +50,6 @@ def test_intro_x_error(source, td, mp):
 
 def test_intro_disable_small_document(td, mp):
     """Do not use this AI-Linter on small documents."""
-    source = power.DOCU014_PDF
+    source = hoverpower.DOCU014_PDF
     findings = run_intro(source, td, mp, optional='--docinfo=14')
     assert not findings

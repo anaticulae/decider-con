@@ -7,8 +7,8 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import utilatest
+import utilotest
 
-import decider_chapter
+import chapter_
 
-run, fail = utilatest.create_cli_runner(decider_chapter)
+run, fail = utilotest.create_cli_runner(chapter_)

@@ -7,40 +7,40 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import power
+import hoverpower
 import pytest
 import serializeraw
-import utilatest
+import utilotest
 
-import decider_textflow.features.writing
-import decider_textflow.path
 import tests.textflow_
+import textflow_.features.writing
+import textflow_.path
 
 
 def decide_textflow(source, td, mp, pages=None, msgids=None):
-    utilatest.fixture_requires(source)
-    source = power.link(source)
+    utilotest.fixture_requires(source)
+    source = hoverpower.link(source)
     cmd = f'--writing -i {source} '
     if pages:
         cmd += f'--pages={pages}'
     tests.textflow_.run(cmd, mp=mp)
-    path = decider_textflow.path.writing_linted(td.tmpdir)
+    path = textflow_.path.writing_linted(td.tmpdir)
     findings = serializeraw.load_findings(path, msgids=msgids)
     return findings
 
 
-@utilatest.nightly
+@utilotest.nightly
 def test_bachelor76_perspective(td, mp):
-    source = power.BACHELOR076_PDF
+    source = hoverpower.BACHELOR076_PDF
     findings = decide_textflow(source, td, mp, msgids=7600)
     assert len(findings) == 5  # VALIDATED
 
 
 @pytest.mark.xfail(reason='man in quotation')
-@utilatest.longrun
+@utilotest.longrun
 def test_master72_writing_quotation(td, mp):
     """Do not detect errors in perspective inside quotations."""
-    source = power.MASTER072_PDF
+    source = hoverpower.MASTER072_PDF
     pages = '12:15'
     findings = decide_textflow(source, td, mp, pages, msgids=7600)
     assert not findings
@@ -51,10 +51,10 @@ den Medien als Folge einer Individualisierung und als Ersatz für die verlorene 
 Bestätigung aus einem Kollektiv, dem man angehörte, z.B."""
 
 
-@utilatest.longrun
+@utilotest.longrun
 def test_master72_merge_token_correctly(td, mp):
     """Do not detect errors in perspective inside quotations."""
-    source = power.MASTER072_PDF
+    source = hoverpower.MASTER072_PDF
     pages = '16'
     findings = decide_textflow(source, td, mp, pages, msgids=7600)
     assert len(findings) == 1
@@ -62,14 +62,14 @@ def test_master72_merge_token_correctly(td, mp):
     assert EXPECTED in description
 
 
-@utilatest.longrun
+@utilotest.longrun
 def test_master72_text_too_long(td, mp):
     """Detect sentence which are too long."""
-    source = power.MASTER072_PDF
+    source = hoverpower.MASTER072_PDF
     pages = '3:6'
     with mp.context() as context:
         context.setattr(
-            decider_textflow.features.writing,
+            textflow_.features.writing,
             'SENTENCE_LENGTH_MAX',
             100,
         )
@@ -83,9 +83,9 @@ def test_master72_text_too_long(td, mp):
     assert len(findings) == 26
 
 
-@utilatest.longrun
+@utilotest.longrun
 def test_writing_text_statistics(td, mp):
-    source = power.MASTER110_PDF
+    source = hoverpower.MASTER110_PDF
     findings = decide_textflow(
         source,
         td,
@@ -95,9 +95,9 @@ def test_writing_text_statistics(td, mp):
     assert len(findings) == 1
 
 
-@utilatest.longrun
+@utilotest.longrun
 def test_writing_repeating_sentence_start(td, mp):
-    source = power.MASTER110_PDF
+    source = hoverpower.MASTER110_PDF
     findings = decide_textflow(
         source,
         td,
@@ -116,7 +116,7 @@ def test_sentence_start_repeat_inside_list_master063p24(td, mp):
         - Risks to financial stability
         - Risks to payment system stability
     """
-    source = power.MASTER063_PDF
+    source = hoverpower.MASTER063_PDF
     findings = decide_textflow(
         source,
         td,
@@ -131,12 +131,12 @@ def test_sentence_start_repeat_inside_list_master063p24(td, mp):
     assert not findings
 
 
-@utilatest.longrun
+@utilotest.longrun
 def test_writing_repeating_sentence_pattern(td, mp):
-    source = power.MASTER110_PDF
+    source = hoverpower.MASTER110_PDF
     with mp.context() as context:
         context.setattr(
-            decider_textflow.features.writing,
+            textflow_.features.writing,
             'SENTENCE_PATTERN_WINDOW',
             3,
         )

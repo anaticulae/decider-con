@@ -7,12 +7,12 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import utila
-import utilatest
+import utilo
+import utilotest
 
-import decider_textflow
+import textflow_
 
-run, fail = utilatest.create_cli_runner(decider_textflow)
+run, fail = utilotest.create_cli_runner(textflow_)
 
 
 def run_textflow(
@@ -26,4 +26,4 @@ def run_textflow(
         actions += ' --lineending'
     if quotation:
         actions += ' --quotation'
-    utila.run(f'textflow -i={source}  --pages={pages} {actions}')
+    utilo.run(f'textflow -i={source}  --pages={pages} {actions}')
