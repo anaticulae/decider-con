@@ -1,170 +1,601 @@
-# Changelog
+# CHANGELOG
 
-Every noteable change is logged here.
+
+## v1.0.0 (2026-09-20)
+
+### Chores
+
+- **github**: Add .github
+  ([`12049d7`](https://github.com/anaticulae/decider-con/commit/12049d76a142e3dde4619c48165a109bf33f607e))
+
+- **pyproject**: Add modern layout
+  ([`dfd17e1`](https://github.com/anaticulae/decider-con/commit/dfd17e1612966a51e46c531c2d2a6d5d7af2bd22))
+
+- **readme**: Adjust names
+  ([`1b8b014`](https://github.com/anaticulae/decider-con/commit/1b8b014d59eaf4366a4378615734b13a64533543))
+
 
 ## v0.12.0 (2022-12-19)
 
-### Feature
+### Chores
 
-* use more modern data (bcfc4a05fad3)
+- **baw**: Remove default behavior
+  ([`f386a4d`](https://github.com/anaticulae/decider-con/commit/f386a4d28d89497c5ee7afbfae30be376d7e670b))
 
-### Chore
+- **Jenkins**: Upgrade pipe library
+  ([`eabc8e7`](https://github.com/anaticulae/decider-con/commit/eabc8e7f3b3617424ed76e9298de3b25822ace28))
 
-* remove default behavior (f386a4d28d89)
-* use quick install (87e789b4d3f0)
-* upgrade pipeline (0aec38f0abad)
-* upgrade pipe library (eabc8e7f3b36)
-* upgrade requirements.txt (42e0b7179354)
+- **Jenkins**: Upgrade pipeline
+  ([`0aec38f`](https://github.com/anaticulae/decider-con/commit/0aec38f0abad88b390b9302a1e0d2f40ea7e1625))
+
+- **requirements**: Upgrade requirements.txt
+  ([`42e0b71`](https://github.com/anaticulae/decider-con/commit/42e0b717935461b27451930a529ac6efc352616a))
+
+- **setup**: Use quick install
+  ([`87e789b`](https://github.com/anaticulae/decider-con/commit/87e789b4d3f0700b1f7733afb314d4358a4e9851))
+
+### Features
+
+- **cli**: Use more modern data
+  ([`bcfc4a0`](https://github.com/anaticulae/decider-con/commit/bcfc4a05fad370c27c9f04cf2ad594aacee9d4f3))
+
+### Testing
+
+- **baseline**: Adjust expected data
+  ([`ecce8ac`](https://github.com/anaticulae/decider-con/commit/ecce8ac1a27a9f04af49d88b3ea8ce01bf20209a))
+
 
 ## v0.11.1 (2022-11-11)
 
-### Fix
+### Bug Fixes
 
-* do not fail on missing line width (1bf9fab75fa9)
+- **startend**: Do not fail on missing line width
+  ([`1bf9fab`](https://github.com/anaticulae/decider-con/commit/1bf9fab75fa9a7237709d787353fdef7c7ecc1f8))
 
-### Chore
+### Chores
 
-* publish resources if all fails (4444ac4a9d69)
-* add pipe library (8db5d26030b3)
-* convert nightly to all (a0a0f4f23965)
-* add separate generate step (d6743bb27607)
-* upgrade environment (8ef85a5d4b4a)
-* increase worker count on CI (e50a6013f050)
-* upgrade requirements.txt (cbe1e1f6ccc1)
-* add Jenkinsfile (be844d91d37b)
-* extend test data generator (c47ed044642d)
-* upgrade requirements.txt (0834b67bead6)
+- **ci**: Add Jenkinsfile
+  ([`be844d9`](https://github.com/anaticulae/decider-con/commit/be844d91d37b27b24bc95f1915ef59beec08cdd6))
 
-## v0.11.0
+- **ci**: Increase worker count on CI
+  ([`e50a601`](https://github.com/anaticulae/decider-con/commit/e50a6013f0506433d73f3793418dcb303c71d572))
 
-### Feature
+- **Jenkins**: Add pipe library
+  ([`8db5d26`](https://github.com/anaticulae/decider-con/commit/8db5d26030b322c96dd20ccf44c3e6d876c68536))
 
-* use new headlines as result (266aee37a7c9)
+- **Jenkins**: Add separate generate step
+  ([`d6743bb`](https://github.com/anaticulae/decider-con/commit/d6743bb276075b3b365092356e4d4414ee478fa0))
 
-## v0.10.0
+- **Jenkins**: Convert nightly to all
+  ([`a0a0f4f`](https://github.com/anaticulae/decider-con/commit/a0a0f4f23965426d18726bfcdf6200bef31b3fc8))
 
-### Feature
+- **Jenkins**: Publish resources if all fails
+  ([`4444ac4`](https://github.com/anaticulae/decider-con/commit/4444ac4a9d69d245c8399ef66c544168ba0f5aff))
 
-* inform about using hyphen (e7e54498f2f2)
-* add page, sentence, token-checker (a56f46a76acb)
-* add guess linter (c353215c52be)
+- **Jenkins**: Upgrade environment
+  ([`8ef85a5`](https://github.com/anaticulae/decider-con/commit/8ef85a5d4b4a1c8d2c38540c1559c24a9aa1338d))
 
-## v0.9.0
+- **requirements**: Upgrade requirements.txt
+  ([`cbe1e1f`](https://github.com/anaticulae/decider-con/commit/cbe1e1f6ccc1d1dd26907781f5cd23ec83afecb3))
 
-### Feature
+- **requirements**: Upgrade requirements.txt
+  ([`0834b67`](https://github.com/anaticulae/decider-con/commit/0834b67bead6df5ca9bb8948e804b268798efca1))
 
-* add comparative als linter (be6cf5d8fd44)
-* add another comparative linter (a6a5ca2af418)
+- **resources**: Extend test data generator
+  ([`c47ed04`](https://github.com/anaticulae/decider-con/commit/c47ed044642d437802d456c07cbdd3831de3ef9e))
 
-### Fix
+### Code Style
 
-* do not fail on bad parsed headlines (4af0b1555c62)
+- **changelog**: Adjust for automation tool
+  ([`85ea726`](https://github.com/anaticulae/decider-con/commit/85ea726069ee0ec946f273c1001d6d385bcbd158))
 
-## v0.8.1
+### Refactoring
 
-### Fix
+- **replace**: Automated replacement
+  ([`3197b05`](https://github.com/anaticulae/decider-con/commit/3197b05744ad10550372ce5a5c22832a4832d3a2))
 
-* convert Marks to str (93345a287a25)
+### Testing
 
-## v0.8.0
+- **baseline**: Adjust baseline
+  ([`0c14a09`](https://github.com/anaticulae/decider-con/commit/0c14a09cfe118186f2fd9568005e2ed1ed366543))
 
-### Feature
+- **refactor**: Replace with fixture shortcuts
+  ([`d01a28a`](https://github.com/anaticulae/decider-con/commit/d01a28a719140256148d1ea8335b4e5c44d1f661))
 
-* add spelling step (0fd9781955b1)
 
-## v0.7.0
+## v0.11.0 (2022-07-07)
 
-### Feature
+### Chores
 
-* add sentence location (50594854ac2e)
-* shrink regex (c2bf45286761)
-* mark improvement (be102d225f7f)
-* add dynamic matcher (baf779c609db)
+- **test**: Keep dev build fast
+  ([`6a39488`](https://github.com/anaticulae/decider-con/commit/6a39488fe3cec618d013f7ac512dbce314223578))
 
-## v0.6.0
+### Features
 
-### Feature
+- **cli**: Use new headlines as result
+  ([`266aee3`](https://github.com/anaticulae/decider-con/commit/266aee37a7c9191f003dbe026c9ce938f719d587))
 
-* move abbrev linter from decider (a7c7668f7558)
+### Refactoring
 
-## v0.5.0
+- **cli**: Make code more explicit
+  ([`7cba939`](https://github.com/anaticulae/decider-con/commit/7cba939e4ac55f4d8cb6ec83db6e6667f3641e90))
 
-### Feature
 
-* move code from decider (f4b6618719ab)
+## v0.10.0 (2022-07-06)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`0b83beb`](https://github.com/anaticulae/decider-con/commit/0b83bebcc7843edcb6c3425007ed37b6ca180e27))
+
+### Features
+
+- **driver**: Add page, sentence, token-checker
+  ([`a56f46a`](https://github.com/anaticulae/decider-con/commit/a56f46a76acb2e3d12d283fc19f55edf03b86941))
+
+- **spelling**: Add guess linter
+  ([`c353215`](https://github.com/anaticulae/decider-con/commit/c353215c52be28d4532eed2c7fe83cc804b2e710))
+
+- **spelling**: Inform about using hyphen
+  ([`e7e5449`](https://github.com/anaticulae/decider-con/commit/e7e54498f2f21de580edf5eead095856320233a5))
+
+### Refactoring
+
+- **smarty**: Improve code location
+  ([`ab5ec35`](https://github.com/anaticulae/decider-con/commit/ab5ec351426d633398d5cf75c438c2d93f1dfd51))
+
+### Testing
+
+- **base**: Update baseline
+  ([`0c19bac`](https://github.com/anaticulae/decider-con/commit/0c19bacccd122baa47b4036aa06b6bacec6ef6b1))
+
+
+## v0.9.0 (2022-07-05)
+
+### Bug Fixes
+
+- **startend**: Do not fail on bad parsed headlines
+  ([`4af0b15`](https://github.com/anaticulae/decider-con/commit/4af0b1555c6239757c08aaa4773c0d32c6cc67ee))
+
+### Chores
+
+- **requirements**: Adjust sections
+  ([`308b842`](https://github.com/anaticulae/decider-con/commit/308b84222b0c1c9cc6f196e406ad23fd51f0ff10))
+
+- **requirements**: Increase required sdata version
+  ([`71e67de`](https://github.com/anaticulae/decider-con/commit/71e67dee996f4dae24c836e11e3e494c1da50032))
+
+- **requirements**: Upgrade requirements.txt
+  ([`b81a903`](https://github.com/anaticulae/decider-con/commit/b81a903d9a99ca258342b7c42f4422ec5c425998))
+
+- **resources**: Remove duplicated resource
+  ([`243faf6`](https://github.com/anaticulae/decider-con/commit/243faf6ae477386041d0c9e1af21b3e321820738))
+
+### Code Style
+
+- **writing**: Improve error message
+  ([`ad8c47a`](https://github.com/anaticulae/decider-con/commit/ad8c47a87ac569461bf34a6d3864e7f3d5f147d6))
+
+### Features
+
+- **character**: Add another comparative linter
+  ([`a6a5ca2`](https://github.com/anaticulae/decider-con/commit/a6a5ca2af41839a31cf21e9e75a19001683b2343))
+
+- **character**: Add comparative als linter
+  ([`be6cf5d`](https://github.com/anaticulae/decider-con/commit/be6cf5d8fd44d62cd18afcadc23a9b98b4dd55f6))
+
+### Testing
+
+- **validate**: Validate all resources
+  ([`fad88d2`](https://github.com/anaticulae/decider-con/commit/fad88d29b18dde9236cede5fb4c9b56e577b9dd8))
+
+
+## v0.8.1 (2022-07-03)
+
+### Bug Fixes
+
+- **spelling**: Convert Marks to str
+  ([`93345a2`](https://github.com/anaticulae/decider-con/commit/93345a287a256a1a91b1130e6945dd4174684a90))
+
+
+## v0.8.0 (2022-07-03)
+
+### Chores
+
+- **requirements**: Adjust smarty version
+  ([`36419b3`](https://github.com/anaticulae/decider-con/commit/36419b3ff2346ad545904f49d52f94d07fcda99d))
+
+- **requirements**: Upgrade requirements.txt
+  ([`8eefa11`](https://github.com/anaticulae/decider-con/commit/8eefa114a311d51bcf7487835527a2b4ebfe823b))
+
+- **resources**: Extend test data generator
+  ([`ebf5d25`](https://github.com/anaticulae/decider-con/commit/ebf5d25cabf865794b098522a7959a5c91afe7eb))
+
+### Features
+
+- **smarty**: Add spelling step
+  ([`0fd9781`](https://github.com/anaticulae/decider-con/commit/0fd9781955b1b6e96c4454007712879d94d7d290))
+
+### Testing
+
+- **refactor**: Shorten test code
+  ([`58059b8`](https://github.com/anaticulae/decider-con/commit/58059b8f519b7281732425b835b1c3f097e7f8d5))
+
+
+## v0.7.0 (2022-06-24)
+
+### Chores
+
+- **fix**: Remove duplicated resource definition
+  ([`059a0b7`](https://github.com/anaticulae/decider-con/commit/059a0b78eae923700a77c5e46abb6fb87b179e57))
+
+- **requirements**: Add missing package
+  ([`f36199a`](https://github.com/anaticulae/decider-con/commit/f36199a1c6159413d6905ab708b669ff4d51862c))
+
+- **requirements**: Upgrade requirements.txt
+  ([`ba9139c`](https://github.com/anaticulae/decider-con/commit/ba9139cf85a9f2fcd2d1ec6f334966be1734d8e7))
+
+### Features
+
+- **badwords**: Mark improvement
+  ([`be102d2`](https://github.com/anaticulae/decider-con/commit/be102d225f7fc94abf59c869156733a5b5e78b25))
+
+- **char**: Shrink regex
+  ([`c2bf452`](https://github.com/anaticulae/decider-con/commit/c2bf452867611aa1c15c7b47285e213b0748b27a))
+
+- **features**: Add sentence location
+  ([`5059485`](https://github.com/anaticulae/decider-con/commit/50594854ac2e7fe333f066e67561af3c08f0629c))
+
+- **matcher**: Add dynamic matcher
+  ([`baf779c`](https://github.com/anaticulae/decider-con/commit/baf779c609db3e96224d7d66945b9b2c03a8017f))
+
+### Testing
+
+- **refactor**: Remove code duplication
+  ([`90e8330`](https://github.com/anaticulae/decider-con/commit/90e8330e9d245fe45614f3944cf509f28bebe8e7))
+
+- **validate**: Adjust expected result
+  ([`67eb5a4`](https://github.com/anaticulae/decider-con/commit/67eb5a4f37be5885f7c3464747ee25cd7cad7e7a))
+
+
+## v0.6.0 (2022-06-21)
+
+### Chores
+
+- **requirements**: Add reftable
+  ([`1019662`](https://github.com/anaticulae/decider-con/commit/1019662c929c5857e39e877e9304d158017847b8))
+
+- **resources**: Decrease amount of worker
+  ([`a916705`](https://github.com/anaticulae/decider-con/commit/a916705b88695f0afb0a036676f9aeb4e8e7dcdf))
+
+- **resources**: Extend test data generator
+  ([`2e8e2c9`](https://github.com/anaticulae/decider-con/commit/2e8e2c9dc05ffcedefe17756521e25c75fc59fab))
+
+### Features
+
+- **textflow**: Move abbrev linter from decider
+  ([`a7c7668`](https://github.com/anaticulae/decider-con/commit/a7c7668f7558cab5e3322448e4158c38fccbaeca))
+
+### Testing
+
+- **abbr**: Move tests from decider
+  ([`d6fbdd4`](https://github.com/anaticulae/decider-con/commit/d6fbdd4e254611a606097047b35dc642e79c876a))
+
+- **move**: Move regression tests from decider
+  ([`46db302`](https://github.com/anaticulae/decider-con/commit/46db30237d5c34de970bcb6d69370dde9c72f589))
+
+- **skip**: Skip non generated tests
+  ([`4caa47e`](https://github.com/anaticulae/decider-con/commit/4caa47e70d945f3e5f1d028016c05bb0c71f4372))
+
+- **textflow**: Remove duplicated run
+  ([`44282bd`](https://github.com/anaticulae/decider-con/commit/44282bd8131cf85584d5be175299af575668c3e3))
+
+- **textflow**: Skip test if resource is not generated
+  ([`2bf166f`](https://github.com/anaticulae/decider-con/commit/2bf166f3d1ad82920413dea88b180ac0a9de22cf))
+
+
+## v0.5.0 (2022-06-21)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`8709bb0`](https://github.com/anaticulae/decider-con/commit/8709bb05630d40fea48cd4700d697fb70635f3a0))
+
+- **resources**: Extend test data generator
+  ([`b6c4965`](https://github.com/anaticulae/decider-con/commit/b6c496530d04cfd8e11d1a7e10d88ef937c96aa2))
+
+- **resources**: Generate all steps
+  ([`2e9678c`](https://github.com/anaticulae/decider-con/commit/2e9678cf6bcbf582282724d88839bd065c2be78b))
+
+- **resources**: Remove default config
+  ([`a9ed602`](https://github.com/anaticulae/decider-con/commit/a9ed602ad163ab340f4497ebaa6c5af02be9f408))
+
+- **setup**: Cleanup setup
+  ([`c8b9abf`](https://github.com/anaticulae/decider-con/commit/c8b9abf7975f349e8ff43721767fbc782e0752da))
 
 ### Documentation
 
-* adjust modules path (d769ffd9eb31)
+- **fix**: Adjust modules path
+  ([`d769ffd`](https://github.com/anaticulae/decider-con/commit/d769ffd9eb311bdc206d334b5d107331dc12df0c))
 
-## v0.4.2
+### Features
 
-## v0.4.1
+- **move**: Move code from decider
+  ([`f4b6618`](https://github.com/anaticulae/decider-con/commit/f4b6618719aba787d28c804eddd725b2674f8dfb))
 
-### Feature
+### Refactoring
 
-* use document info from cli input (da9b7f5bfed0)
+- **cli**: Replace with default data type
+  ([`acd94bd`](https://github.com/anaticulae/decider-con/commit/acd94bde61933779e83062d49568f746aa0dfaa2))
 
-## v0.4.0
+- **intro**: Use common method skipper
+  ([`fa01a08`](https://github.com/anaticulae/decider-con/commit/fa01a08d4a8f90907f07a48fe9129bab698283ab))
 
-### Feature
+- **textflow**: Replace with protocol code
+  ([`c83cb90`](https://github.com/anaticulae/decider-con/commit/c83cb9015de507b13e7dd74254c776e0c4de407e))
 
-* add option to pass document info (b86d52c23423)
-* check intro for german documents only (0f6a896c3653)
+- **writing**: Remove unused code
+  ([`c7f1df7`](https://github.com/anaticulae/decider-con/commit/c7f1df7648e1f17d9628cc6a731e4dc21c101e00))
+
+### Testing
+
+- **move**: Move tests from decider
+  ([`f449e51`](https://github.com/anaticulae/decider-con/commit/f449e5102f1b0999bc00873bfbbe0a3e60ba7e5f))
+
+- **refactor**: Use modern test runner
+  ([`4b59799`](https://github.com/anaticulae/decider-con/commit/4b597994d0013d747eb9498e651d91518a9b4b52))
+
+- **rename**: Adjust test folder
+  ([`d3efcb8`](https://github.com/anaticulae/decider-con/commit/d3efcb800c80768ebbd12da5e856d3321760687f))
+
+- **skip**: Skip test on missing generated resource
+  ([`014aa6f`](https://github.com/anaticulae/decider-con/commit/014aa6f5be0812bb593ad1d35a6fde56fc24966f))
+
+- **validate**: Remove unused code
+  ([`33b6d37`](https://github.com/anaticulae/decider-con/commit/33b6d3788a7f557f0ad1fb3623ee5d474af2e4c3))
+
+- **validate**: Validate all findings
+  ([`0df4871`](https://github.com/anaticulae/decider-con/commit/0df4871c39348d49ad93185670185bd6215ad92d))
+
+
+## v0.4.2 (2022-03-03)
+
+### Chores
+
+- **requirements**: Make chapter less strict
+  ([`ebd052a`](https://github.com/anaticulae/decider-con/commit/ebd052a6b7abe88651649a94b0d54c13e2c1a0f4))
+
+- **requirements**: Upgrade requirements.txt
+  ([`27db0bf`](https://github.com/anaticulae/decider-con/commit/27db0bf85aeead3412a67e90a0e0459cc8a69b85))
+
+
+## v0.4.1 (2022-01-13)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`309da7b`](https://github.com/anaticulae/decider-con/commit/309da7b127da19da32070fd2b02299e0acffbe62))
+
+### Features
+
+- **intro**: Use document info from cli input
+  ([`da9b7f5`](https://github.com/anaticulae/decider-con/commit/da9b7f5bfed01684a563e30e090a38c3622bd1c2))
+
+### Testing
+
+- **cli**: Verify german document decorator
+  ([`4d1d4e9`](https://github.com/anaticulae/decider-con/commit/4d1d4e9ab2723b3f388f5b055b9cc3f884b493e2))
+
+
+## v0.4.0 (2022-01-13)
+
+### Chores
+
+- **config**: Move project config
+  ([`b610dfa`](https://github.com/anaticulae/decider-con/commit/b610dfac9c8137aa2ae1332cad8ae3aa472d1cc9))
+
+- **requirements**: Upgrade requirements.txt
+  ([`a8425e8`](https://github.com/anaticulae/decider-con/commit/a8425e885fbd7be5273898395f0bb9175680a972))
+
+### Code Style
+
+- **copyright**: Add missing copyright header
+  ([`bb72056`](https://github.com/anaticulae/decider-con/commit/bb72056ee4c667221cf0a27f961f32d5b9966c82))
 
 ### Documentation
 
-* Happy New Year! (2a4671360dd6)
+- **copyright**: Happy New Year!
+  ([`2a46713`](https://github.com/anaticulae/decider-con/commit/2a4671360dd66bc2a5cd0b768a710281e5002536))
 
-## v0.3.3
+### Features
 
-## v0.3.2
+- **cli**: Add option to pass document info
+  ([`b86d52c`](https://github.com/anaticulae/decider-con/commit/b86d52c234230c8fe81bc4d30fb2f5d252bcbde0))
 
-### Fix
+- **intro**: Check intro for german documents only
+  ([`0f6a896`](https://github.com/anaticulae/decider-con/commit/0f6a896c365323ad2f371be8b4e7346e08d8e3ea))
 
-* remove magic parameter (b8e5ea39091a)
 
-## v0.3.1
+## v0.3.3 (2021-12-07)
 
-### Feature
+### Chores
 
-* do not run intro check on diss and books (5b23d2bb6004)
+- **requirements**: Upgrade requirements.txt
+  ([`7ccbac4`](https://github.com/anaticulae/decider-con/commit/7ccbac4d8823a039c48e64fcac5dda19e7105599))
 
-## v0.3.0
 
-### Feature
+## v0.3.2 (2021-11-11)
 
-* disable intro check for small documents (f5d83d21cec8)
-* add method to load document information (12ae898a1dcf)
-* add document type loader (3913440a7d85)
+### Bug Fixes
 
-## v0.2.1
+- **intro**: Remove magic parameter
+  ([`b8e5ea3`](https://github.com/anaticulae/decider-con/commit/b8e5ea39091aa1b58cd68a5bb687b3082b149509))
 
-### Fix
+### Chores
 
-* fix newline (4d00697f759e)
+- **requirements**: Add configo
+  ([`4ff4292`](https://github.com/anaticulae/decider-con/commit/4ff4292b1910ffcabad77b6ed2e5ce35f012a5d4))
 
-## v0.2.0
+- **requirements**: Upgrade requirements.txt
+  ([`1a722d6`](https://github.com/anaticulae/decider-con/commit/1a722d6025c9048686aa42eec64723e07882374d))
 
-### Feature
+### Refactoring
 
-* add protoerror show list command (4ffc24e6fc96)
+- **hv**: Replace with real hv
+  ([`68b33ca`](https://github.com/anaticulae/decider-con/commit/68b33ca14f0ce670eaebf58e544bcad9adff563e))
 
-## v0.1.3
+- **intro**: Clarify naming
+  ([`26b2b35`](https://github.com/anaticulae/decider-con/commit/26b2b357d3f6bc54946c2a784ef6e60320902305))
 
-## v0.1.2
 
-### Fix
+## v0.3.1 (2021-09-25)
 
-* do not check empty `intro` (d5f01e0edbf0)
+### Chores
 
-## v0.1.1
+- **requirements**: Make requirements less strict
+  ([`ad9758d`](https://github.com/anaticulae/decider-con/commit/ad9758dd7d739710ae1b72f090866190f2a590d4))
 
-## v0.1.0
+- **requirements**: Upgrade requirements.txt
+  ([`10747f2`](https://github.com/anaticulae/decider-con/commit/10747f2c221d2718492e657010808b1fec14922e))
 
-### Feature
+### Features
 
-* add intro linter (eb519611353f)
-* add chapter_ cli (f887ec7dba9d)
+- **intro**: Do not run intro check on diss and books
+  ([`5b23d2b`](https://github.com/anaticulae/decider-con/commit/5b23d2bb6004b76c7e165f3e80dea10119f5cb43))
 
-## v0.0.0 Initial release
+
+## v0.3.0 (2021-07-06)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`eebf0c9`](https://github.com/anaticulae/decider-con/commit/eebf0c9d4f48f3e3b41a6b4cc799bbaea90c4e24))
+
+- **requirements**: Upgrade requirements.txt
+  ([`741071b`](https://github.com/anaticulae/decider-con/commit/741071ba0a3d2315bd8604faee8b0733a6cb748d))
+
+- **resources**: Extend test data generator
+  ([`2386487`](https://github.com/anaticulae/decider-con/commit/23864877d284b63ed366189356370ee72bf7615b))
+
+### Code Style
+
+- **fix**: Fix typo
+  ([`309a88c`](https://github.com/anaticulae/decider-con/commit/309a88c72eda93c185cf3636b0f632a85cc4b353))
+
+- **format**: Format code
+  ([`3559ba3`](https://github.com/anaticulae/decider-con/commit/3559ba3770b92dc7956f45e79305a91c03dfde0b))
+
+### Features
+
+- **document**: Add document type loader
+  ([`3913440`](https://github.com/anaticulae/decider-con/commit/3913440a7d8561525c5b6fbcf6ef9361643ce0ce))
+
+- **document**: Add method to load document information
+  ([`12ae898`](https://github.com/anaticulae/decider-con/commit/12ae898a1dcff4a5d1623594a306f90eec7bd9e9))
+
+- **intro**: Disable intro check for small documents
+  ([`f5d83d2`](https://github.com/anaticulae/decider-con/commit/f5d83d21cec8cfbeb10a7ba009bf3d5a5b3ff26c))
+
+### Testing
+
+- **intro**: Do not run intro check on small document
+  ([`8047dc5`](https://github.com/anaticulae/decider-con/commit/8047dc5b8e6697ce3a33d8f6ed587f9231f793d2))
+
+
+## v0.2.1 (2021-05-26)
+
+### Bug Fixes
+
+- **message**: Fix newline
+  ([`4d00697`](https://github.com/anaticulae/decider-con/commit/4d00697f759e7207856b43a5c6deb92277fe970d))
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`74a7811`](https://github.com/anaticulae/decider-con/commit/74a78119d72cea0d7444601e1d7b6e5a5315d924))
+
+
+## v0.2.0 (2021-01-30)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`52e21de`](https://github.com/anaticulae/decider-con/commit/52e21dea2b3064e1bc8559a896673f46b021b5c3))
+
+### Features
+
+- **cli**: Add protocol show list command
+  ([`4ffc24e`](https://github.com/anaticulae/decider-con/commit/4ffc24e6fc96127dcb4c6e5bfbd6bf5ed263fd80))
+
+
+## v0.1.3 (2021-01-13)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`707dc34`](https://github.com/anaticulae/decider-con/commit/707dc34f5e15e7a4f88a8259970770add9293593))
+
+
+## v0.1.2 (2020-12-19)
+
+### Bug Fixes
+
+- **intro**: Do not check empty `intro`
+  ([`d5f01e0`](https://github.com/anaticulae/decider-con/commit/d5f01e0edbf004f3452bad35aab3851df1fcf17e))
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`7626001`](https://github.com/anaticulae/decider-con/commit/762600167dbeed37f7075d071ebb692574507a30))
+
+
+## v0.1.1 (2020-12-19)
+
+### Chores
+
+- **requirements**: Upgrade requirements.txt
+  ([`8ae85ef`](https://github.com/anaticulae/decider-con/commit/8ae85ef2724e8056d554f400e12e5140934d2724))
+
+
+## v0.1.0 (2020-12-19)
+
+### Chores
+
+- **requirements**: Add protocol package
+  ([`6f4c43b`](https://github.com/anaticulae/decider-con/commit/6f4c43b86ed6f08af1ef44a518e1e5e076909676))
+
+- **requirements**: Add writers package
+  ([`ae04b07`](https://github.com/anaticulae/decider-con/commit/ae04b0741046b6900fd05fb49ec9343dcce59c1a))
+
+- **requirements**: Extend test data generator
+  ([`cf3d322`](https://github.com/anaticulae/decider-con/commit/cf3d3227a53cab13794d11e4b092290bdd3ba241))
+
+- **requirements**: Upgrade requirements.txt
+  ([`36014fc`](https://github.com/anaticulae/decider-con/commit/36014fc506ce20b17de62ddbda4056b1b869ede0))
+
+- **requirements**: Upgrade requirements.txt
+  ([`7b46f39`](https://github.com/anaticulae/decider-con/commit/7b46f390975310697108e18f2dad7c298013c1b0))
+
+- **resources**: Add test data generator
+  ([`fef4186`](https://github.com/anaticulae/decider-con/commit/fef41868f09128043e2ae44ac73a51ea863756c5))
+
+### Features
+
+- **cli**: Add decider_chapter cli
+  ([`f887ec7`](https://github.com/anaticulae/decider-con/commit/f887ec7dba9d5d8ac26f323572c6b943cdc7c24e))
+
+- **intro**: Add intro linter
+  ([`eb51961`](https://github.com/anaticulae/decider-con/commit/eb519611353fdbd3f5f14bac864ea855d240d227))
+
+### Testing
+
+- **intro**: Validate intro validation
+  ([`606e562`](https://github.com/anaticulae/decider-con/commit/606e562d0e8a7bac0eb830618ab0ddce3e751704))
+
+- **setup**: Generate docs before running tests
+  ([`207dd59`](https://github.com/anaticulae/decider-con/commit/207dd59da7a2461163071a971482e5a5e6da13cc))
+
+
+## v0.0.0 (2020-12-18)
+
+- Initial Release
