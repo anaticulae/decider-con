@@ -8,7 +8,7 @@
 # =============================================================================
 
 import configos
-import german
+import germania
 import iamraw
 import texmex
 import utilo
@@ -39,7 +39,7 @@ def determine_sentences(
 
 
 def word_tokenize(txt: str) -> list:
-    tokens = german.word_tokenize(txt, validate_sentences=False)
+    tokens = germania.word_tokenize(txt, validate_sentences=False)
     tokens = [item.lower() for item in tokens if isinstance(item, str)]
     tokens = [item for item in tokens if utilo.char_rate(item) == 1.0]
     tokens = [item for item in tokens if len(item) >= 2]

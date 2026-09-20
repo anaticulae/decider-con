@@ -27,7 +27,7 @@ def test_decider_content_nomonkey_cli_help():
 
 @utilotest.requires(hoverpower.MASTER075_PDF)
 def test_language_decorator(td, mp):
-    """Disable 6500 for other language than german."""
+    """Disable 6500 for other language thangermania."""
     source = hoverpower.link(hoverpower.MASTER075_PDF)
     german = td.tmpdir.join('german')
     tests.chapter_.run(f'-i {source} -o {german}', mp=mp)

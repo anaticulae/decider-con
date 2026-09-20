@@ -8,9 +8,9 @@
 # =============================================================================
 
 import configos
-import german
+import germania
 import iamraw
-import konrad.quotation.german
+import konradus.quotation.german
 import protoerror
 import serializeraw
 
@@ -44,10 +44,10 @@ Satz **{{sentence}}** enthält eine ungerade Anzahl von Anführungszeichen.
 
 def check_7100_german_quote_not_closed(linter: callable, driver):
     for quote in driver.quotations:
-        tokens = german.split_token(quote.sentence)
-        if not german.isger(tokens):
+        tokens = germania.split_token(quote.sentence)
+        if not germania.isger(tokens):
             continue
-        validated = konrad.quotation.german.double_quotation_closed(tokens)
+        validated = konradus.quotation.german.double_quotation_closed(tokens)
         if validated:
             continue
         location = iamraw.Location.from_sentence(
@@ -72,13 +72,13 @@ Sie diese doppelten Anführungszeichen durch einfache Anführungszeichen.
 
 def check_7101_german_quote_double_quote_inside(linter: callable, driver):
     for quote in driver.quotations:
-        tokens = german.split_token(quote.sentence)
-        if not german.isger(tokens):
+        tokens = germania.split_token(quote.sentence)
+        if not germania.isger(tokens):
             continue
-        validated = konrad.quotation.german.double_quotation_closed(tokens)
+        validated = konradus.quotation.german.double_quotation_closed(tokens)
         if not validated:
             continue
-        if konrad.quotation.german.no_double_quotes_inside_double(tokens):
+        if konradus.quotation.german.no_double_quotes_inside_double(tokens):
             continue
         location = iamraw.Location.from_sentence(
             page=quote.page,
@@ -113,8 +113,8 @@ def check_7105_quote_starts_with_omission_sign(linter: callable, driver):
     1
     """
     for quote in driver.quotations:
-        tokens = german.split_token(quote.sentence)
-        if not german.isger(tokens):
+        tokens = germania.split_token(quote.sentence)
+        if not germania.isger(tokens):
             continue
         if len(tokens) < 2:
             continue
@@ -147,7 +147,7 @@ Denkleistung in den Vordergrund.
 
 def check_7110_max_citation_length(linter: callable, driver):
     for quote in driver.quotations:
-        tokens = german.split_token(quote.sentence)
+        tokens = germania.split_token(quote.sentence)
         if len(tokens) <= CITATION_LENGTH_MAX:
             continue
         location = iamraw.Location.from_sentence(

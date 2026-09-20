@@ -10,7 +10,7 @@
 import dataclasses
 
 import configos
-import german
+import germania
 import iamraw
 import protoerror
 import texmex
@@ -79,7 +79,7 @@ def check_7600_text_perspective(linter: callable, driver):
                 # formula or something else
                 continue
         # TODO: ANAYLZE PERSPECTIVE INSIDE LISTS
-        tokens = german.word_tokenize(line, validate_sentences=False)
+        tokens = germania.word_tokenize(line, validate_sentences=False)
         invalid = textflow_.writing.perspective.invalid(tokens)
         if not invalid:
             continue

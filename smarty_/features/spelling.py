@@ -7,7 +7,7 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import german
+import germania
 import protoerror
 
 import smarty_.driver
@@ -38,7 +38,7 @@ oder korrigieren Sie die anderen Schreibweisen.
 
 def check_8200_hyphen_missing(linter: callable, driver):
     for error in driver.hyphen:
-        converted = [german.token_plain(item) for item in error.docref.raw]
+        converted = [germania.token_plain(item) for item in error.docref.raw]
         rawword = '; '.join(converted)
         location = smarty_.utils.create_location(error)
         linter(
@@ -67,7 +67,7 @@ def check_8205_try_hyphen(linter: callable, driver):
             for tokens in docref.marked
         ]
         converted = [
-            german.token_plain(item)
+            germania.token_plain(item)
             for item, skip in zip(error.docref.raw, dones)
             if not skip
         ]

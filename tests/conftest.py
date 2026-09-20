@@ -7,7 +7,7 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import genex
+import gennex
 import hoverpower
 import pytest
 import utilotest
@@ -61,7 +61,7 @@ def pytest_sessionstart():
 
 
 def extract(resources):
-    genex.extract(
+    gennex.extract(
         files=resources,
         full=True,
         morefeatures=['chapter'],
