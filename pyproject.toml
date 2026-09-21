@@ -41,10 +41,9 @@ content-type = "text/markdown"
 
 [project.optional-dependencies]
 dev = [
-    "capita==1.25.3",
-    "capita_ref==1.0.1",
     "gennex==1.1.0",
     "hoverpower==1.7.0",
+    "rawmaker==2.40.5",
     "utilotest==1.1.1",
     "writers>=1.7.1,<2.0.0",
 ]
