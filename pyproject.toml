@@ -54,9 +54,9 @@ Homepage = "https://github.com/anaticulae/decider-con"
 Repository = "https://github.com/anaticulae/decider-con"
 
 [project.scripts]
-chapter = "chapter_.cli:main"
-smarty = "smarty_.cli:main"
-textflow = "textflow_.cli:main"
+decider_chapter = "chapter_.cli:main"
+decider_smarty = "smarty_.cli:main"
+decider_textflow = "textflow_.cli:main"
 
 [tool.semantic_release]
 version_toml = [
