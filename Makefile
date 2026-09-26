@@ -24,21 +24,21 @@ docker-fasttest: docker-decrypt
 		-v $(CURDIR):/var/workdir \
 		-v /tmp/genref:/tmp/genref \
 		$(IMAGE_NAME) \
-		"baw test fast"
+		"baw test fast -n1"
 
 docker-longtest: docker-decrypt
 	docker run\
 		-v $(CURDIR):/var/workdir \
 		-v /tmp/genref:/tmp/genref \
 		$(IMAGE_NAME) \
-		"baw test long"
+		"baw test long -n1"
 
 docker-alltest: docker-decrypt
 	docker run\
 		-v $(CURDIR):/var/workdir \
 		-v /tmp/genref:/tmp/genref \
 		$(IMAGE_NAME) \
-		"baw test all --generate"
+		"baw test all --generate -n1"
 
 docker-lint: docker-build
 	docker run\
