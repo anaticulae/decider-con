@@ -17,6 +17,6 @@ ROOT = decider_con.ROOT
 __version__ = decider_con.__version__
 
 PACKAGE = 'smarty_'
-PROCESS = 'smarty_'
+PROCESS = 'decider_smarty'
 
 configos.cloud_lookup(PROCESS)
