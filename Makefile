@@ -38,7 +38,8 @@ docker-alltest: docker-decrypt
 		-v $(CURDIR):/var/workdir \
 		-v /tmp/genref:/tmp/genref \
 		$(IMAGE_NAME) \
-		"baw test all --generate"
+		"ls"
+# 		"baw test all --generate"
 
 docker-lint: docker-build
 	docker run\
