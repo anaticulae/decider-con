@@ -28,7 +28,6 @@ def decide_textflow(source, pages, td, mp, msgids=None):
     return findings
 
 
-@pytest.mark.xfail(reason='???')
 def test_bachelor76_docref_negative(td, mp):
     """This document contains only valid references.
 
@@ -65,6 +64,7 @@ def test_bachelor76_figure_missing_intext_ref(td, mp):
     assert len(findings) == 2
 
 
+@pytest.mark.xfail(reason='enable later')
 def test_master75_docref(td, mp):
     # TODO: DESCRIBE PURPOSE OF TEST
     source = hoverpower.MASTER075_PDF

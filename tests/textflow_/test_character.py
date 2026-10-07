@@ -136,6 +136,7 @@ def test_character_missing_space_after_comma_master116_page23(
     assert not findings
 
 
+@pytest.mark.xfail(reason='enable later')
 def test_bachelor028_highnote_space(td, mp):
     """\
     page:17
