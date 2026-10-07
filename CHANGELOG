@@ -1,6 +1,55 @@
 # CHANGELOG
 
 
+## v1.0.1 (2026-10-07)
+
+### Bug Fixes
+
+- **pyproject**: Adjust console names
+  ([`1d7a160`](https://github.com/anaticulae/decider-con/commit/1d7a16092eb97beb706e200ffcf95537c6f81062))
+
+- **smarty**: Adjust cli name
+  ([`a69e5ea`](https://github.com/anaticulae/decider-con/commit/a69e5ea820f474b421709f6beab12928b28e3d2e))
+
+### Chores
+
+- **ci**: Disable long running test
+  ([`94b955f`](https://github.com/anaticulae/decider-con/commit/94b955f2f8f62468dcc52c8d71da428ea299e936))
+
+- **pyproject**: Add missing generator
+  ([`15e6df0`](https://github.com/anaticulae/decider-con/commit/15e6df0f5ddfc9f8b10595943a45966b5e0af31f))
+
+- **pyproject**: Optimize dev requirements
+  ([`e2b630d`](https://github.com/anaticulae/decider-con/commit/e2b630df79ef7e3f46d79a740866a96fce013b7d))
+
+- **requirements**: Upgrade pyproject.toml
+  ([`f01bb04`](https://github.com/anaticulae/decider-con/commit/f01bb042bbc58a12869f372637b2a3e4e8aff886))
+
+- **requirements**: Upgrade pyproject.toml
+  ([`3b97736`](https://github.com/anaticulae/decider-con/commit/3b97736756af46124b1948a67a5788fca5b1220e))
+
+- **resources**: Use more worker as default
+  ([`cdd3f1b`](https://github.com/anaticulae/decider-con/commit/cdd3f1ba3f7241068c58a9f926bdace4a4bc3dae))
+
+### Code Style
+
+- **test**: Add missing import
+  ([`0002931`](https://github.com/anaticulae/decider-con/commit/00029318aad66b3cdb5768e1db8cf176ef329b01))
+
+### Documentation
+
+- **license**: Add missing file
+  ([`d616df2`](https://github.com/anaticulae/decider-con/commit/d616df2e958f68dfe64414ec5d4c154725b34e49))
+
+### Testing
+
+- **baseline**: Adjust baseline
+  ([`0c771e9`](https://github.com/anaticulae/decider-con/commit/0c771e943bf1ad4088f0fced4801a868140c6e6c))
+
+- **textflow**: Disable unit tests
+  ([`4b51fd2`](https://github.com/anaticulae/decider-con/commit/4b51fd2939437b5846ac87deda1b8c3c6de57104))
+
+
 ## v1.0.0 (2026-09-20)
 
 ### Chores
