@@ -4,11 +4,12 @@
 06500 p30 Einleitung unvollständig
 06500 p30 Einleitung unvollständig
 07201 p33 Abbildung nicht referenziert
+07201 p35 Abbildung nicht referenziert
 07201 p36 Abbildung nicht referenziert
 07201 p37 Abbildung nicht referenziert
+07201 p37 Abbildung nicht referenziert
 07203 p32 Tabelle nicht referenziert
-07230 p36 Rückwärtsreferenz Abbildung
-07611 p37~l3 Satzanfang wiederholt sich
+07611 p37~l4 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
 07620 p30~l0 Einsame Zeile am Seitenanfang
 07620 p36~l0 Einsame Zeile am Seitenanfang
@@ -22,8 +23,8 @@
 07630 p37_38~l8_0 Paragraph zu kurz
 07670 p32s13 Fehlendes Leerzeichen
 08205 p35s1 Wortverbindung empfohlen
-08205 p36s13 Wortverbindung empfohlen
-08205 p37s4 Wortverbindung empfohlen
+08205 p36s15 Wortverbindung empfohlen
+08205 p37s5 Wortverbindung empfohlen
 08205 p39s1 Wortverbindung empfohlen
 08205 p39s13 Wortverbindung empfohlen
 08205 p39s2 Wortverbindung empfohlen

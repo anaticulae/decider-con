@@ -4,6 +4,7 @@
 07006 p7s3 Satzende vor Aufzählung anpassen
 07600 p8s3 Fehler in der Perspektive
 07611 p9~l0 Satzanfang wiederholt sich
+07611 p9~l3 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
 07630 p2_2~l12_14 Paragraph zu kurz
 07630 p2_2~l16_19 Paragraph zu kurz
@@ -14,7 +15,7 @@
 07630 p3_3~l37_38 Paragraph zu kurz
 07630 p3_3~l8_10 Paragraph zu kurz
 07630 p8_8~l2_3 Paragraph zu kurz
-08115 p9s7 Ungenaue Formulierung erkannt
+08115 p9s6 Ungenaue Formulierung erkannt
+08205 p9s10 Wortverbindung empfohlen
 08205 p9s11 Wortverbindung empfohlen
 08205 p9s12 Wortverbindung empfohlen
-08205 p9s13 Wortverbindung empfohlen

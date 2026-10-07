@@ -14,34 +14,35 @@
 07203 p59 Tabelle nicht referenziert
 07203 p63 Tabelle nicht referenziert
 07600 p2s0 Fehler in der Perspektive
-07600 p3s8 Fehler in der Perspektive
-07600 p3s9 Fehler in der Perspektive
-07600 p43s5 Fehler in der Perspektive
+07600 p3s5 Fehler in der Perspektive
+07600 p3s6 Fehler in der Perspektive
+07600 p43s4 Fehler in der Perspektive
 07600 p45s3 Fehler in der Perspektive
 07600 p45s4 Fehler in der Perspektive
 07600 p46s0 Fehler in der Perspektive
-07600 p46s2 Fehler in der Perspektive
-07600 p46s7 Fehler in der Perspektive
-07600 p50s11 Fehler in der Perspektive
+07600 p46s3 Fehler in der Perspektive
+07600 p46s9 Fehler in der Perspektive
+07600 p50s12 Fehler in der Perspektive
 07600 p50s4 Fehler in der Perspektive
 07600 p50s6 Fehler in der Perspektive
 07600 p50s9 Fehler in der Perspektive
-07600 p57s18 Fehler in der Perspektive
-07600 p59s5 Fehler in der Perspektive
+07600 p57s16 Fehler in der Perspektive
+07600 p59s4 Fehler in der Perspektive
 07600 p5s2 Fehler in der Perspektive
 07600 p60s1 Fehler in der Perspektive
 07600 p62s2 Fehler in der Perspektive
-07600 p7s2 Fehler in der Perspektive
-07600 p7s7 Fehler in der Perspektive
-07600 p8s6 Fehler in der Perspektive
+07600 p7s1 Fehler in der Perspektive
+07600 p7s6 Fehler in der Perspektive
+07600 p8s7 Fehler in der Perspektive
+07600 p9s1 Fehler in der Perspektive
 07600 p9s15 Fehler in der Perspektive
-07600 p9s3 Fehler in der Perspektive
 07605 p2s11 Satz zu lang
 07605 p47s0 Satz zu lang
 07605 p52s0 Satz zu lang
-07605 p7s2 Satz zu lang
+07605 p7s1 Satz zu lang
 07610 p4None Satzmuster wiederholt sich
-07611 p43~l4 Satzanfang wiederholt sich
+07611 p43~l3 Satzanfang wiederholt sich
+07611 p44~l7 Satzanfang wiederholt sich
 07611 p48~l4 Satzanfang wiederholt sich
 07611 p50~l6 Satzanfang wiederholt sich
 07611 p53~l12 Satzanfang wiederholt sich
@@ -51,7 +52,6 @@
 07611 p61~l12 Satzanfang wiederholt sich
 07611 p61~l20 Satzanfang wiederholt sich
 07611 p61~l6 Satzanfang wiederholt sich
-07611 p7~l1 Satzanfang wiederholt sich
 07611 p8~l1 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
 07620 p1~l0 Einsame Zeile am Seitenanfang
@@ -66,16 +66,16 @@
 07661 p64~l0~c74_76 Schrägstrich: Überflüssiges Leerzeichen
 07661 p64~l0~c83_85 Schrägstrich: Überflüssiges Leerzeichen
 08100 p2s11 Umgangssprache erkannt
-08110 p4s8 Unnötige Vorsilbe
+08110 p4s7 Unnötige Vorsilbe
 08110 p54s4 Unnötige Vorsilbe
 08110 p55s2 Unnötige Vorsilbe
 08110 p56s7 Unnötige Vorsilbe
 08110 p60s10 Unnötige Vorsilbe
 08115 p47s4 Ungenaue Formulierung erkannt
 08115 p9s10 Ungenaue Formulierung erkannt
-08205 p3s13 Wortverbindung empfohlen
-08205 p44s5 Wortverbindung empfohlen
-08205 p45s8 Wortverbindung empfohlen
+08205 p3s10 Wortverbindung empfohlen
+08205 p44s7 Wortverbindung empfohlen
+08205 p45s10 Wortverbindung empfohlen
 08205 p47s0 Wortverbindung empfohlen
 08205 p48s4 Wortverbindung empfohlen
 08205 p48s5 Wortverbindung empfohlen
@@ -85,14 +85,14 @@
 08205 p49s5 Wortverbindung empfohlen
 08205 p49s6 Wortverbindung empfohlen
 08205 p4s2 Wortverbindung empfohlen
-08205 p4s7 Wortverbindung empfohlen
+08205 p4s6 Wortverbindung empfohlen
 08205 p50s0 Wortverbindung empfohlen
 08205 p50s1 Wortverbindung empfohlen
 08205 p50s5 Wortverbindung empfohlen
 08205 p51s1 Wortverbindung empfohlen
 08205 p51s12 Wortverbindung empfohlen
-08205 p52s12 Wortverbindung empfohlen
-08205 p52s6 Wortverbindung empfohlen
+08205 p52s10 Wortverbindung empfohlen
+08205 p52s4 Wortverbindung empfohlen
 08205 p53s0 Wortverbindung empfohlen
 08205 p53s2 Wortverbindung empfohlen
 08205 p53s5 Wortverbindung empfohlen
@@ -101,12 +101,11 @@
 08205 p54s3 Wortverbindung empfohlen
 08205 p56s18 Wortverbindung empfohlen
 08205 p56s6 Wortverbindung empfohlen
-08205 p57s14 Wortverbindung empfohlen
+08205 p57s12 Wortverbindung empfohlen
 08205 p58s2 Wortverbindung empfohlen
 08205 p5s2 Wortverbindung empfohlen
 08205 p60s11 Wortverbindung empfohlen
 08205 p60s8 Wortverbindung empfohlen
 08205 p64s1 Wortverbindung empfohlen
-08205 p8s10 Wortverbindung empfohlen
 08205 p8s12 Wortverbindung empfohlen
 08205 p9s12 Wortverbindung empfohlen

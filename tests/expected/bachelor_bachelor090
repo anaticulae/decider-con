@@ -8,7 +8,6 @@
 06500 p12 Einleitung unvollständig
 06500 p12 Einleitung unvollständig
 06500 p12 Einleitung unvollständig
-06500 p12 Einleitung unvollständig
 07000 p28b(494.1;632.82;534.11;698.59) Zu viele aufeinander folgende Trennungen
 07000 p33b(494.1;412.35;534.11;478.08) Zu viele aufeinander folgende Trennungen
 07000 p39b(494.1;336.8;534.11;402.56) Zu viele aufeinander folgende Trennungen
@@ -23,7 +22,7 @@
 07010 p45s4 Satzende vor Gleichung fehlt
 07010 p56s0 Satzende vor Gleichung fehlt
 07010 p63s8 Satzende vor Gleichung fehlt
-07011 p50s17 Satzende vor Gleichung anpassen
+07011 p50s18 Satzende vor Gleichung anpassen
 07011 p58s10 Satzende vor Gleichung anpassen
 07200 p18s8 Referenz nicht gefunden
 07200 p21s1 Referenz nicht gefunden
@@ -284,7 +283,6 @@
 07653 p19~l0~c74_76 Unzuläßiges Leerzeichen nach eckiger Klammer
 07661 p55~l0~c133_135 Schrägstrich: Überflüssiges Leerzeichen
 07661 p55~l0~c139_141 Schrägstrich: Überflüssiges Leerzeichen
-07666 p50~l0~c113_125 Überflüßiges Leerzeichen
 07670 p19s4 Fehlendes Leerzeichen
 08110 p39s8 Unnötige Vorsilbe
 08110 p48s19 Unnötige Vorsilbe
@@ -308,9 +306,9 @@
 08205 p15s5 Wortverbindung empfohlen
 08205 p15s7 Wortverbindung empfohlen
 08205 p16s17 Wortverbindung empfohlen
-08205 p17s12 Wortverbindung empfohlen
-08205 p17s14 Wortverbindung empfohlen
-08205 p17s18 Wortverbindung empfohlen
+08205 p17s11 Wortverbindung empfohlen
+08205 p17s13 Wortverbindung empfohlen
+08205 p17s17 Wortverbindung empfohlen
 08205 p18s11 Wortverbindung empfohlen
 08205 p19s0 Wortverbindung empfohlen
 08205 p19s11 Wortverbindung empfohlen

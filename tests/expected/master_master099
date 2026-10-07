@@ -24,7 +24,7 @@
 06500 p5 Einleitung unvollständig
 06500 p5 Einleitung unvollständig
 06500 p5 Einleitung unvollständig
-07006 p9s2 Satzende vor Aufzählung anpassen
+07006 p9s1 Satzende vor Aufzählung anpassen
 07600 p5s0 Fehler in der Perspektive
 07600 p5s1 Fehler in der Perspektive
 07600 p6s0 Fehler in der Perspektive
@@ -47,16 +47,16 @@
 07630 p8_8~l27_28 Paragraph zu kurz
 07630 p9_9~l2_4 Paragraph zu kurz
 07630 p9_9~l6_7 Paragraph zu kurz
-08110 p6s1 Unnötige Vorsilbe
+08110 p6s2 Unnötige Vorsilbe
 08115 p5s16 Ungenaue Formulierung erkannt
-08115 p6s10 Ungenaue Formulierung erkannt
-08115 p6s6 Ungenaue Formulierung erkannt
+08115 p6s12 Ungenaue Formulierung erkannt
+08115 p6s7 Ungenaue Formulierung erkannt
 08115 p7s9 Ungenaue Formulierung erkannt
 08205 p5s0 Wortverbindung empfohlen
 08205 p5s1 Wortverbindung empfohlen
 08205 p5s4 Wortverbindung empfohlen
 08205 p5s7 Wortverbindung empfohlen
-08205 p6s1 Wortverbindung empfohlen
+08205 p6s2 Wortverbindung empfohlen
 08205 p8s1 Wortverbindung empfohlen
 08205 p8s10 Wortverbindung empfohlen
 08205 p8s12 Wortverbindung empfohlen
@@ -64,5 +64,6 @@
 08205 p8s3 Wortverbindung empfohlen
 08205 p8s8 Wortverbindung empfohlen
 08205 p8s9 Wortverbindung empfohlen
-08205 p9s2 Wortverbindung empfohlen
-08205 p9s4 Wortverbindung empfohlen
+08205 p9s1 Wortverbindung empfohlen
+08205 p9s10 Wortverbindung empfohlen
+08205 p9s3 Wortverbindung empfohlen

@@ -7,23 +7,23 @@
 07600 p10s14 Fehler in der Perspektive
 07600 p10s5 Fehler in der Perspektive
 07600 p13s2 Fehler in der Perspektive
-07600 p13s3 Fehler in der Perspektive
+07600 p13s4 Fehler in der Perspektive
 07600 p13s6 Fehler in der Perspektive
-07600 p14s10 Fehler in der Perspektive
+07600 p14s1 Fehler in der Perspektive
+07600 p14s11 Fehler in der Perspektive
 07600 p14s2 Fehler in der Perspektive
 07600 p14s3 Fehler in der Perspektive
 07600 p14s4 Fehler in der Perspektive
-07600 p14s5 Fehler in der Perspektive
 07600 p14s6 Fehler in der Perspektive
-07600 p15s14 Fehler in der Perspektive
-07600 p15s2 Fehler in der Perspektive
-07600 p16s6 Fehler in der Perspektive
+07600 p15s1 Fehler in der Perspektive
+07600 p15s13 Fehler in der Perspektive
+07600 p16s8 Fehler in der Perspektive
 07600 p17s12 Fehler in der Perspektive
 07600 p17s8 Fehler in der Perspektive
-07600 p18s1 Fehler in der Perspektive
-07600 p18s2 Fehler in der Perspektive
-07600 p18s7 Fehler in der Perspektive
-07600 p52s1 Fehler in der Perspektive
+07600 p18s11 Fehler in der Perspektive
+07600 p18s4 Fehler in der Perspektive
+07600 p18s5 Fehler in der Perspektive
+07600 p52s2 Fehler in der Perspektive
 07600 p53s0 Fehler in der Perspektive
 07600 p53s5 Fehler in der Perspektive
 07600 p54s0 Fehler in der Perspektive
@@ -39,36 +39,34 @@
 07600 p57s0 Fehler in der Perspektive
 07600 p57s4 Fehler in der Perspektive
 07600 p58s0 Fehler in der Perspektive
-07600 p58s11 Fehler in der Perspektive
-07600 p58s4 Fehler in der Perspektive
+07600 p58s12 Fehler in der Perspektive
+07600 p58s5 Fehler in der Perspektive
 07600 p59s1 Fehler in der Perspektive
-07600 p59s8 Fehler in der Perspektive
+07600 p59s7 Fehler in der Perspektive
 07600 p61s0 Fehler in der Perspektive
-07600 p61s2 Fehler in der Perspektive
+07600 p61s1 Fehler in der Perspektive
 07600 p64s9 Fehler in der Perspektive
-07600 p67s6 Fehler in der Perspektive
+07600 p67s5 Fehler in der Perspektive
 07600 p68s0 Fehler in der Perspektive
 07600 p68s1 Fehler in der Perspektive
 07600 p69s3 Fehler in der Perspektive
 07600 p7s5 Fehler in der Perspektive
 07600 p8s3 Fehler in der Perspektive
-07600 p8s4 Fehler in der Perspektive
-07600 p8s6 Fehler in der Perspektive
-07605 p14s8 Satz zu lang
-07605 p18s0 Satz zu lang
-07605 p52s1 Satz zu lang
-07605 p58s11 Satz zu lang
+07600 p8s5 Fehler in der Perspektive
+07600 p8s7 Fehler in der Perspektive
+07605 p52s2 Satz zu lang
 07605 p9s3 Satz zu lang
 07611 p11~l4 Satzanfang wiederholt sich
 07611 p12~l10 Satzanfang wiederholt sich
+07611 p14~l4 Satzanfang wiederholt sich
 07611 p15~l0 Satzanfang wiederholt sich
-07611 p15~l11 Satzanfang wiederholt sich
+07611 p15~l10 Satzanfang wiederholt sich
+07611 p16~l1 Satzanfang wiederholt sich
 07611 p56~l13 Satzanfang wiederholt sich
-07611 p58~l5 Satzanfang wiederholt sich
-07611 p58~l8 Satzanfang wiederholt sich
+07611 p58~l6 Satzanfang wiederholt sich
+07611 p58~l9 Satzanfang wiederholt sich
 07611 p62~l6 Satzanfang wiederholt sich
-07611 p67~l7 Satzanfang wiederholt sich
-07611 p68~l2 Satzanfang wiederholt sich
+07611 p67~l6 Satzanfang wiederholt sich
 07611 p69~l3 Satzanfang wiederholt sich
 07611 p9~l3 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
@@ -87,109 +85,58 @@
 07630 p67_67~l2_4 Paragraph zu kurz
 07630 p68_68~l14_15 Paragraph zu kurz
 07630 p69_69~l20_22 Paragraph zu kurz
-07666 p12~l0~c124_136 Überflüßiges Leerzeichen
-07666 p12~l0~c175_187 Überflüßiges Leerzeichen
-07666 p13~l0~c147_159 Überflüßiges Leerzeichen
-07666 p13~l0~c179_192 Überflüßiges Leerzeichen
-07666 p13~l0~c236_248 Überflüßiges Leerzeichen
-07666 p13~l0~c321_334 Überflüßiges Leerzeichen
-07666 p14~l0~c127_140 Überflüßiges Leerzeichen
-07666 p14~l0~c362_375 Überflüßiges Leerzeichen
-07666 p15~l0~c118_131 Überflüßiges Leerzeichen
-07666 p16~l0~c143_156 Überflüßiges Leerzeichen
-07666 p16~l0~c226_239 Überflüßiges Leerzeichen
-07666 p16~l0~c79_92 Überflüßiges Leerzeichen
-07666 p16~l0~c99_112 Überflüßiges Leerzeichen
-07666 p17~l0~c113_126 Überflüßiges Leerzeichen
-07666 p17~l0~c129_142 Überflüßiges Leerzeichen
-07666 p17~l0~c62_75 Überflüßiges Leerzeichen
-07666 p18~l0~c170_183 Überflüßiges Leerzeichen
-07666 p18~l0~c194_207 Überflüßiges Leerzeichen
-07666 p18~l0~c261_274 Überflüßiges Leerzeichen
-07666 p18~l0~c423_436 Überflüßiges Leerzeichen
-07666 p18~l0~c97_110 Überflüßiges Leerzeichen
-07666 p19~l0~c94_107 Überflüßiges Leerzeichen
-07666 p50~l0~c135_148 Überflüßiges Leerzeichen
 07666 p50~l0~c149_163 Überflüßiges Leerzeichen
-07666 p51~l0~c155_169 Überflüßiges Leerzeichen
-07666 p52~l0~c143_157 Überflüßiges Leerzeichen
-07666 p52~l0~c181_195 Überflüßiges Leerzeichen
-07666 p52~l0~c484_498 Überflüßiges Leerzeichen
-07666 p54~l0~c118_132 Überflüßiges Leerzeichen
-07666 p54~l0~c176_190 Überflüßiges Leerzeichen
-07666 p55~l0~c195_209 Überflüßiges Leerzeichen
-07666 p56~l0~c178_192 Überflüßiges Leerzeichen
-07666 p56~l0~c192_206 Überflüßiges Leerzeichen
-07666 p57~l0~c112_126 Überflüßiges Leerzeichen
-07666 p57~l0~c249_263 Überflüßiges Leerzeichen
-07666 p57~l0~c91_105 Überflüßiges Leerzeichen
-07666 p58~l0~c141_155 Überflüßiges Leerzeichen
-07666 p58~l0~c247_261 Überflüßiges Leerzeichen
-07666 p59~l0~c184_198 Überflüßiges Leerzeichen
-07666 p60~l0~c139_153 Überflüßiges Leerzeichen
-07666 p61~l0~c170_184 Überflüßiges Leerzeichen
-07666 p61~l0~c99_113 Überflüßiges Leerzeichen
-07666 p63~l0~c153_167 Überflüßiges Leerzeichen
-07666 p63~l0~c161_175 Überflüßiges Leerzeichen
-07666 p63~l0~c68_82 Überflüßiges Leerzeichen
-07666 p64~l0~c183_197 Überflüßiges Leerzeichen
-07666 p65~l0~c151_165 Überflüßiges Leerzeichen
-07666 p66~l0~c146_160 Überflüßiges Leerzeichen
-07666 p66~l0~c194_208 Überflüßiges Leerzeichen
-07666 p69~l0~c192_206 Überflüßiges Leerzeichen
-07666 p7~l0~c136_148 Überflüßiges Leerzeichen
+07666 p52~l0~c303_317 Überflüßiges Leerzeichen
 07666 p7~l0~c182_194 Überflüßiges Leerzeichen
-07666 p7~l0~c210_222 Überflüßiges Leerzeichen
 07666 p7~l0~c62_74 Überflüßiges Leerzeichen
-07666 p8~l0~c108_120 Überflüßiges Leerzeichen
 08100 p12s0 Umgangssprache erkannt
 08100 p12s11 Umgangssprache erkannt
-08100 p13s3 Umgangssprache erkannt
 08100 p13s4 Umgangssprache erkannt
-08100 p14s10 Umgangssprache erkannt
-08100 p15s14 Umgangssprache erkannt
-08100 p16s3 Umgangssprache erkannt
-08100 p16s6 Umgangssprache erkannt
-08100 p57s9 Umgangssprache erkannt
-08100 p58s9 Umgangssprache erkannt
+08100 p13s5 Umgangssprache erkannt
+08100 p14s11 Umgangssprache erkannt
+08100 p15s13 Umgangssprache erkannt
+08100 p16s4 Umgangssprache erkannt
+08100 p16s8 Umgangssprache erkannt
+08100 p57s11 Umgangssprache erkannt
+08100 p58s10 Umgangssprache erkannt
 08100 p61s3 Umgangssprache erkannt
 08100 p67s3 Umgangssprache erkannt
-08100 p7s12 Umgangssprache erkannt
-08100 p8s8 Umgangssprache erkannt
-08105 p7s12 Pleonasma erkannt
+08100 p7s11 Umgangssprache erkannt
+08100 p8s9 Umgangssprache erkannt
+08105 p7s11 Pleonasma erkannt
 08110 p14s8 Unnötige Vorsilbe
 08115 p66s7 Ungenaue Formulierung erkannt
-08115 p9s13 Ungenaue Formulierung erkannt
+08115 p9s12 Ungenaue Formulierung erkannt
 08115 p9s5 Ungenaue Formulierung erkannt
 08205 p10s0 Wortverbindung empfohlen
 08205 p10s15 Wortverbindung empfohlen
 08205 p10s2 Wortverbindung empfohlen
 08205 p11s0 Wortverbindung empfohlen
 08205 p12s0 Wortverbindung empfohlen
-08205 p13s2 Wortverbindung empfohlen
-08205 p13s7 Wortverbindung empfohlen
+08205 p13s11 Wortverbindung empfohlen
+08205 p13s3 Wortverbindung empfohlen
 08205 p13s9 Wortverbindung empfohlen
 08205 p14s5 Wortverbindung empfohlen
 08205 p15s0 Wortverbindung empfohlen
-08205 p15s16 Wortverbindung empfohlen
-08205 p15s2 Wortverbindung empfohlen
+08205 p15s1 Wortverbindung empfohlen
+08205 p15s15 Wortverbindung empfohlen
 08205 p18s0 Wortverbindung empfohlen
-08205 p18s2 Wortverbindung empfohlen
-08205 p19s2 Wortverbindung empfohlen
+08205 p18s5 Wortverbindung empfohlen
+08205 p19s3 Wortverbindung empfohlen
 08205 p51s0 Wortverbindung empfohlen
-08205 p51s12 Wortverbindung empfohlen
+08205 p51s14 Wortverbindung empfohlen
 08205 p51s4 Wortverbindung empfohlen
 08205 p51s5 Wortverbindung empfohlen
-08205 p51s8 Wortverbindung empfohlen
-08205 p52s3 Wortverbindung empfohlen
-08205 p52s5 Wortverbindung empfohlen
+08205 p51s9 Wortverbindung empfohlen
+08205 p52s4 Wortverbindung empfohlen
+08205 p52s6 Wortverbindung empfohlen
 08205 p53s0 Wortverbindung empfohlen
+08205 p53s10 Wortverbindung empfohlen
 08205 p53s11 Wortverbindung empfohlen
-08205 p53s12 Wortverbindung empfohlen
-08205 p53s8 Wortverbindung empfohlen
-08205 p54s13 Wortverbindung empfohlen
+08205 p53s7 Wortverbindung empfohlen
+08205 p54s15 Wortverbindung empfohlen
 08205 p54s2 Wortverbindung empfohlen
-08205 p54s4 Wortverbindung empfohlen
+08205 p54s5 Wortverbindung empfohlen
 08205 p55s3 Wortverbindung empfohlen
 08205 p55s6 Wortverbindung empfohlen
 08205 p55s7 Wortverbindung empfohlen
@@ -198,39 +145,39 @@
 08205 p56s4 Wortverbindung empfohlen
 08205 p56s5 Wortverbindung empfohlen
 08205 p57s0 Wortverbindung empfohlen
-08205 p57s10 Wortverbindung empfohlen
-08205 p57s11 Wortverbindung empfohlen
+08205 p57s12 Wortverbindung empfohlen
+08205 p57s13 Wortverbindung empfohlen
 08205 p57s2 Wortverbindung empfohlen
 08205 p57s4 Wortverbindung empfohlen
-08205 p57s5 Wortverbindung empfohlen
-08205 p58s11 Wortverbindung empfohlen
-08205 p58s4 Wortverbindung empfohlen
-08205 p59s4 Wortverbindung empfohlen
-08205 p59s8 Wortverbindung empfohlen
+08205 p57s6 Wortverbindung empfohlen
+08205 p58s12 Wortverbindung empfohlen
+08205 p58s5 Wortverbindung empfohlen
+08205 p59s3 Wortverbindung empfohlen
+08205 p59s7 Wortverbindung empfohlen
 08205 p60s3 Wortverbindung empfohlen
-08205 p60s7 Wortverbindung empfohlen
+08205 p60s5 Wortverbindung empfohlen
 08205 p61s0 Wortverbindung empfohlen
 08205 p61s8 Wortverbindung empfohlen
 08205 p62s1 Wortverbindung empfohlen
 08205 p62s10 Wortverbindung empfohlen
 08205 p62s11 Wortverbindung empfohlen
 08205 p62s7 Wortverbindung empfohlen
-08205 p63s5 Wortverbindung empfohlen
-08205 p63s6 Wortverbindung empfohlen
+08205 p63s7 Wortverbindung empfohlen
+08205 p63s8 Wortverbindung empfohlen
 08205 p65s1 Wortverbindung empfohlen
 08205 p65s2 Wortverbindung empfohlen
-08205 p67s6 Wortverbindung empfohlen
+08205 p67s5 Wortverbindung empfohlen
 08205 p68s0 Wortverbindung empfohlen
 08205 p68s1 Wortverbindung empfohlen
 08205 p68s6 Wortverbindung empfohlen
 08205 p68s8 Wortverbindung empfohlen
 08205 p7s0 Wortverbindung empfohlen
-08205 p7s12 Wortverbindung empfohlen
+08205 p7s11 Wortverbindung empfohlen
 08205 p7s2 Wortverbindung empfohlen
 08205 p7s4 Wortverbindung empfohlen
 08205 p7s6 Wortverbindung empfohlen
 08205 p8s1 Wortverbindung empfohlen
 08205 p8s4 Wortverbindung empfohlen
 08205 p9s1 Wortverbindung empfohlen
-08205 p9s10 Wortverbindung empfohlen
 08205 p9s4 Wortverbindung empfohlen
+08205 p9s9 Wortverbindung empfohlen

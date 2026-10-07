@@ -7,7 +7,7 @@
 07010 p27s4 Satzende vor Gleichung fehlt
 07010 p28s14 Satzende vor Gleichung fehlt
 07010 p29s4 Satzende vor Gleichung fehlt
-07010 p30s14 Satzende vor Gleichung fehlt
+07010 p30s13 Satzende vor Gleichung fehlt
 07010 p30s4 Satzende vor Gleichung fehlt
 07010 p44s0 Satzende vor Gleichung fehlt
 07010 p44s11 Satzende vor Gleichung fehlt
@@ -31,26 +31,26 @@
 07200 p13s10 Referenz nicht gefunden
 07200 p16s3 Referenz nicht gefunden
 07200 p18s7 Referenz nicht gefunden
-07200 p19s2 Referenz nicht gefunden
+07200 p19s3 Referenz nicht gefunden
 07200 p20s4 Referenz nicht gefunden
 07200 p21s1 Referenz nicht gefunden
-07200 p22s10 Referenz nicht gefunden
+07200 p22s8 Referenz nicht gefunden
 07200 p26s1 Referenz nicht gefunden
 07200 p26s6 Referenz nicht gefunden
 07200 p27s2 Referenz nicht gefunden
 07200 p29s16 Referenz nicht gefunden
-07200 p31s13 Referenz nicht gefunden
+07200 p31s14 Referenz nicht gefunden
 07200 p33s1 Referenz nicht gefunden
 07200 p34s1 Referenz nicht gefunden
 07200 p34s3 Referenz nicht gefunden
-07200 p35s10 Referenz nicht gefunden
-07200 p35s3 Referenz nicht gefunden
-07200 p35s6 Referenz nicht gefunden
-07200 p36s13 Referenz nicht gefunden
+07200 p35s11 Referenz nicht gefunden
+07200 p35s4 Referenz nicht gefunden
+07200 p35s7 Referenz nicht gefunden
+07200 p36s14 Referenz nicht gefunden
 07200 p36s3 Referenz nicht gefunden
-07200 p37s7 Referenz nicht gefunden
-07200 p39s10 Referenz nicht gefunden
-07200 p39s15 Referenz nicht gefunden
+07200 p37s6 Referenz nicht gefunden
+07200 p39s14 Referenz nicht gefunden
+07200 p39s9 Referenz nicht gefunden
 07200 p41s1 Referenz nicht gefunden
 07200 p42s3 Referenz nicht gefunden
 07200 p42s5 Referenz nicht gefunden
@@ -154,7 +154,6 @@
 07611 p16~l4 Satzanfang wiederholt sich
 07611 p18~l3 Satzanfang wiederholt sich
 07611 p21~l0 Satzanfang wiederholt sich
-07611 p22~l5 Satzanfang wiederholt sich
 07611 p23~l23 Satzanfang wiederholt sich
 07611 p24~l2 Satzanfang wiederholt sich
 07611 p24~l5 Satzanfang wiederholt sich
@@ -164,9 +163,8 @@
 07611 p28~l6 Satzanfang wiederholt sich
 07611 p31~l5 Satzanfang wiederholt sich
 07611 p32~l3 Satzanfang wiederholt sich
-07611 p35~l1 Satzanfang wiederholt sich
 07611 p36~l0 Satzanfang wiederholt sich
-07611 p37~l0 Satzanfang wiederholt sich
+07611 p37~l1 Satzanfang wiederholt sich
 07611 p39~l2 Satzanfang wiederholt sich
 07611 p41~l5 Satzanfang wiederholt sich
 07611 p42~l1 Satzanfang wiederholt sich
@@ -316,8 +314,8 @@
 07630 p99_99~l33_34 Paragraph zu kurz
 07630 p99_99~l4_6 Paragraph zu kurz
 07630 p99_99~l8_10 Paragraph zu kurz
-07650 p30~l0~c7_9 Unzuläßiges Leerzeichen vor Komma
-07650 p30~l0~c9_11 Unzuläßiges Leerzeichen vor Komma
+07650 p30~l0~c64_66 Unzuläßiges Leerzeichen vor Komma
+07650 p30~l0~c96_98 Unzuläßiges Leerzeichen vor Komma
 07650 p43~l0~c118_120 Unzuläßiges Leerzeichen vor Komma
 07650 p44~l0~c68_70 Unzuläßiges Leerzeichen vor Komma
 07651 p23~l0~c28_35 Fehlendes Leerzeichen nach Komma
@@ -329,23 +327,25 @@
 08205 p12s2 Wortverbindung empfohlen
 08205 p13s2 Wortverbindung empfohlen
 08205 p14s2 Wortverbindung empfohlen
-08205 p14s24 Wortverbindung empfohlen
-08205 p15s17 Wortverbindung empfohlen
-08205 p15s8 Wortverbindung empfohlen
+08205 p14s26 Wortverbindung empfohlen
+08205 p15s18 Wortverbindung empfohlen
+08205 p15s9 Wortverbindung empfohlen
 08205 p16s3 Wortverbindung empfohlen
 08205 p17s18 Wortverbindung empfohlen
 08205 p17s4 Wortverbindung empfohlen
 08205 p17s6 Wortverbindung empfohlen
 08205 p17s7 Wortverbindung empfohlen
-08205 p19s7 Wortverbindung empfohlen
+08205 p18s6 Wortverbindung empfohlen
+08205 p18s7 Wortverbindung empfohlen
+08205 p19s8 Wortverbindung empfohlen
 08205 p20s1 Wortverbindung empfohlen
 08205 p20s10 Wortverbindung empfohlen
 08205 p20s6 Wortverbindung empfohlen
-08205 p21s13 Wortverbindung empfohlen
-08205 p21s4 Wortverbindung empfohlen
+08205 p21s15 Wortverbindung empfohlen
 08205 p21s6 Wortverbindung empfohlen
-08205 p22s10 Wortverbindung empfohlen
-08205 p22s6 Wortverbindung empfohlen
+08205 p21s8 Wortverbindung empfohlen
+08205 p22s4 Wortverbindung empfohlen
+08205 p22s8 Wortverbindung empfohlen
 08205 p23s16 Wortverbindung empfohlen
 08205 p23s3 Wortverbindung empfohlen
 08205 p23s30 Wortverbindung empfohlen
@@ -362,14 +362,16 @@
 08205 p28s20 Wortverbindung empfohlen
 08205 p28s5 Wortverbindung empfohlen
 08205 p29s19 Wortverbindung empfohlen
-08205 p30s24 Wortverbindung empfohlen
-08205 p31s17 Wortverbindung empfohlen
+08205 p30s23 Wortverbindung empfohlen
+08205 p31s18 Wortverbindung empfohlen
 08205 p33s7 Wortverbindung empfohlen
 08205 p34s7 Wortverbindung empfohlen
-08205 p36s15 Wortverbindung empfohlen
-08205 p37s16 Wortverbindung empfohlen
-08205 p38s9 Wortverbindung empfohlen
-08205 p39s17 Wortverbindung empfohlen
+08205 p36s16 Wortverbindung empfohlen
+08205 p36s6 Wortverbindung empfohlen
+08205 p36s7 Wortverbindung empfohlen
+08205 p37s15 Wortverbindung empfohlen
+08205 p38s8 Wortverbindung empfohlen
+08205 p39s16 Wortverbindung empfohlen
 08205 p40s2 Wortverbindung empfohlen
 08205 p41s14 Wortverbindung empfohlen
 08205 p43s0 Wortverbindung empfohlen
@@ -388,5 +390,7 @@
 08205 p76s8 Wortverbindung empfohlen
 08205 p77s2 Wortverbindung empfohlen
 08205 p79s8 Wortverbindung empfohlen
+08205 p82s0 Wortverbindung empfohlen
+08205 p82s1 Wortverbindung empfohlen
 08205 p84s2 Wortverbindung empfohlen
 08205 p86s22 Wortverbindung empfohlen
