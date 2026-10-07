@@ -11,12 +11,14 @@
 07005 p9s2 Satzende vor Aufzählung fehlt
 07006 p55s0 Satzende vor Aufzählung anpassen
 07201 p50 Abbildung nicht referenziert
+07201 p51 Abbildung nicht referenziert
+07201 p51 Abbildung nicht referenziert
+07201 p52 Abbildung nicht referenziert
 07201 p52 Abbildung nicht referenziert
 07201 p9 Abbildung nicht referenziert
-07600 p54s11 Fehler in der Perspektive
-07600 p54s6 Fehler in der Perspektive
-07611 p50~l2 Satzanfang wiederholt sich
-07611 p51~l2 Satzanfang wiederholt sich
+07600 p54s4 Fehler in der Perspektive
+07600 p54s8 Fehler in der Perspektive
+07611 p51~l3 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
 07620 p10~l0 Einsame Zeile am Seitenanfang
 07620 p50~l0 Einsame Zeile am Seitenanfang
@@ -47,7 +49,7 @@
 07670 p51s3 Fehlendes Leerzeichen
 08205 p10s2 Wortverbindung empfohlen
 08205 p10s3 Wortverbindung empfohlen
-08205 p55s8 Wortverbindung empfohlen
+08205 p55s6 Wortverbindung empfohlen
 08205 p8s2 Wortverbindung empfohlen
 08205 p8s4 Wortverbindung empfohlen
 08205 p8s5 Wortverbindung empfohlen

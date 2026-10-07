@@ -11,5 +11,5 @@ import decider_con
 
 __version__ = decider_con.__version__
 
-PROCESS = 'chapter_'
+PROCESS = 'decider_chapter'
 ROOT = decider_con.ROOT

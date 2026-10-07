@@ -11,4 +11,4 @@ import utilo
 
 
 def chapter__intro(path: str, prefix: str = '') -> str:
-    return utilo.pathconnector(path, 'chapter_', 'intro_user', prefix)
+    return utilo.pathconnector(path, 'decider_chapter', 'intro_user', prefix)

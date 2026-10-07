@@ -2,61 +2,69 @@
 06500 p3 Einleitung unvollständig
 06500 p3 Einleitung unvollständig
 06500 p3 Einleitung unvollständig
-07110 p13s9 Zitat zu lang
-07110 p14s4 Zitat zu lang
-07110 p15s11 Zitat zu lang
-07110 p16s11 Zitat zu lang
-07600 p10s13 Fehler in der Perspektive
-07600 p10s15 Fehler in der Perspektive
+07110 p14s1 Zitat zu lang
+07110 p15s5 Zitat zu lang
+07110 p16s8 Zitat zu lang
+07600 p10s10 Fehler in der Perspektive
+07600 p10s12 Fehler in der Perspektive
+07600 p10s14 Fehler in der Perspektive
 07600 p10s17 Fehler in der Perspektive
-07600 p10s20 Fehler in der Perspektive
+07600 p10s9 Fehler in der Perspektive
+07600 p11s0 Fehler in der Perspektive
 07600 p11s1 Fehler in der Perspektive
-07600 p11s15 Fehler in der Perspektive
-07600 p11s16 Fehler in der Perspektive
-07600 p11s17 Fehler in der Perspektive
+07600 p11s10 Fehler in der Perspektive
+07600 p11s2 Fehler in der Perspektive
 07600 p11s3 Fehler in der Perspektive
-07600 p11s4 Fehler in der Perspektive
-07600 p11s6 Fehler in der Perspektive
+07600 p11s8 Fehler in der Perspektive
+07600 p11s9 Fehler in der Perspektive
 07600 p12s1 Fehler in der Perspektive
 07600 p12s2 Fehler in der Perspektive
+07600 p12s3 Fehler in der Perspektive
+07600 p12s4 Fehler in der Perspektive
 07600 p12s5 Fehler in der Perspektive
-07600 p12s6 Fehler in der Perspektive
-07600 p12s7 Fehler in der Perspektive
-07600 p12s9 Fehler in der Perspektive
-07600 p13s10 Fehler in der Perspektive
 07600 p13s12 Fehler in der Perspektive
-07600 p13s16 Fehler in der Perspektive
+07600 p13s2 Fehler in der Perspektive
 07600 p13s3 Fehler in der Perspektive
-07600 p13s4 Fehler in der Perspektive
-07600 p13s6 Fehler in der Perspektive
-07600 p13s9 Fehler in der Perspektive
-07600 p14s4 Fehler in der Perspektive
-07600 p14s4 Fehler in der Perspektive
-07600 p14s8 Fehler in der Perspektive
+07600 p13s5 Fehler in der Perspektive
+07600 p13s7 Fehler in der Perspektive
+07600 p13s8 Fehler in der Perspektive
+07600 p14s1 Fehler in der Perspektive
+07600 p14s13 Fehler in der Perspektive
+07600 p14s6 Fehler in der Perspektive
+07600 p14s9 Fehler in der Perspektive
 07600 p15s0 Fehler in der Perspektive
-07600 p15s2 Fehler in der Perspektive
-07600 p16s13 Fehler in der Perspektive
-07600 p16s14 Fehler in der Perspektive
-07600 p16s15 Fehler in der Perspektive
+07600 p16s10 Fehler in der Perspektive
+07600 p16s11 Fehler in der Perspektive
+07600 p16s9 Fehler in der Perspektive
 07600 p4s13 Fehler in der Perspektive
-07600 p5s12 Fehler in der Perspektive
-07600 p5s2 Fehler in der Perspektive
+07600 p5s1 Fehler in der Perspektive
+07600 p5s10 Fehler in der Perspektive
+07600 p5s5 Fehler in der Perspektive
 07600 p5s6 Fehler in der Perspektive
-07600 p5s7 Fehler in der Perspektive
-07600 p5s9 Fehler in der Perspektive
-07600 p7s11 Fehler in der Perspektive
-07600 p7s14 Fehler in der Perspektive
-07600 p7s15 Fehler in der Perspektive
-07600 p7s4 Fehler in der Perspektive
-07600 p8s12 Fehler in der Perspektive
-07600 p8s17 Fehler in der Perspektive
-07605 p3s3 Satz zu lang
-07605 p9s0 Satz zu lang
+07600 p5s8 Fehler in der Perspektive
+07600 p7s12 Fehler in der Perspektive
+07600 p7s13 Fehler in der Perspektive
+07600 p7s3 Fehler in der Perspektive
+07600 p7s9 Fehler in der Perspektive
+07600 p8s6 Fehler in der Perspektive
+07600 p8s8 Fehler in der Perspektive
+07605 p10s7 Satz zu lang
+07605 p11s3 Satz zu lang
+07605 p12s1 Satz zu lang
+07605 p13s7 Satz zu lang
+07605 p14s1 Satz zu lang
+07605 p15s0 Satz zu lang
+07605 p15s5 Satz zu lang
+07605 p16s8 Satz zu lang
+07605 p3s4 Satz zu lang
+07605 p6s14 Satz zu lang
+07605 p7s3 Satz zu lang
+07605 p8s4 Satz zu lang
 07605 p9s7 Satz zu lang
-07611 p11~l14 Satzanfang wiederholt sich
-07611 p12~l4 Satzanfang wiederholt sich
-07611 p15~l3 Satzanfang wiederholt sich
-07611 p16~l14 Satzanfang wiederholt sich
+07611 p11~l7 Satzanfang wiederholt sich
+07611 p12~l2 Satzanfang wiederholt sich
+07611 p15~l1 Satzanfang wiederholt sich
+07611 p16~l10 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
 07620 p6~l0 Einsame Zeile am Seitenanfang
 07630 p0_0~l9_10 Paragraph zu kurz
@@ -68,20 +76,19 @@
 07630 p2_2~l12_13 Paragraph zu kurz
 07630 p2_2~l1_3 Paragraph zu kurz
 07630 p2_2~l6_7 Paragraph zu kurz
-07666 p11~l0~c72_85 Überflüßiges Leerzeichen
+07666 p11~l0~c85_98 Überflüßiges Leerzeichen
 07666 p14~l0~c137_150 Überflüßiges Leerzeichen
-07666 p9~l0~c170_183 Überflüßiges Leerzeichen
-08100 p12s19 Umgangssprache erkannt
+08100 p12s12 Umgangssprache erkannt
 08100 p4s0 Umgangssprache erkannt
-08205 p10s11 Wortverbindung empfohlen
-08205 p10s7 Wortverbindung empfohlen
-08205 p11s1 Wortverbindung empfohlen
-08205 p12s13 Wortverbindung empfohlen
-08205 p14s12 Wortverbindung empfohlen
-08205 p14s5 Wortverbindung empfohlen
-08205 p15s2 Wortverbindung empfohlen
-08205 p15s5 Wortverbindung empfohlen
-08205 p4s16 Wortverbindung empfohlen
+08205 p10s6 Wortverbindung empfohlen
+08205 p10s8 Wortverbindung empfohlen
+08205 p11s0 Wortverbindung empfohlen
+08205 p11s6 Wortverbindung empfohlen
+08205 p12s9 Wortverbindung empfohlen
+08205 p14s1 Wortverbindung empfohlen
+08205 p14s8 Wortverbindung empfohlen
+08205 p15s0 Wortverbindung empfohlen
+08205 p15s3 Wortverbindung empfohlen
+08205 p4s15 Wortverbindung empfohlen
 08205 p4s9 Wortverbindung empfohlen
 08205 p6s13 Wortverbindung empfohlen
-08205 p8s2 Wortverbindung empfohlen

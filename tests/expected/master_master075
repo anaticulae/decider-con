@@ -2,105 +2,166 @@
 06500 p6 Einleitung unvollständig
 06500 p6 Einleitung unvollständig
 07005 p10s3 Satzende vor Aufzählung fehlt
-07010 p11s9 Satzende vor Gleichung fehlt
-07010 p38s4 Satzende vor Gleichung fehlt
+07010 p11s7 Satzende vor Gleichung fehlt
+07010 p38s8 Satzende vor Gleichung fehlt
 07010 p43s1 Satzende vor Gleichung fehlt
 07010 p62s2 Satzende vor Gleichung fehlt
-07011 p20s0 Satzende vor Gleichung anpassen
-07011 p21s5 Satzende vor Gleichung anpassen
-07011 p22s3 Satzende vor Gleichung anpassen
-07011 p22s3 Satzende vor Gleichung anpassen
-07011 p23s3 Satzende vor Gleichung anpassen
+07011 p20s1 Satzende vor Gleichung anpassen
+07011 p21s7 Satzende vor Gleichung anpassen
+07011 p22s4 Satzende vor Gleichung anpassen
+07011 p22s4 Satzende vor Gleichung anpassen
+07011 p23s5 Satzende vor Gleichung anpassen
 07011 p24s1 Satzende vor Gleichung anpassen
 07011 p24s6 Satzende vor Gleichung anpassen
 07011 p25s2 Satzende vor Gleichung anpassen
-07011 p25s2 Satzende vor Gleichung anpassen
+07011 p25s3 Satzende vor Gleichung anpassen
 07011 p26s3 Satzende vor Gleichung anpassen
 07011 p26s4 Satzende vor Gleichung anpassen
-07011 p27s13 Satzende vor Gleichung anpassen
-07011 p28s3 Satzende vor Gleichung anpassen
-07011 p29s0 Satzende vor Gleichung anpassen
+07011 p27s11 Satzende vor Gleichung anpassen
+07011 p28s4 Satzende vor Gleichung anpassen
 07011 p29s1 Satzende vor Gleichung anpassen
-07011 p30s1 Satzende vor Gleichung anpassen
+07011 p29s2 Satzende vor Gleichung anpassen
+07011 p30s2 Satzende vor Gleichung anpassen
 07011 p31s5 Satzende vor Gleichung anpassen
-07011 p32s7 Satzende vor Gleichung anpassen
+07011 p32s8 Satzende vor Gleichung anpassen
 07011 p33s6 Satzende vor Gleichung anpassen
 07011 p34s0 Satzende vor Gleichung anpassen
-07011 p34s7 Satzende vor Gleichung anpassen
-07011 p35s3 Satzende vor Gleichung anpassen
-07011 p36s2 Satzende vor Gleichung anpassen
+07011 p34s6 Satzende vor Gleichung anpassen
+07011 p35s4 Satzende vor Gleichung anpassen
+07011 p36s6 Satzende vor Gleichung anpassen
 07011 p37s3 Satzende vor Gleichung anpassen
-07011 p38s2 Satzende vor Gleichung anpassen
+07011 p38s5 Satzende vor Gleichung anpassen
 07011 p40s1 Satzende vor Gleichung anpassen
-07011 p40s1 Satzende vor Gleichung anpassen
-07011 p41s1 Satzende vor Gleichung anpassen
-07011 p41s1 Satzende vor Gleichung anpassen
-07011 p42s2 Satzende vor Gleichung anpassen
+07011 p40s2 Satzende vor Gleichung anpassen
+07011 p41s2 Satzende vor Gleichung anpassen
+07011 p41s2 Satzende vor Gleichung anpassen
+07011 p42s3 Satzende vor Gleichung anpassen
 07011 p42s5 Satzende vor Gleichung anpassen
-07011 p44s10 Satzende vor Gleichung anpassen
 07011 p44s3 Satzende vor Gleichung anpassen
-07011 p45s3 Satzende vor Gleichung anpassen
-07011 p46s7 Satzende vor Gleichung anpassen
-07011 p52s0 Satzende vor Gleichung anpassen
+07011 p44s8 Satzende vor Gleichung anpassen
+07011 p45s4 Satzende vor Gleichung anpassen
+07011 p46s3 Satzende vor Gleichung anpassen
+07011 p52s1 Satzende vor Gleichung anpassen
 07011 p52s5 Satzende vor Gleichung anpassen
-07011 p53s4 Satzende vor Gleichung anpassen
+07011 p53s5 Satzende vor Gleichung anpassen
 07011 p54s4 Satzende vor Gleichung anpassen
 07011 p55s1 Satzende vor Gleichung anpassen
 07011 p55s4 Satzende vor Gleichung anpassen
-07011 p56s2 Satzende vor Gleichung anpassen
-07011 p57s5 Satzende vor Gleichung anpassen
-07011 p57s9 Satzende vor Gleichung anpassen
-07011 p58s13 Satzende vor Gleichung anpassen
-07011 p59s19 Satzende vor Gleichung anpassen
-07011 p60s4 Satzende vor Gleichung anpassen
-07011 p61s3 Satzende vor Gleichung anpassen
-07011 p62s5 Satzende vor Gleichung anpassen
+07011 p56s3 Satzende vor Gleichung anpassen
+07011 p57s10 Satzende vor Gleichung anpassen
+07011 p57s6 Satzende vor Gleichung anpassen
+07011 p58s9 Satzende vor Gleichung anpassen
+07011 p59s16 Satzende vor Gleichung anpassen
+07011 p60s5 Satzende vor Gleichung anpassen
+07011 p61s4 Satzende vor Gleichung anpassen
+07011 p62s6 Satzende vor Gleichung anpassen
 07011 p63s12 Satzende vor Gleichung anpassen
-07011 p63s4 Satzende vor Gleichung anpassen
+07011 p63s3 Satzende vor Gleichung anpassen
 07011 p64s2 Satzende vor Gleichung anpassen
 07011 p65s2 Satzende vor Gleichung anpassen
-07011 p66s4 Satzende vor Gleichung anpassen
-07110 p11s13 Zitat zu lang
-07200 p37s0 Referenz nicht gefunden
-07200 p37s1 Referenz nicht gefunden
+07011 p66s3 Satzende vor Gleichung anpassen
+07110 p11s10 Zitat zu lang
+07201 p14 Abbildung nicht referenziert
+07201 p17 Abbildung nicht referenziert
 07201 p18 Abbildung nicht referenziert
+07201 p20 Abbildung nicht referenziert
 07201 p21 Abbildung nicht referenziert
+07201 p21 Abbildung nicht referenziert
+07201 p21 Abbildung nicht referenziert
+07201 p22 Abbildung nicht referenziert
+07201 p22 Abbildung nicht referenziert
 07201 p23 Abbildung nicht referenziert
+07201 p23 Abbildung nicht referenziert
+07201 p23 Abbildung nicht referenziert
+07201 p23 Abbildung nicht referenziert
+07201 p24 Abbildung nicht referenziert
+07201 p24 Abbildung nicht referenziert
+07201 p25 Abbildung nicht referenziert
+07201 p25 Abbildung nicht referenziert
+07201 p25 Abbildung nicht referenziert
+07201 p26 Abbildung nicht referenziert
+07201 p26 Abbildung nicht referenziert
 07201 p27 Abbildung nicht referenziert
+07201 p27 Abbildung nicht referenziert
+07201 p28 Abbildung nicht referenziert
+07201 p28 Abbildung nicht referenziert
+07201 p29 Abbildung nicht referenziert
+07201 p30 Abbildung nicht referenziert
+07201 p30 Abbildung nicht referenziert
+07201 p31 Abbildung nicht referenziert
+07201 p32 Abbildung nicht referenziert
+07201 p33 Abbildung nicht referenziert
+07201 p34 Abbildung nicht referenziert
+07201 p35 Abbildung nicht referenziert
+07201 p35 Abbildung nicht referenziert
+07201 p36 Abbildung nicht referenziert
+07201 p36 Abbildung nicht referenziert
+07201 p37 Abbildung nicht referenziert
+07201 p38 Abbildung nicht referenziert
+07201 p39 Abbildung nicht referenziert
+07201 p39 Abbildung nicht referenziert
 07201 p40 Abbildung nicht referenziert
+07201 p40 Abbildung nicht referenziert
+07201 p41 Abbildung nicht referenziert
+07201 p41 Abbildung nicht referenziert
+07201 p42 Abbildung nicht referenziert
 07201 p43 Abbildung nicht referenziert
+07201 p43 Abbildung nicht referenziert
+07201 p45 Abbildung nicht referenziert
+07201 p46 Abbildung nicht referenziert
+07201 p49 Abbildung nicht referenziert
+07201 p50 Abbildung nicht referenziert
+07201 p51 Abbildung nicht referenziert
+07201 p52 Abbildung nicht referenziert
+07201 p53 Abbildung nicht referenziert
+07201 p53 Abbildung nicht referenziert
+07201 p55 Abbildung nicht referenziert
+07201 p56 Abbildung nicht referenziert
+07201 p57 Abbildung nicht referenziert
 07201 p58 Abbildung nicht referenziert
-07230 p39 Rückwärtsreferenz Abbildung
-07230 p42 Rückwärtsreferenz Abbildung
-07230 p59 Rückwärtsreferenz Abbildung
+07201 p58 Abbildung nicht referenziert
+07201 p61 Abbildung nicht referenziert
+07201 p61 Abbildung nicht referenziert
+07201 p62 Abbildung nicht referenziert
+07201 p63 Abbildung nicht referenziert
+07201 p64 Abbildung nicht referenziert
+07201 p64 Abbildung nicht referenziert
+07201 p65 Abbildung nicht referenziert
+07201 p66 Abbildung nicht referenziert
+07201 p8 Abbildung nicht referenziert
 07600 p10s5 Fehler in der Perspektive
 07600 p20s0 Fehler in der Perspektive
 07600 p21s1 Fehler in der Perspektive
-07600 p23s1 Fehler in der Perspektive
+07600 p23s3 Fehler in der Perspektive
 07600 p24s0 Fehler in der Perspektive
 07600 p24s3 Fehler in der Perspektive
 07600 p27s0 Fehler in der Perspektive
-07600 p32s7 Fehler in der Perspektive
-07600 p36s7 Fehler in der Perspektive
+07600 p32s8 Fehler in der Perspektive
+07600 p36s11 Fehler in der Perspektive
 07600 p37s2 Fehler in der Perspektive
-07600 p38s4 Fehler in der Perspektive
+07600 p38s7 Fehler in der Perspektive
 07600 p39s2 Fehler in der Perspektive
 07600 p43s1 Fehler in der Perspektive
 07600 p46s0 Fehler in der Perspektive
-07600 p46s7 Fehler in der Perspektive
+07600 p46s3 Fehler in der Perspektive
 07600 p48s2 Fehler in der Perspektive
 07600 p52s1 Fehler in der Perspektive
 07600 p53s4 Fehler in der Perspektive
 07600 p56s0 Fehler in der Perspektive
 07600 p58s3 Fehler in der Perspektive
 07600 p60s0 Fehler in der Perspektive
-07600 p68s9 Fehler in der Perspektive
+07600 p68s8 Fehler in der Perspektive
 07600 p69s5 Fehler in der Perspektive
 07600 p69s8 Fehler in der Perspektive
+07605 p11s11 Satz zu lang
+07605 p11s2 Satz zu lang
 07605 p12s12 Satz zu lang
-07605 p15s5 Satz zu lang
-07605 p32s7 Satz zu lang
-07605 p48s2 Satz zu lang
+07605 p15s7 Satz zu lang
+07605 p32s8 Satz zu lang
+07605 p34s6 Satz zu lang
+07605 p46s3 Satz zu lang
+07605 p48s0 Satz zu lang
+07605 p68s0 Satz zu lang
 07605 p6s12 Satz zu lang
 07610 p10None Satzmuster wiederholt sich
 07610 p10None Satzmuster wiederholt sich
@@ -110,29 +171,26 @@
 07610 p10None Satzmuster wiederholt sich
 07610 p10None Satzmuster wiederholt sich
 07610 p10None Satzmuster wiederholt sich
-07610 p25None Satzmuster wiederholt sich
 07611 p11~l1 Satzanfang wiederholt sich
 07611 p12~l11 Satzanfang wiederholt sich
 07611 p13~l0 Satzanfang wiederholt sich
-07611 p20~l0 Satzanfang wiederholt sich
-07611 p21~l9 Satzanfang wiederholt sich
-07611 p22~l7 Satzanfang wiederholt sich
-07611 p23~l7 Satzanfang wiederholt sich
+07611 p21~l11 Satzanfang wiederholt sich
+07611 p22~l8 Satzanfang wiederholt sich
+07611 p23~l9 Satzanfang wiederholt sich
 07611 p25~l1 Satzanfang wiederholt sich
 07611 p25~l6 Satzanfang wiederholt sich
 07611 p26~l8 Satzanfang wiederholt sich
-07611 p27~l10 Satzanfang wiederholt sich
+07611 p27~l11 Satzanfang wiederholt sich
+07611 p27~l9 Satzanfang wiederholt sich
 07611 p31~l0 Satzanfang wiederholt sich
-07611 p32~l5 Satzanfang wiederholt sich
-07611 p33~l3 Satzanfang wiederholt sich
+07611 p32~l6 Satzanfang wiederholt sich
+07611 p33~l4 Satzanfang wiederholt sich
+07611 p36~l2 Satzanfang wiederholt sich
 07611 p42~l0 Satzanfang wiederholt sich
-07611 p46~l6 Satzanfang wiederholt sich
-07611 p57~l4 Satzanfang wiederholt sich
-07611 p58~l10 Satzanfang wiederholt sich
-07611 p58~l12 Satzanfang wiederholt sich
+07611 p57~l5 Satzanfang wiederholt sich
 07611 p59~l5 Satzanfang wiederholt sich
 07611 p63~l12 Satzanfang wiederholt sich
-07611 p68~l3 Satzanfang wiederholt sich
+07611 p68~l2 Satzanfang wiederholt sich
 07616 p-1 Writing statistics
 07620 p15~l0 Einsame Zeile am Seitenanfang
 07620 p2~l0 Einsame Zeile am Seitenanfang
@@ -192,7 +250,7 @@
 07661 p63~l0~c52_55 Schrägstrich: Überflüssiges Leerzeichen
 07662 p11~l0~c15_17 Fehlendes Leerzeichen nach Paragraf
 08115 p33s6 Ungenaue Formulierung erkannt
-08115 p65s0 Ungenaue Formulierung erkannt
+08115 p65s1 Ungenaue Formulierung erkannt
 08115 p65s2 Ungenaue Formulierung erkannt
 08115 p66s1 Ungenaue Formulierung erkannt
 08205 p10s16 Wortverbindung empfohlen
@@ -202,20 +260,20 @@
 08205 p12s1 Wortverbindung empfohlen
 08205 p12s3 Wortverbindung empfohlen
 08205 p14s0 Wortverbindung empfohlen
-08205 p14s1 Wortverbindung empfohlen
-08205 p15s3 Wortverbindung empfohlen
+08205 p14s2 Wortverbindung empfohlen
+08205 p15s4 Wortverbindung empfohlen
 08205 p21s1 Wortverbindung empfohlen
-08205 p21s10 Wortverbindung empfohlen
-08205 p21s4 Wortverbindung empfohlen
-08205 p21s9 Wortverbindung empfohlen
-08205 p22s1 Wortverbindung empfohlen
-08205 p22s7 Wortverbindung empfohlen
+08205 p21s11 Wortverbindung empfohlen
+08205 p21s12 Wortverbindung empfohlen
+08205 p21s5 Wortverbindung empfohlen
+08205 p22s3 Wortverbindung empfohlen
 08205 p22s8 Wortverbindung empfohlen
-08205 p23s10 Wortverbindung empfohlen
+08205 p22s9 Wortverbindung empfohlen
+08205 p23s11 Wortverbindung empfohlen
+08205 p23s12 Wortverbindung empfohlen
 08205 p23s2 Wortverbindung empfohlen
-08205 p23s9 Wortverbindung empfohlen
-08205 p25s14 Wortverbindung empfohlen
 08205 p25s15 Wortverbindung empfohlen
+08205 p25s16 Wortverbindung empfohlen
 08205 p25s2 Wortverbindung empfohlen
 08205 p25s6 Wortverbindung empfohlen
 08205 p25s7 Wortverbindung empfohlen
@@ -224,48 +282,50 @@
 08205 p26s4 Wortverbindung empfohlen
 08205 p27s6 Wortverbindung empfohlen
 08205 p30s1 Wortverbindung empfohlen
-08205 p31s3 Wortverbindung empfohlen
+08205 p31s4 Wortverbindung empfohlen
 08205 p33s0 Wortverbindung empfohlen
 08205 p33s8 Wortverbindung empfohlen
 08205 p34s8 Wortverbindung empfohlen
 08205 p35s1 Wortverbindung empfohlen
-08205 p36s7 Wortverbindung empfohlen
+08205 p36s11 Wortverbindung empfohlen
+08205 p36s13 Wortverbindung empfohlen
 08205 p37s9 Wortverbindung empfohlen
-08205 p38s1 Wortverbindung empfohlen
-08205 p40s5 Wortverbindung empfohlen
-08205 p41s1 Wortverbindung empfohlen
-08205 p41s5 Wortverbindung empfohlen
-08205 p42s5 Wortverbindung empfohlen
-08205 p42s9 Wortverbindung empfohlen
-08205 p46s2 Wortverbindung empfohlen
-08205 p46s4 Wortverbindung empfohlen
+08205 p38s2 Wortverbindung empfohlen
+08205 p39s5 Wortverbindung empfohlen
+08205 p40s6 Wortverbindung empfohlen
+08205 p41s2 Wortverbindung empfohlen
+08205 p41s7 Wortverbindung empfohlen
+08205 p42s10 Wortverbindung empfohlen
+08205 p42s6 Wortverbindung empfohlen
+08205 p46s1 Wortverbindung empfohlen
+08205 p46s3 Wortverbindung empfohlen
 08205 p48s13 Wortverbindung empfohlen
 08205 p48s14 Wortverbindung empfohlen
-08205 p48s18 Wortverbindung empfohlen
-08205 p52s4 Wortverbindung empfohlen
+08205 p48s17 Wortverbindung empfohlen
 08205 p52s6 Wortverbindung empfohlen
-08205 p53s4 Wortverbindung empfohlen
+08205 p52s8 Wortverbindung empfohlen
+08205 p53s5 Wortverbindung empfohlen
 08205 p54s2 Wortverbindung empfohlen
 08205 p54s3 Wortverbindung empfohlen
 08205 p56s0 Wortverbindung empfohlen
-08205 p57s5 Wortverbindung empfohlen
+08205 p57s6 Wortverbindung empfohlen
 08205 p58s9 Wortverbindung empfohlen
-08205 p59s12 Wortverbindung empfohlen
-08205 p59s15 Wortverbindung empfohlen
+08205 p59s11 Wortverbindung empfohlen
+08205 p59s13 Wortverbindung empfohlen
 08205 p59s2 Wortverbindung empfohlen
 08205 p59s5 Wortverbindung empfohlen
 08205 p59s7 Wortverbindung empfohlen
 08205 p63s1 Wortverbindung empfohlen
 08205 p66s0 Wortverbindung empfohlen
-08205 p68s1 Wortverbindung empfohlen
-08205 p68s10 Wortverbindung empfohlen
+08205 p68s0 Wortverbindung empfohlen
+08205 p68s4 Wortverbindung empfohlen
 08205 p68s5 Wortverbindung empfohlen
-08205 p68s6 Wortverbindung empfohlen
+08205 p68s9 Wortverbindung empfohlen
 08205 p69s11 Wortverbindung empfohlen
 08205 p69s7 Wortverbindung empfohlen
 08205 p6s12 Wortverbindung empfohlen
 08205 p6s3 Wortverbindung empfohlen
 08205 p6s9 Wortverbindung empfohlen
-08205 p7s6 Wortverbindung empfohlen
 08205 p7s7 Wortverbindung empfohlen
 08205 p7s8 Wortverbindung empfohlen
+08205 p7s9 Wortverbindung empfohlen

@@ -13,6 +13,7 @@ import serializeraw
 import utilotest
 
 import chapter_
+import chapter_.path
 import tests.chapter_
 
 
